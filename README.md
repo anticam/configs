@@ -20,6 +20,12 @@ git push -u origin main
 
 Oh My Posh [pure](https://ohmyposh.dev/docs/themes) theme
 
+#### Font
+
+[Cascadia Code Font](https://github.com/microsoft/cascadia-code)
+[Cascadia Code Nerd Font](https://github.com/AaronFriel/nerd-fonts/releases/tag/v1.2.0)
+[Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads)
+
 ### PowerShell
 
 ```
