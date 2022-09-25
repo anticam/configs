@@ -50,3 +50,17 @@ Pluralsight - [JavaScript Promises and Async Programming](https://app.pluralsigh
 ### BAS generators
 
 SAP Business Technology Platform - [Extension Generators](https://www.youtube.com/playlist?list=PLkzo92owKnVwQ-0oT78691fqvHrYXd5oN)
+
+### Code with Brandon
+
+[SAP UI5](https://www.youtube.com/watch?v=mmSB85rWQ3w&list=PL1c8MA5nHXbokyx1fdMWDbhGtxvLBbW8_)
+SAP Gateway
+[SAP ABAP CDS](https://www.youtube.com/watch?v=h2149dCi0Cw&list=PL1c8MA5nHXbo-OO9e58FkMWZklwIkQyj4)
+
+### Dani Krossing
+
+[JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB))
+
+### Code with Ania Kubóv
+
+[YouTube](https://www.youtube.com/c/AniaKub%C3%B3w)
