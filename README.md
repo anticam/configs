@@ -46,6 +46,8 @@ The Net Ninja - Async JavaScript [Tutorial](https://www.youtube.com/playlist?lis
 
 Pluralsight - [JavaScript Promises and Async Programming](https://app.pluralsight.com/library/courses/javascript-promises-async-programming/table-of-contents)
 [github samples](https://github.com/taylonr/async-programming-promises)
+Pluralsight - [JavaScript 2018 Variables and Types](https://app.pluralsight.com/library/courses/javascript-variables-types/table-of-contents)
+[github samples](https://github.com/bmaluijb/GetYourLoanApp)
 
 ### BAS generators
 
