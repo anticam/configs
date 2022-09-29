@@ -64,3 +64,31 @@ SAP Gateway
 ### Code with Ania Kubóv
 
 [YouTube](https://www.youtube.com/c/AniaKub%C3%B3w)
+
+## Docker
+
+### Download docker images
+
+Pull latest images
+
+```
+sudo docker-compose pull
+```
+
+Start new containers
+
+```
+sudo docker-compose up -d
+```
+
+Remove orphaned images
+
+```
+docker system prune
+```
+
+Remove dangling and unused images
+
+```
+sudo docker image prune -a
+```
