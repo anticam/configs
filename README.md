@@ -109,6 +109,48 @@ sudo docker image prune -a
 
 Chocolatey [installation steps](https://chocolatey.org/install)
 
+Tool list
+| Name | Command | Description |
+| --- | --- | --- |
+| [Cascadia Font Nerd](https://www.nerdfonts.com/font-downloads) | `choco install cascadia-code-nerd-font` | --- |
+| [CMake](https://cmake.org/cmake/help/v2.8.1/cmake.html) | `choco install cmake`  | --- |
+| [Ditto Clipboard](https://ditto-cp.sourceforge.io/) | `choco install ditto` | --- |
+| [Everything](https://www.voidtools.com/) | `choco install everything`| --- |
+| [Git](https://gitforwindows.org/) | `choco install git` | Git Bash, openssl |
+| [Gradle](https://gradle.org/) | `choco install gradle` | --- |
+| [Kubelogin (CLI)](https://github.com/int128/kubelogin) | `choco install kubelogin` | `kubectl oidc-login` |
+| [Kubernetes CLI](https://kubernetes.io/) | `choco install kubernetes-cli` | Google |
+| [helm](https://helm.sh/) | `choco install kubernetes-helm` | --- |
+| [Insomnia](https://insomnia.rest/) | `choco install insomnia-rest-api-client`| REST client |
+| [JetBrains IntelliJ IDEA (Community Edition)](https://www.jetbrains.com/idea/) | `choco install intellijidea-community` ||
+| [JetBrains PyCharm (Community Edition)](http://www.jetbrains.com/pycharm/) | `choco install pycharm-community`| JetBrains Python IDE |
+| [JXplorer](http://jxplorer.org/) | `choco install jxplorer` | Java LDAP client |
+| [Keystore explorer](http://keystore-explorer.org/) | `choco install keystore-explorer.portable` ||
+| [Maven](https://maven.apache.org/) | `choco install maven` | --- |
+| [Miller](https://github.com/johnkerl/miller) | `choco install miller` | CSV tool |
+| [Nmap](https://nmap.org/) | `choco install nmap` | network tool |
+| [Notepad++](https://notepad-plus-plus.org/) | `choco install notepadplusplus` | --- |
+| [Notepad++ plugin manager](https://github.com/chtof/chocolatey-packages/tree/master/automatic/notepadplusplus-npppluginmanager) | `choco install npppluginmanager` | --- |
+| [Oh-My-Posh](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
+| [Postman for Windows](https://www.postman.com/) | `choco install postman` ||
+| [Python 3.x](https://www.python.org/downloads/) | `choco install python3`| ---|
+| [Screenpresso](https://www.screenpresso.com/) | `choco install screenpresso` | Capture tool |
+| [Sizer](http://www.brianapps.net/sizer4/) | `choco install sizer` | Window resizer |
+| [Treesize free](https://www.jam-software.com/treesize_free) | `choco install treesizefree` | Folder allocation |
+| [VSCode](https://code.visualstudio.com/) | `choco install vscode` | --- |
+| [Visual Studio 2022 Community](https://visualstudio.microsoft.com/) | `choco install visualstudio2022community`||
+| [WinSCP](https://winscp.net/eng/download.php) | `choco install winscp` | --- |
+| [Wireshark](https://www.wireshark.org/) | `choco install wireshark` | Network sniffer |
+| [XCA](https://www.hohnstaedt.de/xca/) | `choco install xca` | Certificate and key manager |
+
+Choco commands
+| Task | Command | Description |
+| --- | --- | --- |
+| list installed packages | `choco list --localonly` | --- |
+| list outdated packages | `choco outdated` | --- |
+| upgrade one package | `choco upgrade <package>` ||
+| upgrade all packages | `cup all -y`| --- |
+
 #### Cloud Foundry
 
 CF CLI tools
@@ -128,31 +170,17 @@ Add the community repository in CF CLI
 cf add-plugin-repo CF-Community <https://plugins.cloudfoundry.org>
 ```
 
-[Service Management plugin](https://github.com/SAP/cf-cli-smsi-plugin)
+Plugins
+| Plugin | Command | Description |
+| --- | --- | --- |
+|[service manager](https://github.com/SAP/cf-cli-smsi-plugin)|  `cf install-plugin service-management` | service manager installation|
+| [multiapps](https://github.com/cloudfoundry/multiapps-cli-plugin) | `cf install-plugin multiapps` | multiapps installation |
 
-```
-cf install-plugin service-management
-```
-
-[MultiApps plugin](https://github.com/cloudfoundry/multiapps-cli-plugin)
-
-```
-cf install-plugin multiapps
-```
-
-How to update CF CLI plugins
-
-- search for outadated plugins
-
-```
-cf plugins --outdated
-```
-
-- update plugin
-
-```
-cf install-plugin <name>
-```
+Tasks
+| Task | Command | Description |
+| --- | --- | --- |
+| look for outdated plugins | `cf plugins --outdated` | --- |
+| update plugin | `cf install-plugin <name>` | --- |
 
 #### Cloud MTA Build Tool
 
