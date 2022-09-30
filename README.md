@@ -6,7 +6,7 @@
 
 Setting [Cobalt2](https://github.com/Reidond/cobalt2-windows-terminal) theme for Windows Terminal
 
-### How to update existing repository
+### How to update existing Git repository
 
 …or push an existing repository from the command line
 
@@ -20,11 +20,19 @@ git push -u origin main
 
 Oh My Posh [pure](https://ohmyposh.dev/docs/themes) theme
 
+```
+choco install oh-my-posh
+```
+
 #### Font
 
 [Cascadia Code Font](https://github.com/microsoft/cascadia-code)
 [Cascadia Code Nerd Font](https://github.com/AaronFriel/nerd-fonts/releases/tag/v1.2.0)
 [Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads)
+
+```
+choco install cascadia-code-nerd-font
+```
 
 ### PowerShell
 
@@ -94,3 +102,69 @@ Remove dangling and unused images
 ```
 sudo docker image prune -a
 ```
+
+## Tools
+
+#### Chocolatey
+
+Chocolatey [installation steps](https://chocolatey.org/install)
+
+#### Cloud Foundry
+
+CF CLI tools
+
+Install CF CLI
+[CloudFoundry/CLI](https://github.com/cloudfoundry/cli)
+
+or with Chocolatey
+
+```
+choco install cloudfoundry-cli
+```
+
+Add the community repository in CF CLI
+
+```
+cf add-plugin-repo CF-Community <https://plugins.cloudfoundry.org>
+```
+
+[Service Management plugin](https://github.com/SAP/cf-cli-smsi-plugin)
+
+```
+cf install-plugin service-management
+```
+
+[MultiApps plugin](https://github.com/cloudfoundry/multiapps-cli-plugin)
+
+```
+cf install-plugin multiapps
+```
+
+How to update CF CLI plugins
+
+- search for outadated plugins
+
+```
+cf plugins --outdated
+```
+
+- update plugin
+
+```
+cf install-plugin <name>
+```
+
+#### Cloud MTA Build Tool
+
+[Installation steps](https://sap.github.io/cloud-mta-build-tool/download/)
+
+#### BTP
+
+BTP CLI for Feature set B
+[Tool](https://tools.hana.ondemand.com/#cloud)
+
+## Resources
+
+Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
+[Cloud SDK](https://sap.github.io/cloud-sdk/)
+[CAP](https://cap.cloud.sap/docs/)
