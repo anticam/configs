@@ -134,6 +134,10 @@ Tool list
 | [Oh-My-Posh](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
 | [Postman for Windows](https://www.postman.com/) | `choco install postman` ||
 | [Python 3.x](https://www.python.org/downloads/) | `choco install python3`| ---|
+| SAPMachine JDK 11 | `choco install sapmachine11` | --- |
+| SAPMachine JDK 13 | `choco install sapmachine13` | --- |
+| SAPMachine JDK 17 | `choco install sapmachine17` | --- |
+| SAPMachine JDK 19 | `choco install sapmachine` | --- |
 | [Screenpresso](https://www.screenpresso.com/) | `choco install screenpresso` | Capture tool |
 | [Sizer](http://www.brianapps.net/sizer4/) | `choco install sizer` | Window resizer |
 | [Treesize free](https://www.jam-software.com/treesize_free) | `choco install treesizefree` | Folder allocation |
