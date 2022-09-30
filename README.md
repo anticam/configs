@@ -69,7 +69,7 @@ SAP Gateway
 
 ### Dani Krossing
 
-[JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB))
+[JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB)
 
 ### Code with Ania Kubóv
 
@@ -168,3 +168,4 @@ BTP CLI for Feature set B
 Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 [Cloud SDK](https://sap.github.io/cloud-sdk/)
 [CAP](https://cap.cloud.sap/docs/)
+[BTP Community](https://community.sap.com/topics/business-technology-platform)
