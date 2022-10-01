@@ -45,6 +45,14 @@ Microsoft.PowerShell_profile.ps1
 ```
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\pure.omp.json | Invoke-Expression
 ```
+POSH_THEMES_PATH points to C:\Program Files (x86)\oh-my-posh\themes
+
+### Git Bash
+In home directory edit .bashrc
+```
+eval "$(oh-my-posh --init --shell bash --config '/c/Program Files (x86)/oh-my-posh/themes/pure.omp.json')"
+```
+
 
 ## Tutorials
 
