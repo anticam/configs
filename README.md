@@ -134,15 +134,17 @@ Tool list
 | [Oh-My-Posh](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
 | [Postman for Windows](https://www.postman.com/) | `choco install postman` ||
 | [Python 3.x](https://www.python.org/downloads/) | `choco install python3`| ---|
-| SAPMachine JDK 11 | `choco install sapmachine11` | --- |
-| SAPMachine JDK 13 | `choco install sapmachine13` | --- |
-| SAPMachine JDK 17 | `choco install sapmachine17` | --- |
-| SAPMachine JDK 19 | `choco install sapmachine` | --- |
+| [SAPMachine JDK 11](https://sap.github.io/SapMachine/) | `choco install sapmachine11` | --- |
+| [SAPMachine JDK 13](https://sap.github.io/SapMachine/) | `choco install sapmachine13` | --- |
+| [SAPMachine JDK 17](https://sap.github.io/SapMachine/) | `choco install sapmachine17` | --- |
+| [SAPMachine JDK 19](https://sap.github.io/SapMachine/) | `choco install sapmachine` | --- |
 | [Screenpresso](https://www.screenpresso.com/) | `choco install screenpresso` | Capture tool |
 | [Sizer](http://www.brianapps.net/sizer4/) | `choco install sizer` | Window resizer |
+| [Tabby](https://github.com/Eugeny/tabby) | `choco install tabby` | terminal software |
 | [Treesize free](https://www.jam-software.com/treesize_free) | `choco install treesizefree` | Folder allocation |
 | [VSCode](https://code.visualstudio.com/) | `choco install vscode` | --- |
 | [Visual Studio 2022 Community](https://visualstudio.microsoft.com/) | `choco install visualstudio2022community`||
+| [Windows Terminal](https://github.com/microsoft/terminal) | `choco install microsoft-windows-terminal` | Recommended to install from [Microsoft Store](https://aka.ms/terminal) |
 | [WinSCP](https://winscp.net/eng/download.php) | `choco install winscp` | --- |
 | [Wireshark](https://www.wireshark.org/) | `choco install wireshark` | Network sniffer |
 | [XCA](https://www.hohnstaedt.de/xca/) | `choco install xca` | Certificate and key manager |
