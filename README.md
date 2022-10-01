@@ -45,14 +45,23 @@ Microsoft.PowerShell_profile.ps1
 ```
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\pure.omp.json | Invoke-Expression
 ```
+
 POSH_THEMES_PATH points to C:\Program Files (x86)\oh-my-posh\themes
 
 ### Git Bash
+
 In home directory edit .bashrc
+
 ```
 eval "$(oh-my-posh --init --shell bash --config '/c/Program Files (x86)/oh-my-posh/themes/pure.omp.json')"
 ```
 
+### VSCode
+
+Extensions
+| Name | link | Description |
+| --- | --- | --- |
+| Live Server | --- | --- |
 
 ## Tutorials
 
@@ -84,6 +93,7 @@ SAP Gateway
 [YouTube](https://www.youtube.com/c/AniaKub%C3%B3w)
 
 #### Playlists
+
 SAP Developers - SAP Business Applicaition Studio [playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQCj7Q8438pHCKH30qd2bHp2)
 SAP Tech Videos - SAPUI5 [playlist](https://www.youtube.com/playlist?list=PLp5jfhnBM-twLxlydcJBKNdng4UXcAsj5)
 
@@ -94,13 +104,13 @@ OpenUI5 Rise Your Skills [playlist](https://www.youtube.com/playlist?list=PLHUs_
 10 min IT tutorials - SAPUI5 - From beginnter to expert [playlist](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb)
 
 #### Samples
+
 Developers
 Set Up SAP Business Application Stuido for Development [link](https://developers.sap.com/tutorials/appstudio-onboarding.html)
 Configure a List Report Page Using SAP Fiori Tools [link](https://developers.sap.com/tutorials/fiori-tools-configure-lrop.html)
 CAP samples [github](https://github.com/SAP-samples/cloud-cap-samples)
 
-
-####OpenSAP
+#### OpenSAP
 Courses
 | Title |Year| Description|
 | --- | --- | --- |
@@ -115,9 +125,6 @@ Courses
 | [introduction to Software Development on SAP HANA](https://open.sap.com/courses/hana1) | 07.2013 | #HANA |
 | [Building Applications with SAP CAP](https://open.sap.com/courses/cp7) | 05.2020 | #CAP |
 
-
-
-
 ## Docker
 
 ### Download docker images
@@ -129,7 +136,6 @@ Docker commands
 | start an update new containers | sudo docker-compose up -d | --- |
 | remove orphaned images | `docker system prune` | --- |
 | remove dangling and unused images | `sudo docker image prune -a` | --- |
-
 
 ## Tools
 
