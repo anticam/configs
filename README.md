@@ -99,6 +99,25 @@ Set Up SAP Business Application Stuido for Development [link](https://developers
 Configure a List Report Page Using SAP Fiori Tools [link](https://developers.sap.com/tutorials/fiori-tools-configure-lrop.html)
 CAP samples [github](https://github.com/SAP-samples/cloud-cap-samples)
 
+
+####OpenSAP
+Courses
+| Title |Year| Description|
+| --- | --- | --- |
+| [Working with Calculation View in SAP HANA Cloud](https://open.sap.com/courses/hana9) | 09.2022 | #HANA |
+| [Ride the SAP HANA Wave: Fundamentals and Insights into Cloud Databases](https://open.sap.com/courses/hana8) | 04.2022 | #HANA, #Cloud |
+| [Software Development on SAP HANA (Update Q1/2019)](https://open.sap.com/courses/hana7) | 02.2019 | #HANA|
+| [Sofware Development on SAP HANA (Update Q4/2017)](https://open.sap.com/courses/hana6) | 12.2017 | #HANA |
+| [Software Development on SAP HANA (Update Q4/2016)](https://open.sap.com/courses/hana5) | 12.2016 | #HANA |
+| [Software Development on SAP HANA (Delta SPS11)](https://open.sap.com/courses/hana4) | 04.2016 | #HANA |
+| [Software Development on SAP HANA (Delta SPS09)](https://open.sap.com/courses/hana3) | 05.2015 | #HANA |
+| [Next Steps in Software Development on SAP HANA](https://open.sap.com/courses/hana2) | 11.2014 | #HANA |
+| [introduction to Software Development on SAP HANA](https://open.sap.com/courses/hana1) | 07.2013 | #HANA |
+| [Building Applications with SAP CAP](https://open.sap.com/courses/cp7) | 05.2020 | #CAP |
+
+
+
+
 ## Docker
 
 ### Download docker images
