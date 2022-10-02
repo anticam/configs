@@ -15,6 +15,32 @@ git remote add origin <https://github.com/anticam/configs.git>
 git branch -M main
 git push -u origin main
 ```
+### Git
+Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
+| Task | Command | Description|
+| --- | --- | --- |
+| Initialize | `git init` | Initialize a new repository |
+| Checkout | `git clone repository-path` | Clone a repository |
+| Add a file | `git add filename` | Add a single file to the repository |
+| Add all the files | `git add *`| Add all the files to the repository |
+| Commit | `git commit -m "message"` | Commit to the HEAD |
+| Push | `git push origin master` | Copy changes to remote repository |
+| Connect | `git remote add origin <server>`| Connect to a remote repository |
+| Branch | `git checkout -b branch-name | Create a new branch |
+| Branch master | `git checkout master` | Switch to master branch |
+| Delete branch | `git branch -d branch-name` | Delete branch |
+| Push branch | `git push origin branch | Branch is available in remote repository |
+| Pull | `git pull`| Update local repository from remote server. (fetch + merge) |
+| Merge | `git merge branch` | Merge branch into active branch |
+| Diff | `git diff source target` | Compare changes between source and target branches |
+| Log | `git log --author=user` | Commits of a user |
+| Log | `git log --pretty=online` ||
+| Log | `git log --graph --oneline --decorate --all` ||
+| Log | `git log --name-status` ||
+| Replace | `git checkout -- filename`| Replace a local file |
+| Drop | `git fetch origin` `git reset --hard origin/master` | Drop all the local changes |
+
+
 
 ### Oh My Posh
 
@@ -135,7 +161,7 @@ Docker commands
 | Task | Command | Description |
 | --- | --- | --- |
 | pull latest images | `sudo docker-compose pull` | --- |
-| start an update new containers | sudo docker-compose up -d | --- |
+| start an update new containers | `sudo docker-compose up -d` | --- |
 | remove orphaned images | `docker system prune` | --- |
 | remove dangling and unused images | `sudo docker image prune -a` | --- |
 
