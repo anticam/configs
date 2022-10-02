@@ -65,6 +65,8 @@ Extensions
 
 ## Tutorials
 
+Zero-to-mastery [resources](https://github.com/zero-to-mastery/resources)
+
 ### JavaScript
 
 The Net Ninja - Async JavaScript [Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu) 2020
