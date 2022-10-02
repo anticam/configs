@@ -26,7 +26,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Commit | `git commit -m "message"` | Commit to the HEAD |
 | Push | `git push origin master` | Copy changes to remote repository |
 | Connect | `git remote add origin <server>`| Connect to a remote repository |
-| Branch | `git checkout -b branch-name | Create a new branch |
+| Branch | `git checkout -b branch-name` | Create a new branch |
 | Branch master | `git checkout master` | Switch to master branch |
 | Delete branch | `git branch -d branch-name` | Delete branch |
 | Push branch | `git push origin branch | Branch is available in remote repository |
