@@ -137,6 +137,7 @@ Developers
 Set Up SAP Business Application Stuido for Development [link](https://developers.sap.com/tutorials/appstudio-onboarding.html)
 Configure a List Report Page Using SAP Fiori Tools [link](https://developers.sap.com/tutorials/fiori-tools-configure-lrop.html)
 CAP samples [github](https://github.com/SAP-samples/cloud-cap-samples)
+[Get Started with the SAP HANA Database Explorer](https://developers.sap.com/group.hana-cloud-get-started.html)
 
 #### OpenSAP
 Courses
