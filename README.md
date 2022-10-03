@@ -183,6 +183,21 @@ Courses
 ###Kyma
 https://github.com/SAP-samples/kyma-runtime-extension-samples
 
+###Web Development
+| Site | Description| --- |
+| --- | --- | --- |
+| [HTML For Beginners The Easy Way: Start Learning HTML & CSS Today](https://html.com) | --- | --- |
+| [The Modern JavaScript Tutorial](https://javascript.info/) | --- | --- |
+| [DigitalOcean css-tricks.com](https://css-tricks.com/) | --- | --- |
+| [php.net](https://www.php.net/) | --- | --- |
+| [bootstrap](https://getbootstrap.com/) | --- | --- |
+| [React Tutorial](https://react-tutorial.app/) | --- | --- |
+| [Algorithm Visualizer](https://algorithm-visualizer.org/) | --- | --- |
+| [Learn Git Branching](https://learngitbranching.js.org/) | --- | --- |
+| [MySQL](https://www.mysql.com/) | --- | --- |
+
+
+
 ## Docker
 
 ### Download docker images
