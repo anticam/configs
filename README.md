@@ -122,22 +122,26 @@ SAP Gateway
 
 #### Playlists
 
-SAP Developers - SAP Business Applicaition Studio [playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQCj7Q8438pHCKH30qd2bHp2)
-SAP Tech Videos - SAPUI5 [playlist](https://www.youtube.com/playlist?list=PLp5jfhnBM-twLxlydcJBKNdng4UXcAsj5)
-
-SAP TechEd 2020 - Application Development and Integratoin Track [playlist](https://www.youtube.com/playlist?list=PLI96yWErnX_o1xhc6t_oSY0VqyeTzQbNq)
-SAP TechEd in 2020 - Firoir Apps [playlist](https://www.youtube.com/playlist?list=PLpQebylHrdh7zle6thIVZ2R3c8UennSBD)
-OpenUI5 - [videos](https://www.youtube.com/c/openui5videos)
-OpenUI5 Rise Your Skills [playlist](https://www.youtube.com/playlist?list=PLHUs_FUbq4dXG1m-pZdkXgRsNUBZtfmrj) ***
-10 min IT tutorials - SAPUI5 - From beginnter to expert [playlist](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb)
+| Title | --- | --- |
+| --- | --- | --- | 
+| SAP Developers - SAP Business Applicaition Studio [playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQCj7Q8438pHCKH30qd2bHp2) | --- | --- |
+| SAP Tech Videos - SAPUI5 [playlist](https://www.youtube.com/playlist?list=PLp5jfhnBM-twLxlydcJBKNdng4UXcAsj5) | --- | --- |
+| SAP TechEd 2020 - Application Development and Integratoin Track [playlist](https://www.youtube.com/playlist?list=PLI96yWErnX_o1xhc6t_oSY0VqyeTzQbNq) | --- | --- |
+| SAP TechEd in 2020 - Firoir Apps [playlist](https://www.youtube.com/playlist?list=PLpQebylHrdh7zle6thIVZ2R3c8UennSBD) | --- | --- |
+| OpenUI5 - [videos](https://www.youtube.com/c/openui5videos) | --- | --- |
+| OpenUI5 Rise Your Skills [playlist](https://www.youtube.com/playlist?list=PLHUs_FUbq4dXG1m-pZdkXgRsNUBZtfmrj) | --- | *** |
+| 10 min IT tutorials - SAPUI5 - From beginnter to expert [playlist](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb) | --- | --- |
 
 #### Samples
 
 Developers
-Set Up SAP Business Application Stuido for Development [link](https://developers.sap.com/tutorials/appstudio-onboarding.html)
-Configure a List Report Page Using SAP Fiori Tools [link](https://developers.sap.com/tutorials/fiori-tools-configure-lrop.html)
-CAP samples [github](https://github.com/SAP-samples/cloud-cap-samples)
-[Get Started with the SAP HANA Database Explorer](https://developers.sap.com/group.hana-cloud-get-started.html)
+| Title | Year | Description |
+| --- | --- | --- |
+| Set Up SAP Business Application Stuido for Development [link](https://developers.sap.com/tutorials/appstudio-onboarding.html)| --- | --- |
+| [Configure a List Report Page Using SAP Fiori Tools](https://developers.sap.com/tutorials/fiori-tools-configure-lrop.html) | --- | --- |
+| CAP samples [github](https://github.com/SAP-samples/cloud-cap-samples) | --- | --- |
+| [Get Started with the SAP HANA Database Explorer](https://developers.sap.com/group.hana-cloud-get-started.html) | --- | --- |
+| [WebSocket RFC to Cloud Using SAP Business Connector](https://developers.sap.com/tutorials/abap-websocket-rfc-bc.html) | 2022 | --- |
 
 #### OpenSAP
 Courses
