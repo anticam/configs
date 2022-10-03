@@ -29,7 +29,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Branch | `git checkout -b branch-name` | Create a new branch |
 | Branch master | `git checkout master` | Switch to master branch |
 | Delete branch | `git branch -d branch-name` | Delete branch |
-| Push branch | `git push origin branch | Branch is available in remote repository |
+| Push branch | `git push origin branch` | Branch is available in remote repository |
 | Pull | `git pull`| Update local repository from remote server. (fetch + merge) |
 | Merge | `git merge branch` | Merge branch into active branch |
 | Diff | `git diff source target` | Compare changes between source and target branches |
