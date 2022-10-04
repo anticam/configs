@@ -117,7 +117,7 @@ SAP Gateway
 [JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB)
 
 ### freeCodeCamp.org
-[Learn React from Three All-Star Instructors](https://www.freecodecamp.org/news/learn-react-from-three-all-star-instructors/)
+[Learn React from Three All-Star Instructors](https://www.freecodecamp.org/news/learn-react-from-three-all-star-instructors/)  
 [React JavaScript Framework for Beginners – Project-Based Course 08:30](https://www.youtube.com/watch?v=u6gSSpfsoOQ)
 
 
