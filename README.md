@@ -255,13 +255,14 @@ Tool list
 | [WinSCP](https://winscp.net/eng/download.php) | `choco install winscp` | --- |
 | [Wireshark](https://www.wireshark.org/) | `choco install wireshark` | Network sniffer |
 | [XCA](https://www.hohnstaedt.de/xca/) | `choco install xca` | Certificate and key manager |
+| [Yarn](https://yarnpkg.com/) | `choco install yarn`| package manager |
 
 Choco commands
 | Task | Command | Description |
 | --- | --- | --- |
 | list installed packages | `choco list --localonly` | --- |
 | list outdated packages | `choco outdated` | --- |
-| upgrade one package | `choco upgrade <package>` ||
+| upgrade one package | `choco upgrade <package>` | ---|
 | upgrade all packages | `cup all -y`| --- |
 
 #### Cloud Foundry
