@@ -40,6 +40,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Replace | `git checkout -- filename`| Replace a local file |
 | Drop | `git fetch origin` `git reset --hard origin/master` | Drop all the local changes |
 
+[Getting Started with Git and GitHub Part 1: Intro to Git and GitHub](https://dev.to/danielstai/getting-started-with-git-and-github-part-1-intro-to-git-and-github-k7a)
 
 
 ### Oh My Posh
