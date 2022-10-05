@@ -89,6 +89,14 @@ Extensions
 | Name | link | Description |
 | --- | --- | --- |
 | Live Server | --- | --- |
+| SAP HANA Database Explorer | [blog](https://blogs.sap.com/2022/01/26/sap-hana-database-explorer-vscode-extension-getting-started-tips/) | --- |
+| Cobalt2 | --- | color theme |
+| CodeSnap |||
+| Community Material Theme |||
+| Markdown Preview Enhanced |||
+| Material Theme |||
+| PolaCode || polaroid of your code |
+| Rest Client |||
 
 ## Tutorials
 
