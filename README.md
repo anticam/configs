@@ -16,6 +16,7 @@ git branch -M main
 git push -u origin main
 ```
 ### Git
+Git installation, usage [GeeksForGeeks](https://www.geeksforgeeks.org/working-on-git-bash/)  
 Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
 | Task | Command | Description|
 | --- | --- | --- |
@@ -38,7 +39,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Log | `git log --graph --oneline --decorate --all` ||
 | Log | `git log --name-status` ||
 | Replace | `git checkout -- filename`| Replace a local file |
-| Drop | `git fetch origin` `git reset --hard origin/master` | Drop all the local changes |
+| Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
 
 [Getting Started with Git and GitHub Part 1: Intro to Git and GitHub](https://dev.to/danielstai/getting-started-with-git-and-github-part-1-intro-to-git-and-github-k7a)
 
@@ -181,17 +182,16 @@ Courses
 | [CAP Java Part 2](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-part-2-217bc930857d) | --- | --- |
 | [CAP Java Part 3](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-3-adec221180bb) | --- | --- |
 | [CAP Java Part 4](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-4-6938e419f575) | --- | --- |
-| [Complete CAP Java Part 5](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-part-5-fb3ff81e64c1) | --- | --- |
-| [Complete CAP Java Part 6](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-part-6-81e9e867bc60) | --- | --- |
-| [Complete CAP Java Part 7](https://bnheise.medium.com/sap-tutorial-complete-cap-java-part-7-eba7169b38fd) | --- | --- |
-| [](https://bnheise.medium.com/sap-tutorial-complete-cap-java-8-a9425288706c) | --- | --- |
-| [Complete CAP Java Part 8]() | --- | --- |
-| [Complete CAP Java Part 9](https://bnheise.medium.com/custom-actions-in-cap-java-2-fd84b6b3720a) | --- | --- |
-| [Complete CAP Java Part 10](https://bnheise.medium.com/sap-tutorial-complete-cap-java-part-10-83051005d521) | --- | --- |
-| [Complete CAP Java Part 11](https://bnheise.medium.com/sap-tutorial-complete-cap-java-11-cbfb5deb69d2) | --- | --- |
-| [Complete CAP Java Part 12](https://bnheise.medium.com/sap-tutorial-complete-cap-java-part-12-e9a4c8a7b1ce) | --- | --- |
-| [Complete CAP Java 13](https://bnheise.medium.com/sap-tutorial-complete-cap-java-13-3367ca3c64e5) | --- | --- |
-| [Complete CAP Java 14](https://bnheise.medium.com/sap-tutorial-complete-cap-java-14-4888ce2f7d45) | --- | --- |
+| [CAP Java Part 5](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-part-5-fb3ff81e64c1) | --- | --- |
+| [CAP Java Part 6](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-part-6-81e9e867bc60) | --- | --- |
+| [CAP Java Part 7](https://bnheise.medium.com/sap-tutorial-complete-cap-java-part-7-eba7169b38fd) | --- | --- |
+| [CAP Java Part 8](https://bnheise.medium.com/sap-tutorial-complete-cap-java-8-a9425288706c) | --- | --- |
+| [CAP Java Part 9](https://bnheise.medium.com/custom-actions-in-cap-java-2-fd84b6b3720a) | --- | --- |
+| [CAP Java Part 10](https://bnheise.medium.com/sap-tutorial-complete-cap-java-part-10-83051005d521) | --- | --- |
+| [CAP Java Part 11](https://bnheise.medium.com/sap-tutorial-complete-cap-java-11-cbfb5deb69d2) | --- | --- |
+| [CAP Java Part 12](https://bnheise.medium.com/sap-tutorial-complete-cap-java-part-12-e9a4c8a7b1ce) | --- | --- |
+| [CAP Java Part 13](https://bnheise.medium.com/sap-tutorial-complete-cap-java-13-3367ca3c64e5) | --- | --- |
+| [CAP Java Part 14](https://bnheise.medium.com/sap-tutorial-complete-cap-java-14-4888ce2f7d45) | --- | --- |
 | [CAP Java Part 15](https://bnheise.medium.com/sap-tutorial-the-complete-cap-java-part-15-5e3b17342732) | --- | --- |
 
 
@@ -326,3 +326,6 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 [Cloud SDK](https://sap.github.io/cloud-sdk/)
 [CAP](https://cap.cloud.sap/docs/)
 [BTP Community](https://community.sap.com/topics/business-technology-platform)
+
+### XSA
+XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
