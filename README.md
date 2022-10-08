@@ -17,7 +17,7 @@ git push -u origin main
 ```
 ### Git
 Git installation, usage [GeeksForGeeks](https://www.geeksforgeeks.org/working-on-git-bash/)  
-Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)
+Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)  
 | Task | Command | Description|
 | --- | --- | --- |
 | Initialize | `git init` | Initialize a new repository |
@@ -54,9 +54,9 @@ choco install oh-my-posh
 
 #### Font
 
-[Cascadia Code Font](https://github.com/microsoft/cascadia-code)
-[Cascadia Code Nerd Font](https://github.com/AaronFriel/nerd-fonts/releases/tag/v1.2.0)
-[Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads)
+[Cascadia Code Font](https://github.com/microsoft/cascadia-code)  
+[Cascadia Code Nerd Font](https://github.com/AaronFriel/nerd-fonts/releases/tag/v1.2.0)  
+[Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads)  
 
 ```
 choco install cascadia-code-nerd-font
@@ -105,12 +105,14 @@ Zero-to-mastery [resources](https://github.com/zero-to-mastery/resources)
 
 ### JavaScript
 
-The Net Ninja - Async JavaScript [Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu) 2020
+The Net Ninja - Async JavaScript [Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9jx2TTZk3IGWKSbtugYdrlu) 2020  
 
 Pluralsight - [JavaScript Promises and Async Programming](https://app.pluralsight.com/library/courses/javascript-promises-async-programming/table-of-contents)
-[github samples](https://github.com/taylonr/async-programming-promises)
+github - [samples](https://github.com/taylonr/async-programming-promises)  
 Pluralsight - [JavaScript 2018 Variables and Types](https://app.pluralsight.com/library/courses/javascript-variables-types/table-of-contents)
-[github samples](https://github.com/bmaluijb/GetYourLoanApp)
+github - [samples](https://github.com/bmaluijb/GetYourLoanApp)  
+Pluralsight - [JavaScript: Getting Started](https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents)  
+Pluralsight - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/javascript-fundamentals/table-of-contents)  
 
 ### BAS generators
 
@@ -118,17 +120,17 @@ SAP Business Technology Platform - [Extension Generators](https://www.youtube.co
 
 ### Code with Brandon
 
-[SAP UI5](https://www.youtube.com/watch?v=mmSB85rWQ3w&list=PL1c8MA5nHXbokyx1fdMWDbhGtxvLBbW8_)
-SAP Gateway
-[SAP ABAP CDS](https://www.youtube.com/watch?v=h2149dCi0Cw&list=PL1c8MA5nHXbo-OO9e58FkMWZklwIkQyj4)
+[SAP UI5](https://www.youtube.com/watch?v=mmSB85rWQ3w&list=PL1c8MA5nHXbokyx1fdMWDbhGtxvLBbW8_)  
+SAP Gateway  
+[SAP ABAP CDS](https://www.youtube.com/watch?v=h2149dCi0Cw&list=PL1c8MA5nHXbo-OO9e58FkMWZklwIkQyj4)  
 
 ### Dani Krossing
 
-[JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB)
+[JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB)  
 
 ### freeCodeCamp.org
 [Learn React from Three All-Star Instructors](https://www.freecodecamp.org/news/learn-react-from-three-all-star-instructors/)  
-[React JavaScript Framework for Beginners – Project-Based Course 08:30](https://www.youtube.com/watch?v=u6gSSpfsoOQ)
+[React JavaScript Framework for Beginners – Project-Based Course 08:30](https://www.youtube.com/watch?v=u6gSSpfsoOQ)  
 
 
 
