@@ -213,6 +213,8 @@ https://github.com/SAP-samples/kyma-runtime-extension-samples
 | [Learn Git Branching](https://learngitbranching.js.org/) | --- | --- |
 | [MySQL](https://www.mysql.com/) | --- | --- |
 
+###Rust
+Pluralsight [Rust Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-rust/table-of-contents)
 
 
 ## Docker
