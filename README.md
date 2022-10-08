@@ -112,7 +112,7 @@ github - [samples](https://github.com/taylonr/async-programming-promises)
 Pluralsight - [JavaScript 2018 Variables and Types](https://app.pluralsight.com/library/courses/javascript-variables-types/table-of-contents)
 github - [samples](https://github.com/bmaluijb/GetYourLoanApp)  
 Pluralsight - [JavaScript: Getting Started](https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents)  
-Pluralsight - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/javascript-fundamentals/table-of-contents)  
+Pluralsight - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/javascript-fundamentals/table-of-contents) github [samples](https://github.com/wbkd/webpack-starter)    
 
 ### BAS generators
 
