@@ -324,6 +324,10 @@ Tasks
 BTP CLI for Feature set B
 [Tool](https://tools.hana.ondemand.com/#cloud)
 
+
+### Test sites
+[mockapi.io](https://mockapi.io)  
+
 ## Resources
 
 Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
