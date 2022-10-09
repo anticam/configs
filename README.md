@@ -325,8 +325,12 @@ BTP CLI for Feature set B
 [Tool](https://tools.hana.ondemand.com/#cloud)
 
 
-### Test sites
-[mockapi.io](https://mockapi.io)  
+### Test sites, tools
+[mockapi.io](https://mockapi.io) API endpoint with random data  
+JavaScript obfuscator  
+- https://javascriptobfuscator.com/  
+- https://obfuscator.io/  
+
 
 ## Resources
 
