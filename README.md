@@ -339,5 +339,7 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 [CAP](https://cap.cloud.sap/docs/)
 [BTP Community](https://community.sap.com/topics/business-technology-platform)
 
+[SAPUI5](https://sapui5.hana.ondemand.com/sdk/#/topic/5fe439613f9c4e259015951594c423dc.html)
+
 ### XSA
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
