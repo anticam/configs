@@ -341,5 +341,8 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 
 [SAPUI5](https://sapui5.hana.ondemand.com/sdk/#/topic/5fe439613f9c4e259015951594c423dc.html)
 
+### Online Tools
+[Codepen](https://codepen.io/pen/)
+
 ### XSA
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
