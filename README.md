@@ -344,5 +344,9 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 ### Online Tools
 [Codepen](https://codepen.io/pen/)
 
+
+### Curl
+curl samples [Reqbin.com](https://reqbin.com/req/c-haxm0xgr/curl-basic-auth-example)  
+
 ### XSA
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
