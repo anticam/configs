@@ -202,7 +202,7 @@ Courses
 | [CAP Java Part 15](https://bnheise.medium.com/sap-tutorial-the-complete-cap-java-part-15-5e3b17342732) | --- | --- |
 
 
-###Kyma
+### Kyma
 https://github.com/SAP-samples/kyma-runtime-extension-samples
 
 ###Web Development
@@ -218,7 +218,7 @@ https://github.com/SAP-samples/kyma-runtime-extension-samples
 | [Learn Git Branching](https://learngitbranching.js.org/) | --- | --- |
 | [MySQL](https://www.mysql.com/) | --- | --- |
 
-###Rust
+### Rust
 Pluralsight [Rust Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-rust/table-of-contents)
 
 
