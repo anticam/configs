@@ -117,6 +117,11 @@ Pluralsight - [JavaScript Fundamentals](https://app.pluralsight.com/library/cour
 ### BAS generators
 
 SAP Business Technology Platform - [Extension Generators](https://www.youtube.com/playlist?list=PLkzo92owKnVwQ-0oT78691fqvHrYXd5oN)
+[HANA Academy](https://github.com/saphanaacademy/generator-saphanaacademy-cap)
+```
+npm install -g yo
+npm install -g generator-saphanaacademy-cap
+```
 
 ### Code with Brandon
 
