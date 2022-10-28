@@ -205,7 +205,7 @@ Courses
 ### Kyma
 https://github.com/SAP-samples/kyma-runtime-extension-samples
 
-###Web Development
+### Web Development
 | Site | Description| --- |
 | --- | --- | --- |
 | [HTML For Beginners The Easy Way: Start Learning HTML & CSS Today](https://html.com) | --- | --- |
@@ -345,6 +345,8 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 [BTP Community](https://community.sap.com/topics/business-technology-platform)
 
 [SAPUI5](https://sapui5.hana.ondemand.com/sdk/#/topic/5fe439613f9c4e259015951594c423dc.html)
+
+Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud ](https://developers.sap.com/tutorials/hana-cloud-cap-create-database-cds.html)
 
 ### Online Tools
 [Codepen](https://codepen.io/pen/)
