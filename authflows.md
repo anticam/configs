@@ -1,3 +1,6 @@
+### OAuth2 flows
+[Cloud Foundry Authorization](https://docs.cloudfoundry.org/api/uaa/version/76.3.0/index.html#overview)  
+
 ### OAuth2SAMLBearerAssertion 
 
 ```mermaid
