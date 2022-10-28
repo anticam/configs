@@ -355,3 +355,13 @@ curl samples [Reqbin.com](https://reqbin.com/req/c-haxm0xgr/curl-basic-auth-exam
 
 ### XSA
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
+
+### OAuth2
+
+```mermaid
+sequenceDiagram
+participant ClientApp
+participant Resource
+participant AuthorizationServer
+participant IDP
+```
