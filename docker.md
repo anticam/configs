@@ -28,29 +28,24 @@ docker-compose
 
 where environment variables are stored in .env file:
 ```
+# USER
 PUID=1000  #docker user UID
 PGID=1000  #group ID of docker user
 TZ=<country>/<city>
 DOCKERDIR=/home/<docker user>/docker
-$VS_USER_PASSWORD=123456
+
+# VSCode
+VS_USER_PASSWORD=123456
 ```
 
 Extensions
-[Home Assistant Config Helper](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant)
-long live token needed
-
-[Log File Highliter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter)
-
-[ESPHome](https://marketplace.visualstudio.com/items?itemName=ESPHome.esphome-vscode)
-manual installation needed
-
-
-[Material Design Icons Intellisense](https://marketplace.visualstudio.com/items?itemName=lukas-tr.materialdesignicons-intellisense)
-
-[indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-
-[YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-
-[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+1. [Home Assistant Config Helper](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant)
+2. [Log File Highliter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter)
+3. [ESPHome](https://marketplace.visualstudio.com/items?itemName=ESPHome.esphome-vscode)
+(manual installation needed)
+4. [Material Design Icons Intellisense](https://marketplace.visualstudio.com/items?itemName=lukas-tr.materialdesignicons-intellisense)
+5. [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+6. [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+7. [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 
