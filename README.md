@@ -359,8 +359,8 @@ curl samples [Reqbin.com](https://reqbin.com/req/c-haxm0xgr/curl-basic-auth-exam
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
 
 ### Links
-OAuth2 [Authentication flows](./authflows.md)
-Docker setup [docker-compose](./docker.md)
+OAuth2 [Authentication flows](./authflows.md)  
+Docker setup [docker-compose](./docker.md)  
 
 ```mermaid
 sequenceDiagram
