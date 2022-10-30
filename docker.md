@@ -1,3 +1,10 @@
+## Containers
+- [ ] Deluge  
+- [x] Code-Server  
+
+### Deluge
+deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
+
 ### Code-Server
 [BeardedTinker](https://www.youtube.com/c/BeardedTinker) [Installation](https://www.youtube.com/watch?v=sarfQVmWlr0&list=TLPQMzAxMDIwMjJ1jA0SUXRoLQ&index=1)
 
