@@ -92,7 +92,7 @@ touch mqtt/config/mosquitto.conf
 content
 ```
 persistence true
-persistence_location /mosquitto/data/
+persistence_location /mosquitto/data
 log_dest file /mosquitto/log/mosquitto.log
 password_file /mosquitto/config/pwfile
 #allow_anonymous true
