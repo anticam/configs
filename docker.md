@@ -162,6 +162,49 @@ listener 1883
 ### Home Assistant
 
 ### Zigbee2MQTT
+Zigbee2MQTT [docker](https://www.zigbee2mqtt.io/guide/installation/02_docker.html#creating-the-initial-configuration)
+BeardedTinker [Zigbee2MQTT](https://www.youtube.com/watch?v=HbkXQErileU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=34)
+
+Create folders under docker
+```
+mkdir zigbee2mqtt
+mkdir zigbee2mqtt/data
+```
+
+in zigbee2mqtt folder execute:
+```
+docky@docky:~/docker/zigbee2mqtt$ wget https://raw.githubusercontent.com/Koenkk/zigbee2mqtt/master/data/configuration.yaml -P data
+```
+it creates a configuration.yaml in data folder
+
+get zigbee module ID
+```
+ls -l /dev/serial/by-id
+total 0
+lrwxrwxrwx 1 root root 13 okt   29 22:33 usb-Silicon_Labs_slae.sh_cc2652rb_stick_-_slaesh_s_iot_stuff_00_12_4B_00_23_93_3A_72-if00-port0 -> ../../ttyUSB0
+lrwxrwxrwx 1 root root 13 okt   29 22:33 usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B001938DD82-if00 -> ../../ttyACM0  <<< zigbee module
+```
+
+docker-compose
+```
+  zigbee2mqtt:
+    image: koenkk/zigbee2mqtt
+    container_name: zigbee2mqtt
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID  
+      - TZ=$TZ
+    devices:
+      # Make sure this matched your adapter location
+      - /dev/serial/by-id/usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B001938DD82-if00:/dev/ttyACM0
+    volumes:
+      - $DOCKERDIR/zigbee2mqtt/data:/app/data
+      - /run/udev:/run/udev:ro
+    ports:
+      # Frontend port
+      - 8080:8080
+    restart: unless-stopped
+```
 
 ### Node-Red 
 
