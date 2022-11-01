@@ -79,11 +79,27 @@ Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)
 
 Create folders under docker
 ```
-mkdir mosquitto
-mkdir mosquitto/config
-mkdir mosquitto/data
-mkdir mosquitto/log
+mkdir mqtt
+mkdir mqtt/config
+mkdir mqtt/data
+mkdir mqtt/log
 ```
+
+In mqtt/config create mosquitt.conf file
+```
+touch mqtt/config/mosquitto.conf
+```
+content
+```
+persistence true
+persistence_location /mosquitto/data/
+log_dest file /mosquitto/log/mosquitto.log
+password_file /mosquitto/config/pwfile
+#allow_anonymous true
+listener 1883 10.10.10.10
+```
+where 10.10.10.10 is the IP address of the MQTT service host
+
 
 docker-compose file
 ```
@@ -95,9 +111,9 @@ docker-compose file
       - PGID=$PGID
       - TZ=$TZ
     volumes:
-      - $DOCKERDIR/mosquitto/config:/config
-      - $DOCKERDIR/mosquitto/data:/data
-      - $DOCKERDIR/mosquitto/log:/log
+      - $DOCKERDIR/mqtt/config:/config
+      - $DOCKERDIR/mqtt/data:/data
+      - $DOCKERDIR/mqtt/log:/log
     ports:
       - 1883:1883
       - 9001:9001
