@@ -8,6 +8,16 @@
 - [ ] Home Assistant
 - [ ] Zigbee2MQTT
 - [ ] Node-Red 
+- [ ] Traefik
+- [ ] GiTea
+- [ ] Piwigo
+- [ ] Calibre
+- [ ] Calibre-web
+- [ ] Diun
+- [ ] Postgres
+- [ ] Ampache
+- [ ] Airsonic
+- [ ] Adminer
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
@@ -79,3 +89,23 @@ Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)
 ### Zigbee2MQTT
 
 ### Node-Red 
+
+### Traefik
+
+### GiTea
+
+### Piwigio
+
+### Calibre
+
+### Calibre-web
+
+### Diun
+
+### Postgres
+
+### Ampache
+
+### Airsonic
+
+### Adminer
