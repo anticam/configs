@@ -114,6 +114,7 @@ docker-compose file
       - $DOCKERDIR/mqtt/config:/config
       - $DOCKERDIR/mqtt/data:/data
       - $DOCKERDIR/mqtt/log:/log
+      - $DOCKERDIR/mqtt/config/mosquitto.conf:/mosquitto/config/mosquitto.conf
     ports:
       - 1883:1883
       - 9001:9001
