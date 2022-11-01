@@ -140,6 +140,16 @@ or
 mosquitto_passwd -b home assistant
 ```
 
+The mosquiotto.conf can be updated to use the password file:
+```
+persistence true
+persistence_location /mosquitto/data
+log_dest file /mosquitto/log/mosquitto.log
+password_file /mosquitto/config/pwfile
+#allow_anonymous true
+listener 1883
+```
+
 ### Portainer
 
 ### WatchTower
