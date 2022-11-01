@@ -18,6 +18,9 @@
 - [ ] Ampache
 - [ ] Airsonic
 - [ ] Adminer
+- [ ] Vaultwarden
+- [ ] AdGuard
+- [ ] Pi-Hole
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
@@ -181,3 +184,11 @@ listener 1883
 ### Airsonic
 
 ### Adminer
+
+### Vaultwarden
+[docker image](https://hub.docker.com/r/vaultwarden/server)
+BeardedTnker [VaultWarden self hosted password manager in Synology private cloud](https://www.youtube.com/watch?v=V3kJHoLuKxQ&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=7)
+
+### AdGuard
+
+### Pi-Hole
