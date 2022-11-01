@@ -1,6 +1,7 @@
 ## Containers
 - [ ] Deluge  
 - [x] Code-Server  
+- [x] Mosquitto
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
@@ -56,3 +57,6 @@ Extensions
 7. [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
 
+### Mosquitto
+BeardedTinker [Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
+Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)
