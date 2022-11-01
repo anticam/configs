@@ -94,11 +94,10 @@ content
 persistence true
 persistence_location /mosquitto/data
 log_dest file /mosquitto/log/mosquitto.log
-password_file /mosquitto/config/pwfile
-#allow_anonymous true
-listener 1883 10.10.10.10
+#password_file /mosquitto/config/pwfile
+allow_anonymous true
+listener 1883
 ```
-where 10.10.10.10 is the IP address of the MQTT service host
 
 
 docker-compose file
@@ -119,6 +118,26 @@ docker-compose file
       - 1883:1883
       - 9001:9001
     restart: unless-stopped
+```
+open console to container
+```
+docker-compose exec mosquitto ash
+```
+in shell create password file and populate with users
+```
+cd mosquitto/config
+touch pwfile
+```
+
+populate the file with user/password pairs:
+```
+mosquitto_passwd -c pwfile hass
+Password:
+Reenter password:
+```
+or  
+```
+mosquitto_passwd -b home assistant
 ```
 
 ### Portainer
