@@ -2,6 +2,12 @@
 - [ ] Deluge  
 - [x] Code-Server  
 - [x] Mosquitto
+- [ ] Portainer
+- [ ] WatchTower
+- [ ] InfluxDB
+- [ ] Home Assistant
+- [ ] Zigbee2MQTT
+- [ ] Node-Red 
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
@@ -60,3 +66,16 @@ Extensions
 ### Mosquitto
 BeardedTinker [Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
 Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)
+
+
+### Portainer
+
+### WatchTower
+
+### InfluxDB
+
+### Home Assistant
+
+### Zigbee2MQTT
+
+### Node-Red 
