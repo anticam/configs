@@ -77,6 +77,32 @@ Extensions
 BeardedTinker [Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
 Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)
 
+Create folders under docker
+```
+mkdir mosquitto
+mkdir mosquitto/config
+mkdir mosquitto/data
+mkdir mosquitto/log
+```
+
+docker-compose file
+```
+  mosquitto:
+    image: eclipse-mosquitto
+    container_name: mosquitto
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    volumes:
+      - $DOCKERDIR/mosquitto/config:/config
+      - $DOCKERDIR/mosquitto/data:/data
+      - $DOCKERDIR/mosquitto/log:/log
+    ports:
+      - 1883:1883
+      - 9001:9001
+    restart: unless-stopped
+```
 
 ### Portainer
 
