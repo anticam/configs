@@ -160,6 +160,31 @@ listener 1883
 ### InfluxDB
 
 ### Home Assistant
+Create home-assistant folder under docker
+```
+mkdir home-assistant
+mkdir home-assistant/config
+```
+docker-compose
+Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux#docker-compose)
+```
+  home-assistant:
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    container_name: home-assistant
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID  
+      - TZ=$TZ
+    volumes:
+      - $DOCKERDIR/home-assistant/config:/config
+      - /etc/localtime:/etc/localtime:ro
+    privileged: true
+    network_mode: host
+    ports:
+      - 8124:8123
+    restart: unless-stopped
+```
+Note, port number 8124 is temporary until migration from hassio is finished.
 
 ### Zigbee2MQTT
 Zigbee2MQTT [docker](https://www.zigbee2mqtt.io/guide/installation/02_docker.html#creating-the-initial-configuration)
@@ -231,6 +256,30 @@ docker-compose
 ### Vaultwarden
 [docker image](https://hub.docker.com/r/vaultwarden/server)
 BeardedTnker [VaultWarden self hosted password manager in Synology private cloud](https://www.youtube.com/watch?v=V3kJHoLuKxQ&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=7)
+
+Christian Lempa - [Self Hosted Password Manager - Your data under your control!](https://www.youtube.com/watch?v=ub8jj96_Q3g)
+
+create vaultwarden folder under docker:
+```
+mkdir docker/vaultwarden
+```
+
+[docker compose configuration](https://github.com/dani-garcia/vaultwarden/wiki/Using-Docker-Compose)
+```
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    restart: always
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID  
+      - TZ=$TZ
+      #- WEBSOCKET_ENABLED: "true"  # Enable WebSocket notifications.
+    volumes:
+      - $DOCKERDIR/vaultwarden/data:/data
+
+```
+Note, it needs a reverse proxy to us HTTPS.
 
 ### AdGuard
 
