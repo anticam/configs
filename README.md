@@ -268,6 +268,7 @@ Tool list
 | [Nmap](https://nmap.org/) | `choco install nmap` | network tool |
 | [Notepad++](https://notepad-plus-plus.org/) | `choco install notepadplusplus` | --- |
 | [Notepad++ plugin manager](https://github.com/chtof/chocolatey-packages/tree/master/automatic/notepadplusplus-npppluginmanager) | `choco install npppluginmanager` | --- |
+| [Obsidian](https://obsidian.md/) | `choco install obsidian` | Note organizer |
 | [Oh-My-Posh](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
 | [Postman for Windows](https://www.postman.com/) | `choco install postman` ||
 | [Python 3.x](https://www.python.org/downloads/) | `choco install python3`| ---|
