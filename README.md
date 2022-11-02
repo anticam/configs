@@ -58,7 +58,7 @@ choco install oh-my-posh
 [Cascadia Code Nerd Font](https://github.com/AaronFriel/nerd-fonts/releases/tag/v1.2.0)  
 [Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads)  
 [JetBrains Mono Nerd Font](https://www.nerdfonts.com/font-downloads)
-[JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)
+[JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)  
 [Tech Craft My FAVORITE Font for Coding & Terminal Use](https://www.youtube.com/watch?v=yKjpUCCyHu8)
 
 
