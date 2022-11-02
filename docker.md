@@ -192,6 +192,10 @@ docker-compose pull home-assistant
 sudo docker-compose up home-assistant -d
 ```
 
+#### Migration from HASSIO to docker version
+BeardedTinker - [How to migrate from hassio to Home Assistant Core on Synology](https://www.youtube.com/watch?v=reg1Hf0eKTU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=9)
+
+
 ### Zigbee2MQTT
 Zigbee2MQTT [docker](https://www.zigbee2mqtt.io/guide/installation/02_docker.html#creating-the-initial-configuration)
 BeardedTinker [Zigbee2MQTT](https://www.youtube.com/watch?v=HbkXQErileU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=34)
