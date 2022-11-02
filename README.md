@@ -57,6 +57,9 @@ choco install oh-my-posh
 [Cascadia Code Font](https://github.com/microsoft/cascadia-code)  
 [Cascadia Code Nerd Font](https://github.com/AaronFriel/nerd-fonts/releases/tag/v1.2.0)  
 [Caskaydia Cove Nerd Font](https://www.nerdfonts.com/font-downloads)  
+[JetBrains Mono Nerd Font](https://www.nerdfonts.com/font-downloads)
+[JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)
+
 
 ```
 choco install cascadia-code-nerd-font
