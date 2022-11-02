@@ -133,7 +133,7 @@ cd mosquitto/config
 touch pwfile
 ```
 
-populate the file with user/password pairs:
+populate the pwfile with user/password pairs:
 ```
 mosquitto_passwd -c pwfile hass
 Password:
@@ -141,7 +141,7 @@ Reenter password:
 ```
 or  
 ```
-mosquitto_passwd -b home assistant
+mosquitto_passwd -b pwfile home assistant
 ```
 
 The mosquiotto.conf can be updated to use the password file:
