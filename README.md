@@ -247,6 +247,7 @@ Chocolatey [installation steps](https://chocolatey.org/install)
 Tool list
 | Name | Command | Description |
 | --- | --- | --- |
+| [Advanced IP Scanner](https://www.advanced-ip-scanner.com/)| `choco install advanced-ip-scanner` | |
 | [Cascadia Font Nerd](https://www.nerdfonts.com/font-downloads) | `choco install cascadia-code-nerd-font` | --- |
 | [CMake](https://cmake.org/cmake/help/v2.8.1/cmake.html) | `choco install cmake`  | --- |
 | [Ditto Clipboard](https://ditto-cp.sourceforge.io/) | `choco install ditto` | --- |
@@ -277,6 +278,7 @@ Tool list
 | [Screenpresso](https://www.screenpresso.com/) | `choco install screenpresso` | Capture tool |
 | [Sizer](http://www.brianapps.net/sizer4/) | `choco install sizer` | Window resizer |
 | [Tabby](https://github.com/Eugeny/tabby) | `choco install tabby` | terminal software |
+| [TightVNC](https://www.tightvnc.com/)| `choco install tightvnc` | VNC client |
 | [Treesize free](https://www.jam-software.com/treesize_free) | `choco install treesizefree` | Folder allocation |
 | [VSCode](https://code.visualstudio.com/) | `choco install vscode` | --- |
 | [Visual Studio 2022 Community](https://visualstudio.microsoft.com/) | `choco install visualstudio2022community`||
