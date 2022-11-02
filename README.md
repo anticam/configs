@@ -258,6 +258,7 @@ Tool list
 | [helm](https://helm.sh/) | `choco install kubernetes-helm` | --- |
 | [Insomnia](https://insomnia.rest/) | `choco install insomnia-rest-api-client`| REST client |
 | [JetBrains IntelliJ IDEA (Community Edition)](https://www.jetbrains.com/idea/) | `choco install intellijidea-community` ||
+| [JetBrains Mono Nerd Font](https://www.nerdfonts.com/) | `choco install jetbrainsmononf` | |
 | [JetBrains PyCharm (Community Edition)](http://www.jetbrains.com/pycharm/) | `choco install pycharm-community`| JetBrains Python IDE |
 | [JXplorer](http://jxplorer.org/) | `choco install jxplorer` | Java LDAP client |
 | [Keystore explorer](http://keystore-explorer.org/) | `choco install keystore-explorer.portable` ||
