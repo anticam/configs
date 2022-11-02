@@ -2,6 +2,7 @@
 - [ ] Deluge  
 - [x] Code-Server  
 - [x] Mosquitto
+- [ ] ESPHome
 - [ ] Portainer
 - [ ] WatchTower
 - [ ] InfluxDB
@@ -153,6 +154,7 @@ password_file /mosquitto/config/pwfile
 #allow_anonymous true
 listener 1883
 ```
+### ESPHome
 
 ### Portainer
 
