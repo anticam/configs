@@ -163,7 +163,6 @@ listener 1883
 Create home-assistant folder under docker
 ```
 mkdir home-assistant
-mkdir home-assistant/config
 ```
 docker-compose
 Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux#docker-compose)
@@ -176,15 +175,18 @@ Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux
       - PGID=$PGID  
       - TZ=$TZ
     volumes:
-      - $DOCKERDIR/home-assistant/config:/config
+      - $DOCKERDIR/home-assistant:/config
       - /etc/localtime:/etc/localtime:ro
     privileged: true
     network_mode: host
-    ports:
-      - 8124:8123
     restart: unless-stopped
 ```
-Note, port number 8124 is temporary until migration from hassio is finished.
+
+pull and start docker
+```
+docker-compose pull home-assistant
+sudo docker-compose up home-assistant -d
+```
 
 ### Zigbee2MQTT
 Zigbee2MQTT [docker](https://www.zigbee2mqtt.io/guide/installation/02_docker.html#creating-the-initial-configuration)
