@@ -78,7 +78,8 @@ Extensions
 
 ### Mosquitto
 BeardedTinker [Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
-Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)
+[Mosquitto (MQTT) in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=eJjkgkS_Wqw&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=35)  
+Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)  
 
 Create folders under docker
 ```
@@ -160,6 +161,9 @@ listener 1883
 ### InfluxDB
 
 ### Home Assistant
+
+BeardedTinker - [Home Assistant on Synology inside Docker](https://www.youtube.com/watch?v=pcnvmAOah_Y&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=38&t=505s)
+
 Create home-assistant folder under docker
 ```
 mkdir home-assistant
