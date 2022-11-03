@@ -322,8 +322,8 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-piwigo)
       - PGID=$PUID
       - TZ=$TZ
     volumes:
-      - $DOCKERDIR/piwigo/config>:/config
-      - $DOCKERDIR/piwigo/gallery>:/gallery
+      - $DOCKERDIR/piwigo/config:/config
+      - $DOCKERDIR/piwigo/gallery:/gallery
     ports:
       - 608:80
     restart: unless-stopped
