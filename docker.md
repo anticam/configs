@@ -7,7 +7,7 @@
 - [ ] WatchTower
 - [ ] InfluxDB
 - [x] Home Assistant
-- [ ] Zigbee2MQTT
+- [x] Zigbee2MQTT
 - [ ] Node-Red 
 - [ ] Traefik
 - [ ] GiTea
@@ -258,12 +258,13 @@ docker-compose
     image: koenkk/zigbee2mqtt
     container_name: zigbee2mqtt
     environment:
-      - PUID=$PUID
-      - PGID=$PGID  
       - TZ=$TZ
+    user: $PUID:$PGID
+    group_add: 
+      - dialout       
     devices:
       # Make sure this matched your adapter location
-      - /dev/serial/by-id/usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B001938DD82-if00:/dev/ttyACM0
+      - /dev/serial/by-id/usb-Silicon_Labs_slae.sh_cc2652rb_stick_-_slaesh_s_iot_stuff_00_12_4B_00_23_93_3A_72-if00-port0:/dev/ttyUSB0
     volumes:
       - $DOCKERDIR/zigbee2mqtt/data:/app/data
       - /run/udev:/run/udev:ro
@@ -271,6 +272,29 @@ docker-compose
       # Frontend port
       - 8080:8080
     restart: unless-stopped
+```
+
+add user to theses groups
+[guide](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html#method-2-add-your-user-to-specific-groups)
+```
+sudo usermod -a -G uucp $USER
+sudo usermod -a -G tty $USER
+sudo usermod -a -G dialout $USER
+```
+
+test module access as docker user
+```
+test -w /dev/ttyUSB0 && echo success || echo failure
+```
+and with sudo
+```
+sudo test -w /dev/ttyUSB0 && echo success || echo failure
+```
+in docker/zigbee2mqtt/data/configuration.yaml set port
+```
+serial:
+  # Location of USB sniffer
+  port: /dev/ttyUSB0
 ```
 
 ### Node-Red 
