@@ -11,7 +11,7 @@
 - [ ] Node-Red 
 - [ ] Traefik
 - [ ] GiTea
-- [ ] Piwigo
+- [x] Piwigo
 - [ ] Calibre
 - [ ] Calibre-web
 - [ ] Diun
@@ -252,6 +252,33 @@ docker-compose
 
 ### Piwigio
 
+create piwigo folder under docker
+```
+mkdir docker/piwigo
+mkdir docker/piwigo/config
+mkdir docker/piwigo/gallery
+```
+
+docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-piwigo)
+```
+  piwigo:
+    image: lscr.io/linuxserver/piwigo:latest
+    container_name: piwigo
+    environment:
+      - PUID=$PUID
+      - PGID=$PUID
+      - TZ=$TZ
+    volumes:
+      - $DOCKERDIR/piwigo/config>:/config
+      - $DOCKERDIR/piwigo/gallery>:/gallery
+    ports:
+      - 608:80
+    restart: unless-stopped
+```
+
+In MariaDB create piwigo_db DB (utf8mb4_general_ci)
+
+
 ### Calibre
 
 ### Calibre-web
@@ -321,6 +348,5 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
     volumes:
       - $DOCKERDIR/mariadb/:/var/lib/mysql
     restart: always
-
 ```
 
