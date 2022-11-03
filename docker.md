@@ -4,8 +4,9 @@
 - [x] Mosquitto
 - [ ] ESPHome
 - [x] Portainer
-- [ ] WatchTower
+- [x] WatchTower
 - [ ] InfluxDB
+- [ ] Grafana
 - [x] Home Assistant
 - [x] Zigbee2MQTT
 - [ ] Node-Red 
@@ -185,7 +186,64 @@ docker-compose [docker hub](https://hub.docker.com/r/portainer/portainer-ce)
 
 ### WatchTower
 
+docker-compose [watchtower](https://containrrr.dev/watchtower/)
+```
+  watchtower:
+    image: containrrr/watchtower:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      #- /etc/localtime:/etc/localtime:ro
+    environment:
+      TZ: $TZ
+      WATCHTOWER_LABEL_ENABLE: 'true'
+      WATCHTOWER_POLL_INTERVAL: 86400
+      WATCHTOWER_INCLUDE_STOPPED: 'true'
+      WATCHTOWER_CLEANUP: 'true'
+      WATCHTOWER_REVIVE_STOPPED: 'false'
+      WATCHTOWER_NOTIFICATIONS: email
+      WATCHTOWER_NOTIFICATION_EMAIL_FROM: $SMTP_FROM
+      WATCHTOWER_NOTIFICATION_EMAIL_TO: $SMTP_TO
+      WATCHTOWER_NOTIFICATION_EMAIL_SERVER: $SMTP_HOST
+      WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT: $SMTP_PORT
+      WATCHTOWER_NOTIFICATION_EMAIL_SERVER_USER: $SMTP_USER
+      WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PASSWORD: $SMTP_PASSWORD
+      WATCHTOWER_NOTIFICATION_EMAIL_DELAY: 2
+```
+containers to update:
+```
+label:
+  - com.centurylinklabs.watchtower.enable=true
+```  
+containers to monitor:
+```
+label:
+  - com.centurylinklabs.watchtower.monitor-only=true
+```
+
 ### InfluxDB
+
+BeardedTinker [Portainer, Watchtower and InfluxDB for Home Assistant on Synology](https://www.youtube.com/watch?v=jtVelxopKTM&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=37)
+
+create inlfuxdb under docker
+```
+mkdir docker/influxdb
+```
+
+docker-compose
+```
+  influxdb:
+    image: influxdb:latest
+    ports:
+      - '8086:8086'
+    volumes:
+      - $DOCKERDIR/influxdb:/var/lib/influxdb
+    environment:
+      - INFLUXDB_DB=db0
+      - INFLUXDB_ADMIN_USER=$INFLUXDB_USERNAME
+      - INFLUXDB_ADMIN_PASSWORD=$INFLUXDB_PASSWORD
+```
+
+### Grafana
 
 ### Home Assistant
 
