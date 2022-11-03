@@ -22,6 +22,7 @@
 - [ ] Vaultwarden
 - [ ] AdGuard
 - [ ] Pi-Hole
+- [x] MariaDB
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
@@ -296,3 +297,30 @@ Note, it needs a reverse proxy to us HTTPS.
 ### AdGuard
 
 ### Pi-Hole
+
+### MariaDB
+
+create mariadb folder under docker
+```
+mkdir docker/mariadb
+```
+
+docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
+
+```
+  mariadb:
+    image: lscr.io/linuxserver/mariadb:latest
+    container_name: mariadb
+    ports:
+      - 3306:3306
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ    
+      - MARIADB_ROOT_PASSWORD=password
+    volumes:
+      - $DOCKERDIR/mariadb/:/var/lib/mysql
+    restart: always
+
+```
+
