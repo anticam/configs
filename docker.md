@@ -3,10 +3,10 @@
 - [x] Code-Server  
 - [x] Mosquitto
 - [ ] ESPHome
-- [ ] Portainer
+- [x] Portainer
 - [ ] WatchTower
 - [ ] InfluxDB
-- [ ] Home Assistant
+- [x] Home Assistant
 - [ ] Zigbee2MQTT
 - [ ] Node-Red 
 - [ ] Traefik
@@ -112,8 +112,6 @@ docker-compose file
     image: eclipse-mosquitto
     container_name: mosquitto
     environment:
-      - PUID=$PUID
-      - PGID=$PGID
       - TZ=$TZ
     volumes:
       - $DOCKERDIR/mqtt/config:/config
@@ -159,6 +157,32 @@ listener 1883
 
 ### Portainer
 
+create portainer folder under docker
+```
+mkdir docker/portainer
+mkdir docker/portainer/data
+```
+
+docker-compose [docker hub](https://hub.docker.com/r/portainer/portainer-ce)
+```
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    ports:
+      - 9000:9000
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+    labels:
+      - "diun.enable=true"
+    command: -H unix:///var/run/docker.sock
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - $DOCKERDIR/portainer/data:/data
+    restart: always      
+```      
+
 ### WatchTower
 
 ### InfluxDB
@@ -173,9 +197,11 @@ mkdir home-assistant
 ```
 docker-compose
 Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux#docker-compose)
+[linuxserver](https://docs.linuxserver.io/images/docker-homeassistant)
+
 ```
   home-assistant:
-    image: "ghcr.io/home-assistant/home-assistant:stable"
+    image: lscr.io/linuxserver/homeassistant:latest
     container_name: home-assistant
     environment:
       - PUID=$PUID
@@ -184,7 +210,10 @@ Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux
     volumes:
       - $DOCKERDIR/home-assistant:/config
       - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
     privileged: true
+    ports:
+      - 8123:8123
     network_mode: host
     restart: unless-stopped
 ```
