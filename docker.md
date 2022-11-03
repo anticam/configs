@@ -10,7 +10,7 @@
 - [x] Zigbee2MQTT
 - [ ] Node-Red 
 - [ ] Traefik
-- [ ] GiTea
+- [ ] Gitea
 - [x] Piwigo
 - [ ] Calibre
 - [ ] Calibre-web
@@ -302,6 +302,8 @@ serial:
 ### Traefik
 
 ### GiTea
+
+https://docs.gitea.io/en-us/install-with-docker-rootless/
 
 ### Piwigio
 
