@@ -18,7 +18,7 @@
 - [ ] Postgres
 - [ ] Ampache
 - [ ] Airsonic
-- [ ] Adminer
+- [x] Adminer
 - [ ] Vaultwarden
 - [ ] AdGuard
 - [ ] Pi-Hole
@@ -345,6 +345,18 @@ In MariaDB create piwigo_db DB (utf8mb4_general_ci)
 ### Airsonic
 
 ### Adminer
+
+docker-compose [docker hub](https://hub.docker.com/_/adminer/)
+```
+  adminer:
+    image: adminer:latest
+    restart: always
+    ports:
+      - 7080:8080
+    labels:
+      - diun.enable=true
+      - diun.watch_repo=true
+```      
 
 ### Vaultwarden
 [docker image](https://hub.docker.com/r/vaultwarden/server)
