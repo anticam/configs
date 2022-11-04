@@ -366,6 +366,34 @@ curl samples [Reqbin.com](https://reqbin.com/req/c-haxm0xgr/curl-basic-auth-exam
 ### XSA
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
 
+### Password generators
+
+#### Ubuntu
+
+pwgen
+```
+sudo apt install pwgen
+```
+usage
+```
+$ pwgen
+Zeihied3 rie4eiPh ChuG2ua5 coh8UGai aeF2eepa aiPee0ya erohD6va aPah7oaz
+AX3cihag Nei5gie8 ooveeR3i Eel3shu2 Bah4eoph Quiefuu5 IuF6ooph es1Raeri
+chef8huF bahh9ahP Juko8oe2 yaaPhee4 eehohr2I Quahqui0 Iet8aeZo oCoh2eel
+```
+
+xkcdpass
+```
+sudo apt install xkcdpass
+```
+
+usage
+```
+$ xkcdpass
+supreme overlord proven tipping purge outflank
+```
+
+
 ### Links
 OAuth2 [Authentication flows](./authflows.md)  
 Docker setup [docker-compose](./docker.md)  
