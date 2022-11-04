@@ -330,6 +330,21 @@ docker-compose pull home-assistant
 sudo docker-compose up home-assistant -d
 ```
 
+Smart Home Addict
+[Statistics in Home Assistant with InfluxDB and Grafana](https://www.youtube.com/watch?v=KM6UC4tMVYo)
+
+Everything Smart Home
+[NEXT LEVEL STATISTICS - Home Assistant InfluxDB and Grafana](https://www.youtube.com/watch?v=eJ-XE2tsD4U)
+
+
+BeardedTinker
+[Portainer, Watchtower and InfluxDB for Home Assistant on Synology ](https://www.youtube.com/watch?v=jtVelxopKTM&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=37)
+
+
+BeardedTinker
+[Grafana Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=Q5t7ld2be3k&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=36)
+
+
 #### Migration from HASSIO to docker version
 BeardedTinker - [How to migrate from hassio to Home Assistant Core on Synology](https://www.youtube.com/watch?v=reg1Hf0eKTU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=9)
 
