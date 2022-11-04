@@ -595,21 +595,41 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
 
 https://hub.docker.com/_/mongo
 
+[Using MongoDB with Docker](https://earthly.dev/blog/mongodb-docker/)
+
+[Running MongoDB as a Docker Container](https://www.baeldung.com/linux/mongodb-as-docker-container)
+
+
+created mongodb folder under docker
+```
+mkdir docker/mongodb
+```
+
+docker-compose
 ```
   mongo:
     image: mongo
-    restart: always
+    container_name: mongodb
+    ports:
+      - 27017:27017
+    logging:
+      options:
+        max-size: 1g
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
+      - MONGO_INITDB_ROOT_USERNAME=$MONGO_ROOT_USERNAME
+      - MONGO_INITDB_ROOT_PASSWORD=$MONGO_ROOT_PASSWORD
+    volumes:
+      - $DOCKERDIR/mongodb:/data/db
+    restart: always
 
   mongo-express:
     image: mongo-express
-    restart: always
+    container_name: mongo-express
     ports:
-      - 8081:8081
+      - 27020:8081
     environment:
-      ME_CONFIG_MONGODB_ADMINUSERNAME: root
-      ME_CONFIG_MONGODB_ADMINPASSWORD: example
-      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+      ME_CONFIG_MONGODB_ADMINUSERNAME: $MONGO_ROOT_USERNAME
+      ME_CONFIG_MONGODB_ADMINPASSWORD: $MONGO_ROOT_PASSWORD
+      ME_CONFIG_MONGODB_URL: mongodb://$MONGO_ROOT_USERNAME:$MONGO_ROOT_PASSWORD@mongo:27017/
+    restart: always
 ```
