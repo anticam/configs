@@ -16,7 +16,8 @@
 - [ ] Calibre
 - [ ] Calibre-web
 - [ ] Diun
-- [ ] Postgres
+- [x] Postgres
+- [ ] PG Admin
 - [ ] Ampache
 - [ ] Airsonic
 - [x] Adminer
@@ -428,6 +429,31 @@ mkdir docker/postgres/data15
       - com.centurylinklabs.watchtower.monitor-only=true
 ```
 
+### PG Admin
+
+[pgadmin](https://www.pgadmin.org/download/pgadmin-4-container/)  
+
+create pgadmin folder under docker
+```
+mkdir docker/pgadmin
+```
+
+https://github.com/khezen/compose-postgres/blob/master/docker-compose.yml
+docker-compose https://hub.docker.com/r/dpage/pgadmin4/  
+```
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL: $SMTP_TO
+      - PGADMIN_DEFAULT_PASSWORD: $PG_ADMIN_PASSWORD
+      - PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+       - $DOCKERDIR/pgadmin:/var/lib/pgadmin
+    ports:
+      - 5050:80
+    restart: unless-stopped
+```
 
 ### Ampache
 
