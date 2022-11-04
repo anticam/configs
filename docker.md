@@ -400,6 +400,35 @@ In MariaDB create piwigo_db DB (utf8mb4_general_ci)
 
 ### Postgres
 
+https://hub.docker.com/_/postgres
+
+create postgres folder under docker
+```
+mkdir docker/postgres
+mkdir docker/postgres/data15
+```
+[docker-compose](https://geshan.com.np/blog/2021/12/docker-postgres/)
+```
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - $DOCKERDIR/postgres/data15:/var/lib/postgresql/data
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+```
+
+
 ### Ampache
 
 ### Airsonic
