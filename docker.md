@@ -444,7 +444,6 @@ docker-compose [docker hub](https://hub.docker.com/_/adminer/)
       - 7080:8080
     labels:
       - diun.enable=true
-      - diun.watch_repo=true
 ```      
 
 ### Vaultwarden
