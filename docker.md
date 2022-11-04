@@ -263,6 +263,35 @@ docker-compose
 
 ### Grafana
 
+docker - https://hub.docker.com/r/grafana/grafana/
+[installation](https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/#configure-docker-image)
+[configuration](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/)
+
+create grafana folder under docker
+```
+mkdir docker/grafana
+```
+
+docker-compose
+```
+  grafana:
+    image: grafana/grafana-oss
+    container_name: grafana
+    ports:
+      - 3080:3000
+    volumes:
+      - $DOCKERDIR/grafana:/var/lib/grafana
+    environment:
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource
+    labels:
+    - diun.enable=true
+    - com.centurylinklabs.watchtower.monitor-only=true
+    restart: unless-stopped   
+```
+
 ### Home Assistant
 
 BeardedTinker - [Home Assistant on Synology inside Docker](https://www.youtube.com/watch?v=pcnvmAOah_Y&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=38&t=505s)
