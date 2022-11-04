@@ -225,23 +225,40 @@ label:
 
 BeardedTinker [Portainer, Watchtower and InfluxDB for Home Assistant on Synology](https://www.youtube.com/watch?v=jtVelxopKTM&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=37)
 
+https://github.com/docker-library/docs/blob/master/influxdb/README.md
+
+
 create inlfuxdb under docker
 ```
-mkdir docker/influxdb
+mkdir docker/influxdb2
+mkdir docker/influxdb2/data
+mkdir docker/influxdb2/config
 ```
 
 docker-compose
 ```
   influxdb:
     image: influxdb:latest
+    container_name: influxdb
     ports:
-      - '8086:8086'
+      - 8086:8086
     volumes:
-      - $DOCKERDIR/influxdb:/var/lib/influxdb
+      - $DOCKERDIR/influxdb2/data:/var/lib/influxdb2
+      - $DOCKERDIR/influxdb2/config:/etc/influxdb2
     environment:
-      - INFLUXDB_DB=db0
-      - INFLUXDB_ADMIN_USER=$INFLUXDB_USERNAME
-      - INFLUXDB_ADMIN_PASSWORD=$INFLUXDB_PASSWORD
+      - PUID=$PUID
+      - PGID=$PGID
+      - TZ=$TZ
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=$INFLUX_INIT_USER
+      - DOCKER_INFLUXDB_INIT_PASSWORD=$INFLUX_INIT_USER_PASSWORD
+      - DOCKER_INFLUXDB_INIT_ORG=$INFLUX_INIT_ORG
+      - DOCKER_INFLUXDB_INIT_BUCKET=$INFLUX_INIT_BUCKET
+    labels:
+      - diun.enable=true
+        #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+    restart: always        
 ```
 
 ### Grafana
