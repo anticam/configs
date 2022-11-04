@@ -5,8 +5,8 @@
 - [ ] ESPHome
 - [x] Portainer
 - [x] WatchTower
-- [ ] InfluxDB
-- [ ] Grafana
+- [x] InfluxDB
+- [x] Grafana
 - [x] Home Assistant
 - [x] Zigbee2MQTT
 - [ ] Node-Red 
@@ -25,6 +25,7 @@
 - [ ] AdGuard
 - [ ] Pi-Hole
 - [x] MariaDB
+- [ ] MongoDB / Mongo Express
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
@@ -575,3 +576,25 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
     restart: always
 ```
 
+### MongoDB / Mongo Express
+
+https://hub.docker.com/_/mongo
+
+```
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+```
