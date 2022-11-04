@@ -370,6 +370,8 @@ XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL
 
 #### Ubuntu
 
+https://itsfoss.com/password-generators-linux/
+
 pwgen
 ```
 sudo apt install pwgen
@@ -393,7 +395,16 @@ $ xkcdpass
 supreme overlord proven tipping purge outflank
 ```
 
+diceware
+```
+sudo apt install diceware
+```
 
+usage
+```
+$ diceware
+FidelityCringingCollideJiffyAvidVertical
+```
 ### Links
 OAuth2 [Authentication flows](./authflows.md)  
 Docker setup [docker-compose](./docker.md)  
