@@ -593,12 +593,11 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
 
 ### MongoDB / Mongo Express
 
-https://hub.docker.com/_/mongo
-
-[Using MongoDB with Docker](https://earthly.dev/blog/mongodb-docker/)
-
-[Running MongoDB as a Docker Container](https://www.baeldung.com/linux/mongodb-as-docker-container)
-
+https://hub.docker.com/_/mongo  
+[Using MongoDB with Docker](https://earthly.dev/blog/mongodb-docker/)  
+[Running MongoDB as a Docker Container](https://www.baeldung.com/linux/mongodb-as-docker-container)  
+[How To Run MongoDB as a Docker Container](https://www.bmc.com/blogs/mongodb-docker-container/)  
+https://www.mongodb.com/compatibility/docker  
 
 created mongodb folder under docker
 ```
@@ -607,29 +606,46 @@ mkdir docker/mongodb
 
 docker-compose
 ```
-  mongo:
-    image: mongo
+  mongodb:
+    image: mongo:latest
     container_name: mongodb
     ports:
       - 27017:27017
-    logging:
-      options:
-        max-size: 1g
     environment:
+      - PUID=$PUID
+      - PGID=$PGID    
       - MONGO_INITDB_ROOT_USERNAME=$MONGO_ROOT_USERNAME
       - MONGO_INITDB_ROOT_PASSWORD=$MONGO_ROOT_PASSWORD
     volumes:
       - $DOCKERDIR/mongodb:/data/db
-    restart: always
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true      
+    restart: unless-stopped
+```
 
+Mongo Express  
+docker-compose [image](https://hub.docker.com/_/mongo-express)  
+
+```
   mongo-express:
-    image: mongo-express
+    image: mongo-express:latest
     container_name: mongo-express
     ports:
       - 27020:8081
     environment:
+      PUID: $PUID
+      PGID: $PGID
+      ME_CONFIG_MONGODB_SERVER: mongodb
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_BASICAUTH_USERNAME: $ME_USERNAME 
+      ME_CONFIG_BASICAUTH_PASSWORD: $ME_PASSWORD 
       ME_CONFIG_MONGODB_ADMINUSERNAME: $MONGO_ROOT_USERNAME
       ME_CONFIG_MONGODB_ADMINPASSWORD: $MONGO_ROOT_PASSWORD
-      ME_CONFIG_MONGODB_URL: mongodb://$MONGO_ROOT_USERNAME:$MONGO_ROOT_PASSWORD@mongo:27017/
-    restart: always
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true      
+    restart: unless-stopped
 ```
