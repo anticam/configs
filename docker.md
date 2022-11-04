@@ -344,6 +344,11 @@ BeardedTinker
 BeardedTinker
 [Grafana Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=Q5t7ld2be3k&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=36)
 
+Bluetooth stack reset
+```
+$ sudo hciconfig hci0 reset
+$ sudo invoke-rc.d bluetooth restart
+```
 
 #### Migration from HASSIO to docker version
 BeardedTinker - [How to migrate from hassio to Home Assistant Core on Synology](https://www.youtube.com/watch?v=reg1Hf0eKTU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=9)
