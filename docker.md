@@ -430,6 +430,37 @@ serial:
 ### GiTea
 
 https://docs.gitea.io/en-us/install-with-docker-rootless/
+Just Me and Opensource - [Gitea - Git with a cup of tea - Installation and Configuration](https://www.youtube.com/watch?v=y9zDbMkuXdE)
+
+```
+# 
+# https://docs.gitea.io/en-us/install-with-docker/
+#
+  gitea:
+    image: gitea/gitea:latest
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+      #- PUID=$PUID
+      #- PGID=$PGID
+      #- TZ=$TZ
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+    volumes:
+      - /mnt/wdc/gitea/data:/data
+      - /mnt/wdc/gitea/config:/config
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "3000:3000"
+      - "2222:22"
+    networks:
+      - web
+    restart: unless-stopped
+```
 
 ### Piwigio
 
@@ -590,9 +621,13 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
       - PUID=$PUID
       - PGID=$PGID
       - TZ=$TZ    
-      - MARIADB_ROOT_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=omeiS5oobae1yaPo
     volumes:
-      - $DOCKERDIR/mariadb/:/var/lib/mysql
+      - $DOCKERDIR/mariadb:/config
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
     restart: always
 ```
 
