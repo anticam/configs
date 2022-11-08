@@ -16,6 +16,7 @@
 - [ ] Calibre
 - [ ] Calibre-web
 - [ ] Diun
+- [ ] Duplicati
 - [x] Postgres
 - [ ] PG Admin
 - [ ] Ampache
@@ -496,6 +497,30 @@ In MariaDB create piwigo_db DB (utf8mb4_general_ci)
 ### Calibre-web
 
 ### Diun
+
+### Duplicati
+
+https://www.duplicati.com/
+[Home Automation Guy](https://www.youtube.com/c/HomeAutomationGuy) - [Backing up Home Assistant Container](https://www.youtube.com/watch?v=pJqPhYXeulk)
+
+[docker-compose](https://hub.docker.com/r/linuxserver/duplicati)
+```
+  duplicati:
+    image: lscr.io/linuxserver/duplicati:latest
+    container_name: duplicati
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - CLI_ARGS= #optional
+    volumes:
+      - </path/to/appdata/config>:/config
+      - </path/to/backups>:/backups
+      - </path/to/source>:/source
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+```
 
 ### Postgres
 
