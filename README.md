@@ -408,6 +408,7 @@ FidelityCringingCollideJiffyAvidVertical
 ### Links
 OAuth2 [Authentication flows](./authflows.md)  
 Docker setup [docker-compose](./docker.md)  
+Projects [projects](./projects.md)  
 
 ```mermaid
 sequenceDiagram
