@@ -27,6 +27,9 @@
 - [ ] Pi-Hole
 - [x] MariaDB
 - [ ] MongoDB / Mongo Express
+- [ ] Bookstack
+- [ ] Fail2Ban
+- [ ] DokuWiki
 
 ### Deluge
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
