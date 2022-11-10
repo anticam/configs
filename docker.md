@@ -433,6 +433,7 @@ https://nodered.org/docs/getting-started/docker
 https://hub.docker.com/r/nodered/node-red  
 BeardedTinker - [Node-RED in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=YdgoIdjZtKA)  
 BurnsHA - [Node-Red in Docker with Home Assistant!!](https://www.youtube.com/watch?v=fxo5-iiwZXk)  
+[Installing Node Red in Docker for Home Assistant](https://jordanrounds.com/installing-node-red-in-docker-for-home-assistant/)
 
 docker-compose
 ```
@@ -492,7 +493,7 @@ Just Me and Opensource - [Gitea - Git with a cup of tea - Installation and Confi
     restart: unless-stopped
 ```
 
-### Piwigio
+### Piwigo
 
 create piwigo folder under docker
 ```
