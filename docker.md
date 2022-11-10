@@ -429,6 +429,32 @@ serial:
 
 ### Node-Red 
 
+https://nodered.org/docs/getting-started/docker  
+https://hub.docker.com/r/nodered/node-red  
+BeardedTinker - [Node-RED in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=YdgoIdjZtKA)  
+BurnsHA - [Node-Red in Docker with Home Assistant!!](https://www.youtube.com/watch?v=fxo5-iiwZXk)  
+
+docker-compose
+```
+  node-red:
+    image: nodered/node-red:latest
+    container_name: node-red
+    environment:
+      - TZ=$TZ
+    user: 1000:1000
+    ports:
+      - "1880:1880"
+    networks:
+      - node-red-net
+    volumes:
+      - $DOCKERDIR/node-red:/data
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true  
+    restart: unless-stopped    
+```
+
 ### Traefik
 
 ### GiTea
