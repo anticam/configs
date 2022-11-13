@@ -16,6 +16,7 @@
 - [ ] Calibre
 - [ ] Calibre-web
 - [ ] Diun
+- [ ] Dozzle
 - [ ] Duplicati
 - [x] Postgres
 - [ ] PG Admin
@@ -528,6 +529,19 @@ In MariaDB create piwigo_db DB (utf8mb4_general_ci)
 
 ### Diun
 
+### Dozzle
+
+[Dozzle](https://dozzle.dev/) the docker log viewer
+docker-compose [docker hub](https://hub.docker.com/r/amir20/dozzle/)
+```
+  dozzle:
+    container_name: dozzle
+    image: amir20/dozzle:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 9999:8080
+```
 ### Duplicati
 
 https://www.duplicati.com/
