@@ -15,6 +15,7 @@
 - [x] Piwigo
 - [ ] Calibre
 - [ ] Calibre-web
+- [ ] Cloudflared
 - [ ] Diun
 - [ ] Dozzle
 - [ ] Duplicati
@@ -526,6 +527,9 @@ In MariaDB create piwigo_db DB (utf8mb4_general_ci)
 ### Calibre
 
 ### Calibre-web
+
+### Cloudflared
+docker-compose https://hub.docker.com/r/erisamoe/cloudflared
 
 ### Diun
 
