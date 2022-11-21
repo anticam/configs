@@ -385,9 +385,9 @@ XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL
 pwgen
 
 ```bash
-$ sudo apt install pwgen
+sudo apt install pwgen
 
-$ pwgen
+pwgen
 Zeihied3 rie4eiPh ChuG2ua5 coh8UGai aeF2eepa aiPee0ya erohD6va aPah7oaz
 AX3cihag Nei5gie8 ooveeR3i Eel3shu2 Bah4eoph Quiefuu5 IuF6ooph es1Raeri
 chef8huF bahh9ahP Juko8oe2 yaaPhee4 eehohr2I Quahqui0 Iet8aeZo oCoh2eel
@@ -396,18 +396,18 @@ chef8huF bahh9ahP Juko8oe2 yaaPhee4 eehohr2I Quahqui0 Iet8aeZo oCoh2eel
 xkcdpass
 
 ```bash
-$ sudo apt install xkcdpass
+sudo apt install xkcdpass
 
-$ xkcdpass
+xkcdpass
 supreme overlord proven tipping purge outflank
 ```
 
 diceware
 
 ```bash
-$ sudo apt install diceware
+sudo apt install diceware
 
-$ diceware
+diceware
 FidelityCringingCollideJiffyAvidVertical
 ```
 
