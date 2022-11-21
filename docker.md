@@ -1,4 +1,7 @@
-## Containers
+# Docker  
+
+## Containers  
+
 - [ ] Deluge  
 - [x] Code-Server  
 - [x] Mosquitto
@@ -9,7 +12,7 @@
 - [x] Grafana
 - [x] Home Assistant
 - [x] Zigbee2MQTT
-- [ ] Node-Red 
+- [ ] Node-Red
 - [ ] Traefik
 - [ ] Gitea
 - [x] Piwigo
@@ -34,16 +37,19 @@
 - [ ] DokuWiki
 
 ### Deluge
+
 deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)  
 
 ### Code-Server
+
 [BeardedTinker](https://www.youtube.com/c/BeardedTinker) [Installation](https://www.youtube.com/watch?v=sarfQVmWlr0&list=TLPQMzAxMDIwMjJ1jA0SUXRoLQ&index=1)
 
 docker
-https://hub.docker.com/r/linuxserver/code-server
+<https://hub.docker.com/r/linuxserver/code-server>
 
 docker-compose
-```
+
+```docker
   code-server:
     image: lscr.io/linuxserver/code-server
     container_name: code-server
@@ -65,7 +71,8 @@ docker-compose
 ```
 
 where environment variables are stored in .env file:
-```
+
+```bash
 # USER
 PUID=1000  #docker user UID
 PGID=1000  #group ID of docker user
@@ -77,6 +84,7 @@ VS_USER_PASSWORD=123456
 ```
 
 Extensions
+
 1. [Home Assistant Config Helper](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant)
 2. [Log File Highliter](https://marketplace.visualstudio.com/items?itemName=emilast.LogFileHighlighter)
 3. [ESPHome](https://marketplace.visualstudio.com/items?itemName=ESPHome.esphome-vscode)
@@ -86,14 +94,15 @@ Extensions
 6. [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 7. [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-
 ### Mosquitto
+
 BeardedTinker [Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
 [Mosquitto (MQTT) in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=eJjkgkS_Wqw&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=35)  
 Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)  
 
 Create folders under docker
-```
+
+```bash
 mkdir mqtt
 mkdir mqtt/config
 mkdir mqtt/data
@@ -101,11 +110,14 @@ mkdir mqtt/log
 ```
 
 In mqtt/config create mosquitt.conf file
-```
+
+```bash
 touch mqtt/config/mosquitto.conf
 ```
+
 content
-```
+
+```bash
 persistence true
 persistence_location /mosquitto/data
 log_dest file /mosquitto/log/mosquitto.log
@@ -114,9 +126,9 @@ allow_anonymous true
 listener 1883
 ```
 
-
 docker-compose file
-```
+
+```docker
   mosquitto:
     image: eclipse-mosquitto
     container_name: mosquitto
@@ -132,29 +144,37 @@ docker-compose file
       - 9001:9001
     restart: unless-stopped
 ```
+
 open console to container
-```
+
+```bash
 docker-compose exec mosquitto ash
 ```
+
 in shell create password file and populate with users
-```
+
+```bash
 cd mosquitto/config
 touch pwfile
 ```
 
 populate the pwfile with user/password pairs:
-```
+
+```bash
 mosquitto_passwd -c pwfile hass
 Password:
 Reenter password:
 ```
+
 or  
-```
+
+```bash
 mosquitto_passwd -b pwfile home assistant
 ```
 
 The mosquiotto.conf can be updated to use the password file:
-```
+
+```bash
 persistence true
 persistence_location /mosquitto/data
 log_dest file /mosquitto/log/mosquitto.log
@@ -162,18 +182,21 @@ password_file /mosquitto/config/pwfile
 #allow_anonymous true
 listener 1883
 ```
+
 ### ESPHome
 
 ### Portainer
 
 create portainer folder under docker
-```
+
+```bash
 mkdir docker/portainer
 mkdir docker/portainer/data
 ```
 
 docker-compose [docker hub](https://hub.docker.com/r/portainer/portainer-ce)
-```
+
+```docker
   portainer:
     image: portainer/portainer-ce:latest
     container_name: portainer
@@ -190,12 +213,13 @@ docker-compose [docker hub](https://hub.docker.com/r/portainer/portainer-ce)
       - /var/run/docker.sock:/var/run/docker.sock
       - $DOCKERDIR/portainer/data:/data
     restart: always      
-```      
+```
 
 ### WatchTower
 
 docker-compose [watchtower](https://containrrr.dev/watchtower/)
-```
+
+```docker
   watchtower:
     image: containrrr/watchtower:latest
     volumes:
@@ -217,13 +241,17 @@ docker-compose [watchtower](https://containrrr.dev/watchtower/)
       WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PASSWORD: $SMTP_PASSWORD
       WATCHTOWER_NOTIFICATION_EMAIL_DELAY: 2
 ```
+
 containers to update:
-```
+
+```docker
 label:
   - com.centurylinklabs.watchtower.enable=true
 ```  
+
 containers to monitor:
-```
+
+```docker
 label:
   - com.centurylinklabs.watchtower.monitor-only=true
 ```
@@ -232,18 +260,19 @@ label:
 
 BeardedTinker [Portainer, Watchtower and InfluxDB for Home Assistant on Synology](https://www.youtube.com/watch?v=jtVelxopKTM&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=37)
 
-https://github.com/docker-library/docs/blob/master/influxdb/README.md
-
+<https://github.com/docker-library/docs/blob/master/influxdb/README.md>
 
 create inlfuxdb under docker
-```
+
+```bash
 mkdir docker/influxdb2
 mkdir docker/influxdb2/data
 mkdir docker/influxdb2/config
 ```
 
 docker-compose
-```
+
+```docker
   influxdb:
     image: influxdb:latest
     container_name: influxdb
@@ -270,17 +299,19 @@ docker-compose
 
 ### Grafana
 
-docker - https://hub.docker.com/r/grafana/grafana/
+docker - <https://hub.docker.com/r/grafana/grafana/>
 [installation](https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/#configure-docker-image)
 [configuration](https://grafana.com/docs/grafana/latest/setup-grafana/configure-grafana/)
 
 create grafana folder under docker
-```
+
+```bash
 mkdir docker/grafana
 ```
 
 docker-compose
-```
+
+```docker
   grafana:
     image: grafana/grafana-oss
     container_name: grafana
@@ -304,14 +335,16 @@ docker-compose
 BeardedTinker - [Home Assistant on Synology inside Docker](https://www.youtube.com/watch?v=pcnvmAOah_Y&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=38&t=505s)
 
 Create home-assistant folder under docker
-```
+
+```bash
 mkdir home-assistant
 ```
+
 docker-compose
 Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux#docker-compose)
 [linuxserver](https://docs.linuxserver.io/images/docker-homeassistant)
 
-```
+```docker
   home-assistant:
     image: lscr.io/linuxserver/homeassistant:latest
     container_name: home-assistant
@@ -331,7 +364,8 @@ Home Assistant [docker-compose](https://www.home-assistant.io/installation/linux
 ```
 
 pull and start docker
-```
+
+```bash
 docker-compose pull home-assistant
 sudo docker-compose up home-assistant -d
 ```
@@ -342,42 +376,46 @@ Smart Home Addict
 Everything Smart Home
 [NEXT LEVEL STATISTICS - Home Assistant InfluxDB and Grafana](https://www.youtube.com/watch?v=eJ-XE2tsD4U)
 
-
 BeardedTinker
-[Portainer, Watchtower and InfluxDB for Home Assistant on Synology ](https://www.youtube.com/watch?v=jtVelxopKTM&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=37)
-
+[Portainer, Watchtower and InfluxDB for Home Assistant on Synology](https://www.youtube.com/watch?v=jtVelxopKTM&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=37)
 
 BeardedTinker
 [Grafana Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=Q5t7ld2be3k&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=36)
 
 Bluetooth stack reset
-```
-$ sudo hciconfig hci0 reset
-$ sudo invoke-rc.d bluetooth restart
+
+```bash
+sudo hciconfig hci0 reset
+sudo invoke-rc.d bluetooth restart
 ```
 
 #### Migration from HASSIO to docker version
+
 BeardedTinker - [How to migrate from hassio to Home Assistant Core on Synology](https://www.youtube.com/watch?v=reg1Hf0eKTU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=9)
 
-
 ### Zigbee2MQTT
+
 Zigbee2MQTT [docker](https://www.zigbee2mqtt.io/guide/installation/02_docker.html#creating-the-initial-configuration)
 BeardedTinker [Zigbee2MQTT](https://www.youtube.com/watch?v=HbkXQErileU&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=34)
 
 Create folders under docker
-```
+
+```bash
 mkdir zigbee2mqtt
 mkdir zigbee2mqtt/data
 ```
 
 in zigbee2mqtt folder execute:
-```
+
+```bash
 docky@docky:~/docker/zigbee2mqtt$ wget https://raw.githubusercontent.com/Koenkk/zigbee2mqtt/master/data/configuration.yaml -P data
 ```
+
 it creates a configuration.yaml in data folder
 
 get zigbee module ID
-```
+
+```bash
 ls -l /dev/serial/by-id
 total 0
 lrwxrwxrwx 1 root root 13 okt   29 22:33 usb-Silicon_Labs_slae.sh_cc2652rb_stick_-_slaesh_s_iot_stuff_00_12_4B_00_23_93_3A_72-if00-port0 -> ../../ttyUSB0
@@ -385,7 +423,8 @@ lrwxrwxrwx 1 root root 13 okt   29 22:33 usb-Texas_Instruments_TI_CC2531_USB_CDC
 ```
 
 docker-compose
-```
+
+```docker
   zigbee2mqtt:
     image: koenkk/zigbee2mqtt
     container_name: zigbee2mqtt
@@ -408,37 +447,44 @@ docker-compose
 
 add user to theses groups
 [guide](https://www.zigbee2mqtt.io/guide/installation/20_zigbee2mqtt-fails-to-start.html#method-2-add-your-user-to-specific-groups)
-```
+
+```bash
 sudo usermod -a -G uucp $USER
 sudo usermod -a -G tty $USER
 sudo usermod -a -G dialout $USER
 ```
 
 test module access as docker user
-```
+
+```bash
 test -w /dev/ttyUSB0 && echo success || echo failure
 ```
+
 and with sudo
-```
+
+```bash
 sudo test -w /dev/ttyUSB0 && echo success || echo failure
 ```
+
 in docker/zigbee2mqtt/data/configuration.yaml set port
-```
+
+```docker
 serial:
   # Location of USB sniffer
   port: /dev/ttyUSB0
 ```
 
-### Node-Red 
+### Node-Red
 
-https://nodered.org/docs/getting-started/docker  
-https://hub.docker.com/r/nodered/node-red  
+<https://nodered.org/docs/getting-started/docker>  
+<https://hub.docker.com/r/nodered/node-red>  
 BeardedTinker - [Node-RED in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=YdgoIdjZtKA)  
 BurnsHA - [Node-Red in Docker with Home Assistant!!](https://www.youtube.com/watch?v=fxo5-iiwZXk)  
 [Installing Node Red in Docker for Home Assistant](https://jordanrounds.com/installing-node-red-in-docker-for-home-assistant/)
 
 docker-compose
-```
+
+```docker
   node-red:
     image: nodered/node-red:latest
     container_name: node-red
@@ -462,10 +508,10 @@ docker-compose
 
 ### GiTea
 
-https://docs.gitea.io/en-us/install-with-docker-rootless/
+<https://docs.gitea.io/en-us/install-with-docker-rootless/>
 Just Me and Opensource - [Gitea - Git with a cup of tea - Installation and Configuration](https://www.youtube.com/watch?v=y9zDbMkuXdE)
 
-```
+```docker
 # 
 # https://docs.gitea.io/en-us/install-with-docker/
 #
@@ -498,14 +544,16 @@ Just Me and Opensource - [Gitea - Git with a cup of tea - Installation and Confi
 ### Piwigo
 
 create piwigo folder under docker
-```
+
+```bash
 mkdir docker/piwigo
 mkdir docker/piwigo/config
 mkdir docker/piwigo/gallery
 ```
 
 docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-piwigo)
-```
+
+```docker
   piwigo:
     image: lscr.io/linuxserver/piwigo:latest
     container_name: piwigo
@@ -523,13 +571,13 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-piwigo)
 
 In MariaDB create piwigo_db DB (utf8mb4_general_ci)
 
-
 ### Calibre
 
 ### Calibre-web
 
 ### Cloudflared
-docker-compose https://hub.docker.com/r/erisamoe/cloudflared
+
+docker-compose <https://hub.docker.com/r/erisamoe/cloudflared>
 
 ### Diun
 
@@ -537,7 +585,8 @@ docker-compose https://hub.docker.com/r/erisamoe/cloudflared
 
 [Dozzle](https://dozzle.dev/) the docker log viewer
 docker-compose [docker hub](https://hub.docker.com/r/amir20/dozzle/)
-```
+
+```docker
   dozzle:
     container_name: dozzle
     image: amir20/dozzle:latest
@@ -546,13 +595,15 @@ docker-compose [docker hub](https://hub.docker.com/r/amir20/dozzle/)
     ports:
       - 9999:8080
 ```
+
 ### Duplicati
 
-https://www.duplicati.com/
+<https://www.duplicati.com/>
 [Home Automation Guy](https://www.youtube.com/c/HomeAutomationGuy) - [Backing up Home Assistant Container](https://www.youtube.com/watch?v=pJqPhYXeulk)
 
 [docker-compose](https://hub.docker.com/r/linuxserver/duplicati)
-```
+
+```docker
   duplicati:
     image: lscr.io/linuxserver/duplicati:latest
     container_name: duplicati
@@ -572,15 +623,18 @@ https://www.duplicati.com/
 
 ### Postgres
 
-https://hub.docker.com/_/postgres
+<https://hub.docker.com/_/postgres>
 
 create postgres folder under docker
-```
+
+```bash
 mkdir docker/postgres
 mkdir docker/postgres/data15
 ```
+
 [docker-compose](https://geshan.com.np/blog/2021/12/docker-postgres/)
-```
+
+```docker
   postgres:
     image: postgres:15
     container_name: postgres
@@ -605,13 +659,15 @@ mkdir docker/postgres/data15
 [pgadmin](https://www.pgadmin.org/download/pgadmin-4-container/)  
 
 create pgadmin folder under docker
-```
+
+```bash
 mkdir docker/pgadmin
 ```
 
-https://github.com/khezen/compose-postgres/blob/master/docker-compose.yml
-docker-compose https://hub.docker.com/r/dpage/pgadmin4/  
-```
+<https://github.com/khezen/compose-postgres/blob/master/docker-compose.yml>
+docker-compose <https://hub.docker.com/r/dpage/pgadmin4/>  
+
+```docker
   pgadmin:
     container_name: pgadmin
     image: dpage/pgadmin4
@@ -633,7 +689,8 @@ docker-compose https://hub.docker.com/r/dpage/pgadmin4/
 ### Adminer
 
 docker-compose [docker hub](https://hub.docker.com/_/adminer/)
-```
+
+```docker
   adminer:
     image: adminer:latest
     restart: always
@@ -641,21 +698,24 @@ docker-compose [docker hub](https://hub.docker.com/_/adminer/)
       - 7080:8080
     labels:
       - diun.enable=true
-```      
+```
 
 ### Vaultwarden
+
 [docker image](https://hub.docker.com/r/vaultwarden/server)
 BeardedTnker [VaultWarden self hosted password manager in Synology private cloud](https://www.youtube.com/watch?v=V3kJHoLuKxQ&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=7)
 
 Christian Lempa - [Self Hosted Password Manager - Your data under your control!](https://www.youtube.com/watch?v=ub8jj96_Q3g)
 
 create vaultwarden folder under docker:
-```
+
+```bash
 mkdir docker/vaultwarden
 ```
 
 [docker compose configuration](https://github.com/dani-garcia/vaultwarden/wiki/Using-Docker-Compose)
-```
+
+```docker
   vaultwarden:
     image: vaultwarden/server:latest
     container_name: vaultwarden
@@ -669,6 +729,7 @@ mkdir docker/vaultwarden
       - $DOCKERDIR/vaultwarden/data:/data
 
 ```
+
 Note, it needs a reverse proxy to us HTTPS.
 
 ### AdGuard
@@ -678,13 +739,14 @@ Note, it needs a reverse proxy to us HTTPS.
 ### MariaDB
 
 create mariadb folder under docker
-```
+
+```bash
 mkdir docker/mariadb
 ```
 
 docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
 
-```
+```docker
   mariadb:
     image: lscr.io/linuxserver/mariadb:latest
     container_name: mariadb
@@ -706,19 +768,21 @@ docker-compose [linuxserver](https://docs.linuxserver.io/images/docker-mariadb)
 
 ### MongoDB / Mongo Express
 
-https://hub.docker.com/_/mongo  
+<https://hub.docker.com/_/mongo>  
 [Using MongoDB with Docker](https://earthly.dev/blog/mongodb-docker/)  
 [Running MongoDB as a Docker Container](https://www.baeldung.com/linux/mongodb-as-docker-container)  
 [How To Run MongoDB as a Docker Container](https://www.bmc.com/blogs/mongodb-docker-container/)  
-https://www.mongodb.com/compatibility/docker  
+<https://www.mongodb.com/compatibility/docker>  
 
 created mongodb folder under docker
-```
+
+```bash
 mkdir docker/mongodb
 ```
 
 docker-compose
-```
+
+```docker
   mongodb:
     image: mongo:latest
     container_name: mongodb
@@ -741,7 +805,7 @@ docker-compose
 Mongo Express  
 docker-compose [image](https://hub.docker.com/_/mongo-express)  
 
-```
+```docker
   mongo-express:
     image: mongo-express:latest
     container_name: mongo-express

@@ -10,19 +10,21 @@ Setting [Cobalt2](https://github.com/Reidond/cobalt2-windows-terminal) theme for
 
 …or push an existing repository from the command line
 
-```
+```bash
 git remote add origin <https://github.com/anticam/configs.git>
 git branch -M main
 git push -u origin main
 ```
+
 ### Git
+
 Git installation, usage [GeeksForGeeks](https://www.geeksforgeeks.org/working-on-git-bash/)  
 Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)  
 | Task | Command | Description|
 | --- | --- | --- |
 | Initialize | `git init` | Initialize a new repository |
-| Checkout | `git clone repository-path` | Clone a repository |
-| Add a file | `git add filename` | Add a single file to the repository |
+| Checkout | `git clone https://github.com/anticam/configs.git` | Clone a repository |
+| Add a file | `git add main.cpp` | Add a single file (main.cpp) to the repository |
 | Add all the files | `git add *`| Add all the files to the repository |
 | Commit | `git commit -m "message"` | Commit to the HEAD |
 | Push | `git push origin master` | Copy changes to remote repository |
@@ -34,21 +36,24 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Pull | `git pull`| Update local repository from remote server. (fetch + merge) |
 | Merge | `git merge branch` | Merge branch into active branch |
 | Diff | `git diff source target` | Compare changes between source and target branches |
-| Log | `git log --author=user` | Commits of a user |
-| Log | `git log --pretty=online` ||
-| Log | `git log --graph --oneline --decorate --all` ||
+| Log | `git log --author=user` | Logs |
+| Log | `git log --author=user` ||
 | Log | `git log --name-status` ||
 | Replace | `git checkout -- filename`| Replace a local file |
 | Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
+| Trace | GIT_TRACE<br>`GIT_TRACE=1 git commit -m "message"` | for general traces|
+| Trace | GIT_TRACE_PERFORMANCE | for logging the performance data |
+| Trace | GIT_CURL_VERBOSE | for logging all curl messages, `curl -v` |
 
 [Getting Started with Git and GitHub Part 1: Intro to Git and GitHub](https://dev.to/danielstai/getting-started-with-git-and-github-part-1-intro-to-git-and-github-k7a)
-
+[Git stash](<https://www.atlassian.com/git/tutorials/saving-changes/git-stash>)
+[Git Internals - Environment Variables](https://git-scm.com/book/en/v2/Git-Internals-Environment-Variables#Debugging)
 
 ### Oh My Posh
 
 Oh My Posh [pure](https://ohmyposh.dev/docs/themes) theme
 
-```
+```powershell
 choco install oh-my-posh
 ```
 
@@ -61,20 +66,19 @@ choco install oh-my-posh
 [JetBrains Mono Font](https://www.jetbrains.com/lp/mono/)  
 [Tech Craft My FAVORITE Font for Coding & Terminal Use](https://www.youtube.com/watch?v=yKjpUCCyHu8)
 
-
-```
+```powershell
 choco install cascadia-code-nerd-font
 ```
 
 ### PowerShell
 
-```
+```powershell
 code $profile
 ```
 
 Microsoft.PowerShell_profile.ps1
 
-```
+```powershell
 oh-my-posh init pwsh --config $env:POSH_THEMES_PATH\pure.omp.json | Invoke-Expression
 ```
 
@@ -84,7 +88,7 @@ POSH_THEMES_PATH points to C:\Program Files (x86)\oh-my-posh\themes
 
 In home directory edit .bashrc
 
-```
+```bash
 eval "$(oh-my-posh --init --shell bash --config '/c/Program Files (x86)/oh-my-posh/themes/pure.omp.json')"
 ```
 
@@ -116,13 +120,14 @@ github - [samples](https://github.com/taylonr/async-programming-promises)
 Pluralsight - [JavaScript 2018 Variables and Types](https://app.pluralsight.com/library/courses/javascript-variables-types/table-of-contents)
 github - [samples](https://github.com/bmaluijb/GetYourLoanApp)  
 Pluralsight - [JavaScript: Getting Started](https://app.pluralsight.com/library/courses/javascript-getting-started/table-of-contents)  
-Pluralsight - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/javascript-fundamentals/table-of-contents) github [samples](https://github.com/wbkd/webpack-starter)    
+Pluralsight - [JavaScript Fundamentals](https://app.pluralsight.com/library/courses/javascript-fundamentals/table-of-contents) github [samples](https://github.com/wbkd/webpack-starter)
 
 ### BAS generators
 
 SAP Business Technology Platform - [Extension Generators](https://www.youtube.com/playlist?list=PLkzo92owKnVwQ-0oT78691fqvHrYXd5oN)
 [HANA Academy](https://github.com/saphanaacademy/generator-saphanaacademy-cap)
-```
+
+```bash
 npm install -g yo
 npm install -g generator-saphanaacademy-cap
 ```
@@ -138,10 +143,9 @@ SAP Gateway
 [JavaScript Tutorials](https://www.youtube.com/playlist?list=PL0eyrZgxdwhxNGMWROnaY35NLyEjTqcgB)  
 
 ### freeCodeCamp.org
+
 [Learn React from Three All-Star Instructors](https://www.freecodecamp.org/news/learn-react-from-three-all-star-instructors/)  
 [React JavaScript Framework for Beginners – Project-Based Course 08:30](https://www.youtube.com/watch?v=u6gSSpfsoOQ)  
-
-
 
 ### Code with Ania Kubóv
 
@@ -150,7 +154,7 @@ SAP Gateway
 #### Playlists
 
 | Title | --- | --- |
-| --- | --- | --- | 
+| --- | --- | --- |
 | SAP Developers - SAP Business Applicaition Studio [playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQCj7Q8438pHCKH30qd2bHp2) | --- | --- |
 | SAP Tech Videos - SAPUI5 [playlist](https://www.youtube.com/playlist?list=PLp5jfhnBM-twLxlydcJBKNdng4UXcAsj5) | --- | --- |
 | SAP TechEd 2020 - Application Development and Integratoin Track [playlist](https://www.youtube.com/playlist?list=PLI96yWErnX_o1xhc6t_oSY0VqyeTzQbNq) | --- | --- |
@@ -171,6 +175,7 @@ Developers
 | [WebSocket RFC to Cloud Using SAP Business Connector](https://developers.sap.com/tutorials/abap-websocket-rfc-bc.html) | 2022 | --- |
 
 #### OpenSAP
+
 Courses
 | Title |Year| Description|
 | --- | --- | --- |
@@ -185,8 +190,8 @@ Courses
 | [introduction to Software Development on SAP HANA](https://open.sap.com/courses/hana1) | 07.2013 | #HANA |
 | [Building Applications with SAP CAP](https://open.sap.com/courses/cp7) | 05.2020 | #CAP |
 
-
 #### CAP Java
+
 | Title | Year | Description |
 | --- | --- | --- |
 | [CAP JAVA - initialization, creating a model API testing](https://medium.com/nerd-for-tech/sap-tutorial-complete-cap-java-part-1-fc1868c7bbba) | --- | --- |
@@ -205,11 +210,12 @@ Courses
 | [CAP Java Part 14](https://bnheise.medium.com/sap-tutorial-complete-cap-java-14-4888ce2f7d45) | --- | --- |
 | [CAP Java Part 15](https://bnheise.medium.com/sap-tutorial-the-complete-cap-java-part-15-5e3b17342732) | --- | --- |
 
-
 ### Kyma
-https://github.com/SAP-samples/kyma-runtime-extension-samples
+
+<https://github.com/SAP-samples/kyma-runtime-extension-samples>
 
 ### Web Development
+
 | Site | Description| --- |
 | --- | --- | --- |
 | [HTML For Beginners The Easy Way: Start Learning HTML & CSS Today](https://html.com) | --- | --- |
@@ -223,8 +229,8 @@ https://github.com/SAP-samples/kyma-runtime-extension-samples
 | [MySQL](https://www.mysql.com/) | --- | --- |
 
 ### Rust
-Pluralsight [Rust Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-rust/table-of-contents)
 
+Pluralsight [Rust Fundamentals](https://app.pluralsight.com/library/courses/fundamentals-rust/table-of-contents)
 
 ## Docker
 
@@ -239,6 +245,8 @@ Docker commands
 | remove dangling and unused images | `sudo docker image prune -a` | --- |
 
 ## Tools
+
+### Windows
 
 #### Chocolatey
 
@@ -306,13 +314,13 @@ Install CF CLI
 
 or with Chocolatey
 
-```
+```powershell
 choco install cloudfoundry-cli
 ```
 
 Add the community repository in CF CLI
 
-```
+```powershell
 cf add-plugin-repo CF-Community <https://plugins.cloudfoundry.org>
 ```
 
@@ -337,13 +345,13 @@ Tasks
 BTP CLI for Feature set B
 [Tool](https://tools.hana.ondemand.com/#cloud)
 
-
 ### Test sites, tools
+
 [mockapi.io](https://mockapi.io) API endpoint with random data  
 JavaScript obfuscator  
-- https://javascriptobfuscator.com/  
-- https://obfuscator.io/  
 
+- <https://javascriptobfuscator.com/>  
+- <https://obfuscator.io/>  
 
 ## Resources
 
@@ -354,30 +362,31 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 
 [SAPUI5](https://sapui5.hana.ondemand.com/sdk/#/topic/5fe439613f9c4e259015951594c423dc.html)
 
-Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud ](https://developers.sap.com/tutorials/hana-cloud-cap-create-database-cds.html)
+Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud](https://developers.sap.com/tutorials/hana-cloud-cap-create-database-cds.html)
 
 ### Online Tools
+
 [Codepen](https://codepen.io/pen/)
 
-
 ### Curl
+
 curl samples [Reqbin.com](https://reqbin.com/req/c-haxm0xgr/curl-basic-auth-example)  
 
 ### XSA
+
 XSA HANA Academy [playlist](https://www.youtube.com/playlist?list=PLkzo92owKnVwL3AWaWVbFVrfErKkMY02a)
 
 ### Password generators
 
 #### Ubuntu
 
-https://itsfoss.com/password-generators-linux/
+<https://itsfoss.com/password-generators-linux/>
 
 pwgen
-```
-sudo apt install pwgen
-```
-usage
-```
+
+```bash
+$ sudo apt install pwgen
+
 $ pwgen
 Zeihied3 rie4eiPh ChuG2ua5 coh8UGai aeF2eepa aiPee0ya erohD6va aPah7oaz
 AX3cihag Nei5gie8 ooveeR3i Eel3shu2 Bah4eoph Quiefuu5 IuF6ooph es1Raeri
@@ -385,27 +394,25 @@ chef8huF bahh9ahP Juko8oe2 yaaPhee4 eehohr2I Quahqui0 Iet8aeZo oCoh2eel
 ```
 
 xkcdpass
-```
-sudo apt install xkcdpass
-```
 
-usage
-```
+```bash
+$ sudo apt install xkcdpass
+
 $ xkcdpass
 supreme overlord proven tipping purge outflank
 ```
 
 diceware
-```
-sudo apt install diceware
-```
 
-usage
-```
+```bash
+$ sudo apt install diceware
+
 $ diceware
 FidelityCringingCollideJiffyAvidVertical
 ```
+
 ### Links
+
 OAuth2 [Authentication flows](./authflows.md)  
 Docker setup [docker-compose](./docker.md)  
 Projects [projects](./projects.md)  
