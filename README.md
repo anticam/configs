@@ -411,6 +411,12 @@ diceware
 FidelityCringingCollideJiffyAvidVertical
 ```
 
+### Markdown
+
+[Markdown Style Guide](https://cirosantilli.com/markdown-style-guide/#option-code-fenced)
+[Rules](https://github.com/DavidAnson/markdownlint/blob/v0.26.2/doc/Rules.md#md033)
+[Arctic Ice Code Style](https://arcticicestudio.github.io/styleguide-markdown/rules/code.html)
+
 ### Links
 
 OAuth2 [Authentication flows](./authflows.md)  
