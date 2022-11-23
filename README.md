@@ -173,6 +173,7 @@ Developers
 | CAP samples [github](https://github.com/SAP-samples/cloud-cap-samples) | --- | --- |
 | [Get Started with the SAP HANA Database Explorer](https://developers.sap.com/group.hana-cloud-get-started.html) | --- | --- |
 | [WebSocket RFC to Cloud Using SAP Business Connector](https://developers.sap.com/tutorials/abap-websocket-rfc-bc.html) | 2022 | --- |
+| [SAP BTP: Application Development and Integration](https://www.youtube.com/playlist?list=PL6RpkC85SLQAgUp1CE8YFr6ByfHw8y3eu) | --- | --- |
 
 #### OpenSAP
 
