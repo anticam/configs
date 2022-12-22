@@ -412,6 +412,28 @@ diceware
 FidelityCringingCollideJiffyAvidVertical
 ```
 
+### NPM
+Versioning
+major.minor.patch
+express 4.17.3
+
+Manual package update
+```bash
+npm outdated
+npm update
+```
+
+Automatic minor/patch update
+```bash
+express ^4.17.3
+caret updates minor
+
+express ~4.17.3
+tiled updates patch
+```
+
+
+
 ### Markdown
 
 [Markdown Style Guide](https://cirosantilli.com/markdown-style-guide/#option-code-fenced)
