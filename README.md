@@ -445,6 +445,7 @@ tiled updates patch
 OAuth2 [Authentication flows](./authflows.md)  
 Docker setup [docker-compose](./docker.md)  
 Projects [projects](./projects.md)  
+[Protocols](./protocols.md)
 
 ```mermaid
 sequenceDiagram
