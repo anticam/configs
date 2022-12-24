@@ -35,6 +35,7 @@
 - [ ] Bookstack
 - [ ] Fail2Ban
 - [ ] DokuWiki
+- [ ] Syncthing
 
 ### Deluge
 
@@ -826,3 +827,9 @@ docker-compose [image](https://hub.docker.com/_/mongo-express)
       - com.centurylinklabs.watchtower.monitor-only=true      
     restart: unless-stopped
 ```
+
+### Syncthing
+[Syncthing](https://syncthing.net/)
+[Docker](https://hub.docker.com/r/linuxserver/syncthing)
+
+
