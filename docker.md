@@ -36,6 +36,8 @@
 - [ ] Fail2Ban
 - [ ] DokuWiki
 - [ ] Syncthing
+- [ ] Heimdall - Application Dashboard
+- [ ] Wiki.js
 
 ### Deluge
 
@@ -832,4 +834,11 @@ docker-compose [image](https://hub.docker.com/_/mongo-express)
 [Syncthing](https://syncthing.net/)
 [Docker](https://hub.docker.com/r/linuxserver/syncthing)
 
+### Heimdall - Application Dashboard
+[Docker](https://hub.docker.com/r/linuxserver/heimdall)
+[Heimdall](https://github.com/linuxserver/Heimdall)
+
+### Wiki.js
+[Docker](https://hub.docker.com/r/linuxserver/wikijs)
+[Wiki.js](https://js.wiki/)
 
