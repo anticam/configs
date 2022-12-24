@@ -15,6 +15,24 @@ git remote add origin <https://github.com/anticam/configs.git>
 git branch -M main
 git push -u origin main
 ```
+### Neovim
+
+Install neovim
+```bash
+choco install neovim
+```
+
+check config path
+```bash
+:echo stdpath('config)
+C:\Users\<user>\AppData\Local\nvim
+```
+put [init.lua](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua) to config path
+```bash
+C:\Users\<user>\AppData\Local\nvim\init.lua
+```
+
+next start, plugins will be installed
 
 ### Git
 
