@@ -28,3 +28,9 @@ FEWD Professional certificate
 [W3C cheatsheet application](https://dev.w3.org/2009/cheatsheet/doc/)  
 
 
+W3C
+[Web INcubator CG](https://wicg.io/)
+[W3C Github repo](https://github.com/w3c/)
+
+[Tips for Geting Started with Web Accessibility](https://www.w3.org/WAI/tips/)
+[Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
