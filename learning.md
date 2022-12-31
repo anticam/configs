@@ -26,6 +26,7 @@ FEWD Professional certificate
 [Internationalization Checker](https://validator.w3.org/i18n-checker/)  
 [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/)  
 [W3C cheatsheet application](https://dev.w3.org/2009/cheatsheet/doc/)  
+[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)
 
 
 W3C
@@ -34,3 +35,4 @@ W3C
 
 [Tips for Geting Started with Web Accessibility](https://www.w3.org/WAI/tips/)
 [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
+[UnicodeG(https://www.w3.org/International/articles/definitions-characters/index.en#charsets)
