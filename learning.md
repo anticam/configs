@@ -36,3 +36,64 @@ W3C
 [Tips for Geting Started with Web Accessibility](https://www.w3.org/WAI/tips/)
 [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 [Unicode](https://www.w3.org/International/articles/definitions-characters/index.en#charsets)
+
+
+Mathematics - 3BLUE1BROWN
+Python - Corey Schafer
+SQL - Joey Blue
+
+ML/AI - Sentdex
+
+#### Coding Practice
+[Hacker Rank](https://www.hackerrank.com/)
+[CodeChef](https://www.codechef.com/)
+[HackerEarth](https://www.hackerearth.com/)
+[Codeforces](https://codeforces.com/)
+[TopCoder](https://www.topcoder.com/)
+[Leetcode](https://leetcode.com/)
+
+#### Websites
+[W3Schools](https://www.w3schools.com/)
+[Geeksforgeeks](https://www.geeksforgeeks.org/)
+[Tutorialspoint](https://www.tutorialspoint.com/)
+[Javatpoint](https://www.javatpoint.com/)
+[Programiz](https://www.programiz.com/)
+[freeCodeCamp](https://www.freecodecamp.org/)
+
+
+#### Youtube Channels
+[CodeWithHAary](https://www.youtube.com/@CodeWithHarry)
+[freeCodeCamp](https://www.youtube.com/@freecodecamp)
+[TraversyMedia](https://www.youtube.com/@TraversyMedia)
+[Clever Programmer](https://www.youtube.com/@CleverProgrammer)
+[Telusko](https://www.youtube.com/@Telusko)
+[mycodeschool](https://www.youtube.com/user/mycodeschool)
+
+
+
+#### MQ Practice
+Geeksforgeeks
+examveda
+sanfoundry
+indiabix
+avato
+cppbuzz
+
+
+#### Apps
+SoloLearn
+Mimo
+W3Schols
+Grasshopper
+Programming Hub
+Datacamp
+
+
+#### Code Snippets
+Web Tools
+Codepen
+CSSDeck
+Codepad
+Snipplr
+Free Frontend
+
