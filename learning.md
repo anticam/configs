@@ -97,3 +97,7 @@ ML/AI - Sentdex
 - Snipplr
 - Free Frontend
 
+#### API testing
+- [Webhook.site](https://webhook.site)  
+- [Reqbin](https://reqbin.com/)  
+- [Ngrok](https://ngrok.com/) - ingress  
