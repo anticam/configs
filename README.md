@@ -450,6 +450,42 @@ express ~4.17.3
 tiled updates patch
 ```
 
+### CLI tools
+```bash
+sudo apt install figlet
+figlet hello
+
+ _   _ _____ _     _     ___
+| | | | ____| |   | |   / _ \
+| |_| |  _| | |   | |  | | | |
+|  _  | |___| |___| |__| |_| |
+|_| |_|_____|_____|_____\___/
+
+
+sudo apt install cmatrix
+
+sudo apt install hollywood
+
+sudo apt install libaa-bin
+aafire
+
+sudo apt install rig
+
+telnet telehack.com
+.starwars
+
+telnet mpascii.me
+
+telnet freechess.org
+
+
+
+
+
+
+
+
+```
 
 
 ### Markdown
