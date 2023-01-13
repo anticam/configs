@@ -3,6 +3,7 @@
 ## Smart home improvements
 
 - [ ] Hunter Extension
+- [ ] ABB Terra AC
 
 ### Hunter extension with ESP32
 
@@ -29,3 +30,9 @@ Hunger Roam [Wifi](https://github.com/ecodina/hunter-wifi)
 ### Traefik
 
 [Traefik](https://kallan.dev/posts/2020/10/how-to-use-traefik-v2-with-home-assistant/)
+
+
+### ABB Terr AC
+Local OCPP integration
+https://new.abb.com/ev-charging/terra-ac-wallbox/digital-tools
+https://abb.installer.chargedot.com/#/login
