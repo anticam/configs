@@ -33,6 +33,11 @@ W3C
 [Web INcubator CG](https://wicg.io/)
 [W3C Github repo](https://github.com/w3c/)
 
+
+[SAPUI5 - App Development Using SAP BAS](https://sapui5.hana.ondemand.com/#/topic/6bbad66475d040f39df6fbbaabe6f40f.html)  
+[Github - CAP Feature ShowCase](https://github.com/SAP-samples/fiori-elements-feature-showcase)  
+
+
 [Tips for Geting Started with Web Accessibility](https://www.w3.org/WAI/tips/)
 [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
 [Unicode](https://www.w3.org/International/articles/definitions-characters/index.en#charsets)
