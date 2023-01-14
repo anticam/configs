@@ -40,7 +40,9 @@ W3C
 
 [Tips for Geting Started with Web Accessibility](https://www.w3.org/WAI/tips/)
 [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/)
-[Unicode](https://www.w3.org/International/articles/definitions-characters/index.en#charsets)
+[Unicode](https://www.w3.org/International/articles/definitions-characters/index.en#charsets)  
+
+[Blog - SAP Cloud Platform Backend service - overview of blogs](https://blogs.sap.com/2019/02/19/sap-cloud-platform-backend-service-overview-of-blogs/)  
 
 
 Mathematics - 3BLUE1BROWN
