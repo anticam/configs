@@ -297,6 +297,7 @@ Tool list
 | [Notepad++ plugin manager](https://github.com/chtof/chocolatey-packages/tree/master/automatic/notepadplusplus-npppluginmanager) | `choco install npppluginmanager` | --- |
 | [Obsidian](https://obsidian.md/) | `choco install obsidian` | Note organizer |
 | [Oh-My-Posh](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
+| [Pack](https://github.com/buildpacks/pack) | `choco install pack` | buildpack CLI |
 | [Postman for Windows](https://www.postman.com/) | `choco install postman` ||
 | [Python 3.x](https://www.python.org/downloads/) | `choco install python3`| ---|
 | [SAPMachine JDK 11](https://sap.github.io/SapMachine/) | `choco install sapmachine11` | --- |
