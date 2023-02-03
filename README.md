@@ -277,6 +277,7 @@ Tool list
 | [Advanced IP Scanner](https://www.advanced-ip-scanner.com/)| `choco install advanced-ip-scanner` | |
 | [Cascadia Font Nerd](https://www.nerdfonts.com/font-downloads) | `choco install cascadia-code-nerd-font` | --- |
 | [CMake](https://cmake.org/cmake/help/v2.8.1/cmake.html) | `choco install cmake`  | --- |
+| [DBeaver](https://dbeaver.io/) | `choco install dbeaver` | --- |
 | [Ditto Clipboard](https://ditto-cp.sourceforge.io/) | `choco install ditto` | --- |
 | [Everything](https://www.voidtools.com/) | `choco install everything`| --- |
 | [Git](https://gitforwindows.org/) | `choco install git` | Git Bash, openssl |
