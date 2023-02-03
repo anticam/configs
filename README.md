@@ -15,19 +15,24 @@ git remote add origin <https://github.com/anticam/configs.git>
 git branch -M main
 git push -u origin main
 ```
+
 ### Neovim
 
 Install neovim
+
 ```bash
 choco install neovim
 ```
 
 check config path
+
 ```bash
 :echo stdpath('config)
 C:\Users\<user>\AppData\Local\nvim
 ```
+
 put [init.lua](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua) to config path
+
 ```bash
 C:\Users\<user>\AppData\Local\nvim\init.lua
 ```
@@ -388,6 +393,10 @@ Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud](https://dev
 ### Online Tools
 
 [Codepen](https://codepen.io/pen/)
+[CodeSandbox](https://codesandbox.io/)
+[JSPen](https://jspen.co/home)
+[PlayCode](<https://playcode.io/>)
+[RunJS](https://runjs.co/)
 
 ### Curl
 
@@ -433,17 +442,20 @@ FidelityCringingCollideJiffyAvidVertical
 ```
 
 ### NPM
+
 Versioning
 major.minor.patch
 express 4.17.3
 
 Manual package update
+
 ```bash
 npm outdated
 npm update
 ```
 
 Automatic minor/patch update
+
 ```bash
 express ^4.17.3
 caret updates minor
@@ -453,6 +465,7 @@ tiled updates patch
 ```
 
 ### CLI tools
+
 ```bash
 sudo apt install figlet
 figlet hello
@@ -479,16 +492,7 @@ telnet telehack.com
 telnet mpascii.me
 
 telnet freechess.org
-
-
-
-
-
-
-
-
 ```
-
 
 ### Markdown
 
