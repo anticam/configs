@@ -51,6 +51,8 @@ SQL - Joey Blue
 
 ML/AI - Sentdex
 
+[Flavio books](https://flaviocopes.com/books/)
+
 #### Coding Practice
 - [Hacker Rank](https://www.hackerrank.com/)
 - [CodeChef](https://www.codechef.com/)
