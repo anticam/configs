@@ -110,3 +110,10 @@ ML/AI - Sentdex
 - [Webhook.site](https://webhook.site)  
 - [Reqbin](https://reqbin.com/)  
 - [Ngrok](https://ngrok.com/) - ingress  
+
+#### Missions
+
+[Combine CAP with SAP HANA Cloud to Create Full-Stack Applicationsg(https://developers.sap.com/mission.hana-cloud-cap.html)  
+SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playlist?list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_)  
+[CDS Core Documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/core-data-and-services-cds-language-reference-documentation)  
+
