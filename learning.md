@@ -117,3 +117,5 @@ ML/AI - Sentdex
 SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playlist?list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_)  
 [CDS Core Documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/core-data-and-services-cds-language-reference-documentation)  
 
+[Extend the Object Page by Adding More Functionality](https://developers.sap.com/tutorials/fiori-tools-cap-modify-object-page.html)  
+
