@@ -119,3 +119,10 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 [Extend the Object Page by Adding More Functionality](https://developers.sap.com/tutorials/fiori-tools-cap-modify-object-page.html)  
 
+
+#### OpenSAP
+[EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)  
+
+[Developing and Extending SAP Fiori Elements Apps 2021](https://open.sap.com/courses/fiori-ea1)  
+[Github - Fiori elements](https://github.com/SAP-samples/fiori-elements-opensap)  
+
