@@ -130,3 +130,6 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 #### Fiori/SPUI5/OpenUI5
 [SAP Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/)  
 
+
+#### Help page
+[Migration Tables (.hdbmigrationtable)](https://help.sap.com/docs/HANA_CLOUD_DATABASE/c2cc2e43458d4abda6788049c58143dc/52d1f5acfa754a7887e21226641eb261.html)
