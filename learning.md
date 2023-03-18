@@ -113,6 +113,13 @@ ML/AI - Sentdex
 
 ### OData services
 Northwind OData service: https://services.odata.org/  
+OData version 2: https://services.odata.org/v2/northwind/northwind.svc/  
+OData version 4: https://services.odata.org/v4/northwind/northwind.svc/  
+
+Categories in XML format: https://services.odata.org/v2/northwind/northwind.svc/Categories  
+Categories in JSON format: https://services.odata.org/v2/northwind/northwind.svc/Categories?$format=json  
+metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata  
+
 
 #### Missions
 
