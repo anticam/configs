@@ -93,6 +93,11 @@ choco install oh-my-posh
 choco install cascadia-code-nerd-font
 ```
 
+### Chrome Extensions
+JSON Viewer Pro : https://chrome.google.com/webstore/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc  
+JSON Viewer : https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh  
+
+
 ### PowerShell
 
 ```powershell
