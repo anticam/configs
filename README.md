@@ -303,6 +303,7 @@ Tool list
 | [Keystore explorer](http://keystore-explorer.org/) | `choco install keystore-explorer.portable` ||
 | [Maven](https://maven.apache.org/) | `choco install maven` | --- |
 | [Miller](https://github.com/johnkerl/miller) | `choco install miller` | CSV tool |
+| [MQTT-Explorer](http://mqtt-explorer.com/) | `choco install mqtt-explorer` | MQTT Explorer |
 | [Nmap](https://nmap.org/) | `choco install nmap` | network tool |
 | [Notepad++](https://notepad-plus-plus.org/) | `choco install notepadplusplus` | --- |
 | [Notepad++ plugin manager](https://github.com/chtof/chocolatey-packages/tree/master/automatic/notepadplusplus-npppluginmanager) | `choco install npppluginmanager` | --- |
