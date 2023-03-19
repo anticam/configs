@@ -111,7 +111,8 @@ ML/AI - Sentdex
 - [Reqbin](https://reqbin.com/)  
 - [Ngrok](https://ngrok.com/) - ingress  
 
-### OData services
+### OData
+OData vocabularies: https://github.com/SAP/odata-vocabularies  
 Northwind OData service: https://services.odata.org/  
 OData version 2: https://services.odata.org/v2/northwind/northwind.svc/  
 OData version 4: https://services.odata.org/v4/northwind/northwind.svc/  
