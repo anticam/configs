@@ -57,7 +57,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Delete branch | `git branch -d branch-name` | Delete branch |
 | Push branch | `git push origin branch` | Branch is available in remote repository |
 | Pull | `git pull`| Update local repository from remote server. (fetch + merge) |
-| Merge | `git merge branch` | Merge branch into active branch |
+| Merge | `git merge branch` | Merge branch into active branch, includes all the Git commits in the history of target branch. |
 | Diff | `git diff source target` | Compare changes between source and target branches |
 | Log | `git log --author=user` | Logs |
 | Log | `git log --author=user` ||
@@ -67,7 +67,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
 | Show| `git show <commit> --stat`| Show what happend in a specific commit |
 | Show | `git show <commit> -- <path to file>`| Show changes in a specific file |
-| Squash | | [merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c) |
+| Squash | | [merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c). Flattens all the Git commits to one commit in the target branch. |
 | Trace | GIT_TRACE<br>`GIT_TRACE=1 git commit -m "message"` | for general traces|
 | Trace | GIT_TRACE_PERFORMANCE | for logging the performance data |
 | Trace | GIT_CURL_VERBOSE | for logging all curl messages, `curl -v` |
