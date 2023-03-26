@@ -62,6 +62,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Log | `git log --author=user` | Logs |
 | Log | `git log --author=user` ||
 | Log | `git log --name-status` ||
+| Log | 'git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all' ||
 | Replace | `git checkout -- filename`| Replace a local file |
 | Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
 | Trace | GIT_TRACE<br>`GIT_TRACE=1 git commit -m "message"` | for general traces|
