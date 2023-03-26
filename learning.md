@@ -82,6 +82,10 @@ ML/AI - Sentdex
 ### Frameworks
 [Sevelte - CYBERNETICALLY ENHANCED WEB APPS](https://svelte.dev/)  
 
+### gPRC
+https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2a7c9a349  
+[gPRC vs REST](https://github.com/anthonydmays/grpc-vs-rest)  
+
 #### MQ Practice
 - Geeksforgeeks
 - examveda
