@@ -67,7 +67,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
 | Show| `git show <commit> --stat`| Show what happend in a specific commit |
 | Show | `git show <commit> -- <path to file>`| Show changes in a specific file |
-| Squash | | [merge vs squach](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c) |
+| Squash | | [merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c) |
 | Trace | GIT_TRACE<br>`GIT_TRACE=1 git commit -m "message"` | for general traces|
 | Trace | GIT_TRACE_PERFORMANCE | for logging the performance data |
 | Trace | GIT_CURL_VERBOSE | for logging all curl messages, `curl -v` |
