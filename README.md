@@ -49,7 +49,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Checkout | `git clone https://github.com/anticam/configs.git` | Clone a repository |
 | Add a file | `git add main.cpp` | Add a single file (main.cpp) to the repository |
 | Add all the files | `git add *`| Add all the files to the repository |
-| Commit | `git commit -m "message"` | Commit to the HEAD |
+| Commit | `git commit -m "message"` | Commit to the HEAD. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) |
 | Push | `git push origin master` | Copy changes to remote repository |
 | Connect | `git remote add origin <server>`| Connect to a remote repository |
 | Branch | `git checkout -b branch-name` | Create a new branch |
