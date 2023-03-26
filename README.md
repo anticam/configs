@@ -65,7 +65,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Log | `git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all'` ||
 | Replace | `git checkout -- filename`| Replace a local file |
 | Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
-| Show| `git show <commit> --stat`| Show what happend in a specific commit |
+| Show| `git show <commit> --stat`| Show what happened in a specific commit |
 | Show | `git show <commit> -- <path to file>`| Show changes in a specific file |
 | Squash | | [merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c). Flattens all the Git commits to one commit in the target branch. |
 | Trace | GIT_TRACE<br>`GIT_TRACE=1 git commit -m "message"` | for general traces|
