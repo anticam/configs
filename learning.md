@@ -79,6 +79,8 @@ ML/AI - Sentdex
 - [mycodeschool](https://www.youtube.com/user/mycodeschool)
 
 
+### Frameworks
+[Sevelte - CYBERNETICALLY ENHANCED WEB APPS](https://svelte.dev/)  
 
 #### MQ Practice
 - Geeksforgeeks
