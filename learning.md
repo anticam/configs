@@ -117,6 +117,12 @@ https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2
 - [Reqbin](https://reqbin.com/)  
 - [Ngrok](https://ngrok.com/) - ingress  
 
+
+#### IP / Port test
+[Whatsmydns.net](https://www.whatsmydns.net/) 
+[Host / port checker](https://www.host-tracker.com/)  
+
+
 ### OData
 OData vocabularies: https://github.com/SAP/odata-vocabularies  
 Northwind OData service: https://services.odata.org/  
