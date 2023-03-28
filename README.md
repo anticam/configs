@@ -516,7 +516,8 @@ telnet freechess.org
 OAuth2 [Authentication flows](./authflows.md)  
 Docker setup [docker-compose](./docker.md)  
 Projects [projects](./projects.md)  
-[Protocols](./protocols.md)
+[Protocols](./protocols.md)  
+[Bench](./bench.md)  
 
 ```mermaid
 sequenceDiagram
