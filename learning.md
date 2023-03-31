@@ -150,7 +150,7 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [Developing and Extending SAP Fiori Elements Apps 2021](https://open.sap.com/courses/fiori-ea1)  
 [Github - Fiori elements](https://github.com/SAP-samples/fiori-elements-opensap)  
 
-#### LinkedIN
+#### LinkedIn
 [React.js: Building n Interface](https://www.linkedin.com/learning/react-js-building-an-interface-8551484/why-react-is-so-important?autoplay=true&save=true&u=57692769)  
 
 #### Fiori/SPUI5/OpenUI5
