@@ -152,6 +152,8 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 #### LinkedIn
 [React.js: Building n Interface](https://www.linkedin.com/learning/react-js-building-an-interface-8551484/why-react-is-so-important?autoplay=true&save=true&u=57692769)  
+#### Tools
+[CLI Tool Examples, CDS](https://github.com/SAP-samples/hana-developer-cli-tool-example#cds)  
 
 #### Fiori/SPUI5/OpenUI5
 [SAP Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/)  
