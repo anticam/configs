@@ -167,3 +167,9 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 #### Resource
 Free photos: [Unsplash](https://unsplash.com/)  
+
+#### Blogs
+[Introducing Resilience in the SAP Cloud SDK Version 3.0](https://blogs.sap.com/2023/02/28/introducing-resilience-in-the-sap-cloud-sdk-version-3.0/)  
+[SAP Cloud SDK Overview - 2017](https://blogs.sap.com/2017/05/10/first-steps-with-sap-s4hana-cloud-sdk/)  
+[Getting started with SAP iRPA 2.0 – Updated 2022](https://blogs.sap.com/2022/09/01/getting-started-with-sap-irpa-2.0-updated-2022/)  
+
