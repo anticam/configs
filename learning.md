@@ -142,7 +142,7 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 [Extend the Object Page by Adding More Functionality](https://developers.sap.com/tutorials/fiori-tools-cap-modify-object-page.html)  
 [Create a CF App Using SAP Cloud SDK](https://developers.sap.com/mission.cloudsdk-cf-app.html)  
-
+[Build an Application in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)  
 
 #### OpenSAP
 [EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)  
