@@ -144,6 +144,10 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [Create a CF App Using SAP Cloud SDK](https://developers.sap.com/mission.cloudsdk-cf-app.html)  
 [Build an Application in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)  
 
+
+#### Github SAP-samples
+[On Standalone Application Router using HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime)  
+
 #### OpenSAP
 [EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)  
 
