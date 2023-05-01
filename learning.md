@@ -113,6 +113,23 @@ https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2
 - Snipplr
 - Free Frontend
 
+#### Useful websites
+[Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code  
+[Regulex](https://jex.im/regulex/#!flags=&re=(((%3F%3D.*%5Cd)((%3F%3D.*%5Ba-z%5D)%7C(%3F%3D.*%5BA-Z%5D)))%7C(%3F%3D.*%5Ba-z%5D)(%3F%3D.*%5BA-Z%5D))%5E%5Ba-zA-Z%5Cd%5D%7B6%2C12%7D%24) - JavaScript Regular Expression visualizer  
+[Unsplash](https://unsplash.com/) - Random image  
+[Tinypng](https://tinypng.com/) - Smart WebP, PNG and JPEG compression  
+[Codepen](https://codepen.io/) - The best place to build, test, and discover front-end code  
+[Ionic](https://ionic.io/) - Open source icons  
+[Color hunt](https://colorhunt.co/palettes/pastel) - Super practical palette  
+[Can I use](https://caniuse.com/) - Browser compatibility  
+[DevDocs](https://devdocs.io/)  
+[CDNJS](https://cdnjs.com/) - Find open sourc libraries  
+[Removebg](https://www.remove.bg/) - Remove Image Background  
+[Readme](https://readme.so/editor) - The easiest way to create a README file  
+[GTmetrix](https://gtmetrix.com/) - How fast does your website load?  
+[Photopea](https://www.photopea.com/) - Edit pictures online  
+[manypixels](https://www.manypixels.co/gallery) - Royalty-free illustrations  
+
 #### API testing
 - [Webhook.site](https://webhook.site)  
 - [Reqbin](https://reqbin.com/)  
