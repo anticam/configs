@@ -182,6 +182,7 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 #### Annontations
 [A deep dive into OData and CDS annotations](https://qmacro.org/blog/posts/2023/03/10/a-deep-dive-into-odata-and-cds-annotations/)  
+[[Part – 1] Enrich CAP based Services with Behaviors using Annotations](https://anginfotech.com/part-1-enrich-cap-based-services-with-behaviors-using-annotations/)  
 
 #### ABAP
 [Learning ABAP Programming](https://training.sap.com/content/ABAP-programming-training)  
