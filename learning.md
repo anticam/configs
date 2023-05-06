@@ -180,6 +180,9 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 #### Fiori/SPUI5/OpenUI5
 [SAP Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/)  
 
+#### Annontations
+[A deep dive into OData and CDS annotations](https://qmacro.org/blog/posts/2023/03/10/a-deep-dive-into-odata-and-cds-annotations/)  
+
 #### ABAP
 [Learning ABAP Programming](https://training.sap.com/content/ABAP-programming-training)  
 [Learn the ABCs of ABAP Programming on SAP BTP](https://learning.sap.com/learning-journey/learn-the-abcs-of-abap-programming-on-sap-btp)  
