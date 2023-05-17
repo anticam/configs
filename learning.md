@@ -167,7 +167,8 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [On Standalone Application Router using HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime)  
 
 #### OpenSAP
-[EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)  
+[EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)
+[SAP -archive Cloud CAP Node.js Codejam](https://github.com/SAP-archive/cloud-cap-nodejs-codejam)  
 
 [Developing and Extending SAP Fiori Elements Apps 2021](https://open.sap.com/courses/fiori-ea1)  
 [Github - Fiori elements](https://github.com/SAP-samples/fiori-elements-opensap)  
