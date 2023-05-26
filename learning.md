@@ -162,6 +162,12 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [Create a CF App Using SAP Cloud SDK](https://developers.sap.com/mission.cloudsdk-cf-app.html)  
 [Build an Application in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)  
 
+#### Multi tenant
+[2020 - Getting Started with Multitenant Business Applications on SAP BTP | Hands-on Video Tutorials](https://blogs.sap.com/2020/09/25/getting-started-with-multitenant-business-applications-on-sap-cloud-platform-hands-on-video-tutorials/)  
+[2021 - Multitenant Business Applications with CAP | Hands-on Video Tutorials](https://blogs.sap.com/2021/06/03/getting-started-with-multitenant-business-applications-on-sap-btp-continued-hands-on-video-tutorials/)  
+
+
+
 
 #### Github SAP-samples
 [On Standalone Application Router using HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime)  
