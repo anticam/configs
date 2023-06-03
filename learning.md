@@ -175,7 +175,7 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 #### HANA Academy
 [SAP Business Technology Platform - Multitenant Business Applications](https://www.youtube.com/playlist?list=PLkzo92owKnVx3Sh0nemX8GoSNzJGfsWJM)  
 [SAP Business Technology Platform Partner Developer Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVzkp61Nyw1qXLKKC-Aeo1Hm)  
-
+[SAP Business Technology Platform Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVw3l4fqcLoQalyFi9K4-UdY)  
 
 #### Github SAP-samples
 [On Standalone Application Router using HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime)  
