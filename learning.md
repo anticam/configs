@@ -164,7 +164,13 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 [Mission CAP](https://developers.sap.com/mission.cp-starter-extensions-cap.html)  
 [Mission CAP service deploy](https://developers.sap.com/tutorials/cap-service-deploy.html)  
+[Mission CAP Java - Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)  
+[Github - SAP-samples - CAP Java])(https://github.com/SAP-samples/cloud-cap-samples-java)  
 
+#### 10 min IT tutorials
+[Cloud Application Programming Model - CAPM](https://www.youtube.com/playlist?list=PLKSPsENL3CxyZk37Jrv1Ve40_n8_gPier)  
+[SAPUI5 - From beginner to expert !!](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb)  
+[SAP CAP Model - Intermediate and Advanced](https://www.youtube.com/playlist?list=PLKSPsENL3Cxyd_cF-1oBXtcmFBljr-MZ3)  
 
 #### Multi tenant
 [2020 - Getting Started with Multitenant Business Applications on SAP BTP | Hands-on Video Tutorials](https://blogs.sap.com/2020/09/25/getting-started-with-multitenant-business-applications-on-sap-cloud-platform-hands-on-video-tutorials/)  
