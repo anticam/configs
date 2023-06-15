@@ -56,7 +56,7 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Branch | `git branch -r`| Show remote  branches |
 | Branch | `git branch -a`| Show local and remote branches |
 | Branch | `git checkout -b branch-name` | Create a new branch |
-| Branch | `git branch checkout branchname`| Switch to branch "branchname" |
+| Branch | `git  checkout branchname`| Switch to branch "branchname" |
 | Branch master | `git checkout master` | Switch to master branch |
 | Delete branch | `git branch -d branch-name` | Delete branch |
 | Push branch | `git push origin branch` | Branch is available in remote repository |
