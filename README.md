@@ -46,13 +46,17 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Task | Command | Description|
 | --- | --- | --- |
 | Initialize | `git init` | Initialize a new repository |
-| Checkout | `git clone https://github.com/anticam/configs.git` | Clone a repository |
+| Checkout | `git clone https://github.com/anticam/configs.git` | Clone a repository, a new folder configs created |
 | Add a file | `git add main.cpp` | Add a single file (main.cpp) to the repository |
 | Add all the files | `git add *`| Add all the files to the repository |
 | Commit | `git commit -m "message"` | Commit to the HEAD. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) |
 | Push | `git push origin master` | Copy changes to remote repository |
 | Connect | `git remote add origin <server>`| Connect to a remote repository |
+| Branch | `git branch`| Show local branches |
+| Branch | `git branch -r`| Show remote  branches |
+| Branch | `git branch -a`| Show local and remote branches |
 | Branch | `git checkout -b branch-name` | Create a new branch |
+| Branch | `git branch checkout branchname`| Switch to branch "branchname" |
 | Branch master | `git checkout master` | Switch to master branch |
 | Delete branch | `git branch -d branch-name` | Delete branch |
 | Push branch | `git push origin branch` | Branch is available in remote repository |
