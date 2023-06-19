@@ -479,6 +479,29 @@ express ~4.17.3
 tiled updates patch
 ```
 
+npm - how to list outdated global packages
+```
+npm outdated -g
+```
+
+
+npm - how to update all global packages
+```
+npm update -g
+```
+
+npm - how to update a specific global package
+```
+npm update -g <package name>
+```
+
+How to update all global packages to the latest version:
+```
+npx npm-check --global --update-all
+```
+
+
+
 ### CLI tools
 
 ```bash
