@@ -19,15 +19,16 @@ FEWD Professional certificate
 5. [Codesandbox.io](https://codesandbox.io/)  
 
 #### Validators
-[MDN Web Docs](https://developer.mozilla.org/)  
-[W3C Validator](https://validator.w3.org/)  
-[CSS Validator](https://jigsaw.w3.org/css-validator/)  
-[Unicorn](https://validator.w3.org/unicorn/)  
-[Link Checker](https://validator.w3.org/checklink)  
-[Internationalization Checker](https://validator.w3.org/i18n-checker/)  
-[W3C cheatsheet](https://www.w3.org/2009/cheatsheet/)  
-[W3C cheatsheet application](https://dev.w3.org/2009/cheatsheet/doc/)  
-[W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)
+
+* [MDN Web Docs](https://developer.mozilla.org/)  
+* [W3C Validator](https://validator.w3.org/)  
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)  
+* [Unicorn](https://validator.w3.org/unicorn/)  
+* [Link Checker](https://validator.w3.org/checklink)  
+* [Internationalization Checker](https://validator.w3.org/i18n-checker/)  
+* [W3C cheatsheet](https://www.w3.org/2009/cheatsheet/)  
+* [W3C cheatsheet application](https://dev.w3.org/2009/cheatsheet/doc/)  
+* [W3C Internationalization Checker](https://validator.w3.org/i18n-checker/)
 
 
 W3C
@@ -131,17 +132,20 @@ https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2
 [manypixels](https://www.manypixels.co/gallery) - Royalty-free illustrations  
 
 #### API testing
-- [Webhook.site](https://webhook.site)  
-- [Reqbin](https://reqbin.com/)  
-- [Ngrok](https://ngrok.com/) - ingress  
+
+* [Webhook.site](https://webhook.site)  
+* [Reqbin](https://reqbin.com/)  
+* [Ngrok](https://ngrok.com/) - ingress  
 
 
 #### IP / Port test
+
 [Whatsmydns.net](https://www.whatsmydns.net/) 
 [Host / port checker](https://www.host-tracker.com/)  
 
 
 ### OData
+
 OData vocabularies: https://github.com/SAP/odata-vocabularies  
 Northwind OData service: https://services.odata.org/  
 OData version 2: https://services.odata.org/v2/northwind/northwind.svc/  
@@ -173,20 +177,25 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [SAP CAP Model - Intermediate and Advanced](https://www.youtube.com/playlist?list=PLKSPsENL3Cxyd_cF-1oBXtcmFBljr-MZ3)  
 
 #### Multi tenant
+
 [2020 - Getting Started with Multitenant Business Applications on SAP BTP | Hands-on Video Tutorials](https://blogs.sap.com/2020/09/25/getting-started-with-multitenant-business-applications-on-sap-cloud-platform-hands-on-video-tutorials/)  
 [2021 - Multitenant Business Applications with CAP | Hands-on Video Tutorials](https://blogs.sap.com/2021/06/03/getting-started-with-multitenant-business-applications-on-sap-btp-continued-hands-on-video-tutorials/)  
 [2022 - Multi-tenant Development with SAP BTP, Kyma Runtime](https://www.youtube.com/watch?v=hnD7Lr_2464)  
 
 
 #### HANA Academy
-[SAP Business Technology Platform - Multitenant Business Applications](https://www.youtube.com/playlist?list=PLkzo92owKnVx3Sh0nemX8GoSNzJGfsWJM)  
-[SAP Business Technology Platform Partner Developer Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVzkp61Nyw1qXLKKC-Aeo1Hm)  
-[SAP Business Technology Platform Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVw3l4fqcLoQalyFi9K4-UdY)  
+
+* [SAP Business Technology Platform - Multitenant Business Applications](https://www.youtube.com/playlist?list=PLkzo92owKnVx3Sh0nemX8GoSNzJGfsWJM)  
+* [SAP Business Technology Platform Partner Developer Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVzkp61Nyw1qXLKKC-Aeo1Hm)  
+* [SAP Business Technology Platform Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVw3l4fqcLoQalyFi9K4-UdY)  
+* [SAP Business Technology Platform - Extension Generators](https://www.youtube.com/playlist?list=PLkzo92owKnVwQ-0oT78691fqvHrYXd5oN)
 
 #### Github SAP-samples
+
 [On Standalone Application Router using HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime)  
 
 #### OpenSAP
+
 [EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)
 [SAP -archive Cloud CAP Node.js Codejam](https://github.com/SAP-archive/cloud-cap-nodejs-codejam)  
 [BTP Multitenant CAP](https://microlearning.opensap.com/media/BTP+Multitenant+CAP+-+First+Application+-+Part+1/1_6cl0hken)  
@@ -195,38 +204,49 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [Github - Fiori elements](https://github.com/SAP-samples/fiori-elements-opensap)  
 
 #### LinkedIn
+
 [React.js: Building n Interface](https://www.linkedin.com/learning/react-js-building-an-interface-8551484/why-react-is-so-important?autoplay=true&save=true&u=57692769)  
 #### Tools
+
 [CLI Tool Examples, CDS](https://github.com/SAP-samples/hana-developer-cli-tool-example#cds)  
 
 #### Fiori/SPUI5/OpenUI5
+
 [SAP Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/)  
 
 #### Annontations
+
 [A deep dive into OData and CDS annotations](https://qmacro.org/blog/posts/2023/03/10/a-deep-dive-into-odata-and-cds-annotations/)  
 [[Part – 1] Enrich CAP based Services with Behaviors using Annotations](https://anginfotech.com/part-1-enrich-cap-based-services-with-behaviors-using-annotations/)  
 
 #### ABAP
+
 [Learning ABAP Programming](https://training.sap.com/content/ABAP-programming-training)  
 [Learn the ABCs of ABAP Programming on SAP BTP](https://learning.sap.com/learning-journey/learn-the-abcs-of-abap-programming-on-sap-btp)  
 
 #### MTA
+
 https://github.com/SAP-samples/cf-mta-examples/tree/main/active-optional-resources  
 
 #### Help page
+
 [Migration Tables (.hdbmigrationtable)](https://help.sap.com/docs/HANA_CLOUD_DATABASE/c2cc2e43458d4abda6788049c58143dc/52d1f5acfa754a7887e21226641eb261.html)
 
 #### Bogus/Fake/Mock Data generator
-[JSON generator](https://json-generator.com/#)  
-[Mockaroo](https://www.mockaroo.com/)  
+
+* [JSON generator](https://json-generator.com/#)  
+* [Mockaroo](https://www.mockaroo.com/)  
 
 #### Resource
+
 Free photos: [Unsplash](https://unsplash.com/)  
 
 #### Blogs
+
 [Introducing Resilience in the SAP Cloud SDK Version 3.0](https://blogs.sap.com/2023/02/28/introducing-resilience-in-the-sap-cloud-sdk-version-3.0/)  
 [SAP Cloud SDK Overview - 2017](https://blogs.sap.com/2017/05/10/first-steps-with-sap-s4hana-cloud-sdk/)  
 [Getting started with SAP iRPA 2.0 – Updated 2022](https://blogs.sap.com/2022/09/01/getting-started-with-sap-irpa-2.0-updated-2022/)  
 
 #### Windows CMD
+
 dir - [sort](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir)  
