@@ -178,9 +178,9 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 
 #### Multi tenant
 
-[2020 - Getting Started with Multitenant Business Applications on SAP BTP | Hands-on Video Tutorials](https://blogs.sap.com/2020/09/25/getting-started-with-multitenant-business-applications-on-sap-cloud-platform-hands-on-video-tutorials/)  
-[2021 - Multitenant Business Applications with CAP | Hands-on Video Tutorials](https://blogs.sap.com/2021/06/03/getting-started-with-multitenant-business-applications-on-sap-btp-continued-hands-on-video-tutorials/)  
-[2022 - Multi-tenant Development with SAP BTP, Kyma Runtime](https://www.youtube.com/watch?v=hnD7Lr_2464)  
+* [2020 - Getting Started with Multitenant Business Applications on SAP BTP | Hands-on Video Tutorials](https://blogs.sap.com/2020/09/25/getting-started-with-multitenant-business-applications-on-sap-cloud-platform-hands-on-video-tutorials/)  
+* [2021 - Multitenant Business Applications with CAP | Hands-on Video Tutorials](https://blogs.sap.com/2021/06/03/getting-started-with-multitenant-business-applications-on-sap-btp-continued-hands-on-video-tutorials/)  
+* [2022 - Multi-tenant Development with SAP BTP, Kyma Runtime](https://www.youtube.com/watch?v=hnD7Lr_2464)  
 
 
 #### HANA Academy
@@ -189,6 +189,9 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 * [SAP Business Technology Platform Partner Developer Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVzkp61Nyw1qXLKKC-Aeo1Hm)  
 * [SAP Business Technology Platform Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVw3l4fqcLoQalyFi9K4-UdY)  
 * [SAP Business Technology Platform - Extension Generators](https://www.youtube.com/playlist?list=PLkzo92owKnVwQ-0oT78691fqvHrYXd5oN)
+* [Building hana-opensap-cloud-2020](https://www.youtube.com/playlist?list=PL6RpkC85SLQAHZ_V3cZsTok0T6BvI4HT1)  
+* [SAP HANA Cloud](https://www.youtube.com/playlist?list=PLkzo92owKnVzONfsNdQNmpPQvUT54UUAL)
+* [SAP Cloud Platform, SAP HANA service](https://www.youtube.com/playlist?list=PLkzo92owKnVyh290bEmKED11Gcdkyoi7w)
 
 #### Github SAP-samples
 
