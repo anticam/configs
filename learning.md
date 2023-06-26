@@ -161,6 +161,11 @@ Categories in XML format: https://services.odata.org/v2/northwind/northwind.svc/
 Categories in JSON format: https://services.odata.org/v2/northwind/northwind.svc/Categories?$format=json  
 metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata  
 
+### HDI
+
+[HDI with SAP HANA Cloud | Video Tutorial - 2020](https://blogs.sap.com/2020/10/22/hdi-with-sap-hana-cloud-video-tutorial/)  
+[At Your Service: SAP HANA in Containers | SAP HANA 2.0 – An Introduction - 2020](https://blogs.sap.com/2020/03/13/at-your-service-sap-hana-2.0-an-introduction-2/)  
+
 #### Missions
 
 [Combine CAP with SAP HANA Cloud to Create Full-Stack Applications](https://developers.sap.com/mission.hana-cloud-cap.html)  
