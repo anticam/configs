@@ -163,15 +163,18 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 
 #### HDI
 
-* [HDI with SAP HANA Cloud | Video Tutorial - 2020](https://blogs.sap.com/2020/10/22/hdi-with-sap-hana-cloud-video-tutorial/)  
-* [At Your Service: SAP HANA in Containers | SAP HANA 2.0 – An Introduction - 2020](https://blogs.sap.com/2020/03/13/at-your-service-sap-hana-2.0-an-introduction-2/)  
-* [Github -scpapps](https://github.com/saphanaacademy/scpapps)  
-* [SAP HANA Cloud, SAP HANA Database Deployment Infrastructure Reference](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-deployment-infrastructure-hdi-reference/sap-hana-cloud-sap-hana-database-deployment-infrastructure-reference)  
+* [HDI with SAP HANA Cloud | Video Tutorial - 2020](https://blogs.sap.com/2020/10/22/hdi-with-sap-hana-cloud-video-tutorial/)
+* [At Your Service: SAP HANA in Containers | SAP HANA 2.0 – An Introduction - 2020](https://blogs.sap.com/2020/03/13/at-your-service-sap-hana-2.0-an-introduction-2/)
+* [Github -scpapps](https://github.com/saphanaacademy/scpapps)
+* [SAP HANA Cloud, SAP HANA Database Deployment Infrastructure Reference](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-deployment-infrastructure-hdi-reference/sap-hana-cloud-sap-hana-database-deployment-infrastructure-reference)
 * [+++SAP HANA Cloud playllist](https://www.youtube.com/playlist?list=PLkzo92owKnVzONfsNdQNmpPQvUT54UUAL)  
 
-* [Building hana-opensap-cloud-2020 Part 1: Introduction](https://blogs.sap.com/2020/11/13/building-hana-opensap-cloud-2020-part-1-introduction/)  
-* [Building hana-opensap-cloud-2020 Part 2: Project Setup and First DB Build](https://blogs.sap.com/2021/01/21/building-hana-opensap-cloud-2020-part-2-project-setup-and-first-db-build/)  
-* [Github hana-opensap-cloud-2020 repo](https://github.com/sap-samples/hana-opensap-cloud-2020?utm_source=community_blog&utm_medium=tj&utm_campaign=hc)  
+* [Building hana-opensap-cloud-2020 Part 1: Introduction](https://blogs.sap.com/2020/11/13/building-hana-opensap-cloud-2020-part-1-introduction/)
+* [Building hana-opensap-cloud-2020 Part 2: Project Setup and First DB Build](https://blogs.sap.com/2021/01/21/building-hana-opensap-cloud-2020-part-2-project-setup-and-first-db-build/)
+* [Github hana-opensap-cloud-2020 repo](https://github.com/sap-samples/hana-opensap-cloud-2020?utm_source=community_blog&utm_medium=tj&utm_campaign=hc)
+* [Building hana-opensap-cloud-2020 Part 5: Cross Schema Access](https://www.youtube.com/watch?v=9MKZhHg-y7s)
+* [SAP Cloud Application Programming Model - playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQDjdUsv1ENsBG43PorsSmbS)
+* [Building hana-opensap-cloud-2020 - playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQAHZ_V3cZsTok0T6BvI4HT1)
 
 #### Missions
 
