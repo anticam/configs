@@ -166,6 +166,7 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 [HDI with SAP HANA Cloud | Video Tutorial - 2020](https://blogs.sap.com/2020/10/22/hdi-with-sap-hana-cloud-video-tutorial/)  
 [At Your Service: SAP HANA in Containers | SAP HANA 2.0 – An Introduction - 2020](https://blogs.sap.com/2020/03/13/at-your-service-sap-hana-2.0-an-introduction-2/)  
 [Github -scpapps](https://github.com/saphanaacademy/scpapps)  
+[SAP HANA Cloud, SAP HANA Database Deployment Infrastructure Reference](https://help.sap.com/docs/hana-cloud-database/sap-hana-cloud-sap-hana-database-deployment-infrastructure-hdi-reference/sap-hana-cloud-sap-hana-database-deployment-infrastructure-reference)
 
 #### Missions
 
