@@ -191,6 +191,7 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [Mission CAP Java - Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)  
 [Github - SAP-samples - CAP Java](https://github.com/SAP-samples/cloud-cap-samples-java)  
 [Deveop Your First SAPUI5 Web App on Cloud Foundry](https://developers.sap.com/mission.sapui5-cf-first.html)  
+[+++Develop an App for SAP Build Work Zone, standard edition with Your Own Dev Tools](https://developers.sap.com/mission.sapui5-cf-launchpad.html)
 
 #### 10 min IT tutorials
 
