@@ -197,6 +197,8 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 #### UI5
 [Github - SAP UI5 tooling](https://github.com/SAP/ui5-tooling)
 [Github IO - UI5 tooling](https://sap.github.io/ui5-tooling/v3/)
+[UI5 middleware for CF destinations](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-cfdestination)
+[UI5 middleware for live reloading webapp sources on change](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-livereload)
 
 #### 10 min IT tutorials
 
