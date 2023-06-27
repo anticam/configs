@@ -194,6 +194,10 @@ SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playli
 [+++Develop an App for SAP Build Work Zone, standard edition with Your Own Dev Tools](https://developers.sap.com/mission.sapui5-cf-launchpad.html)
 [Create an SAP Cloud Application Programming Model Project for SAP HANA Cloud](https://developers.sap.com/tutorials/hana-cloud-cap-create-project.html)
 
+#### UI5
+[Github - SAP UI5 tooling](https://github.com/SAP/ui5-tooling)
+[Github IO - UI5 tooling](https://sap.github.io/ui5-tooling/v3/)
+
 #### 10 min IT tutorials
 
 * [Cloud Application Programming Model - CAPM](https://www.youtube.com/playlist?list=PLKSPsENL3CxyZk37Jrv1Ve40_n8_gPier)  
