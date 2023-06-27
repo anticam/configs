@@ -178,33 +178,34 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 
 #### Missions
 
-[Combine CAP with SAP HANA Cloud to Create Full-Stack Applications](https://developers.sap.com/mission.hana-cloud-cap.html)  
-SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playlist?list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_)  
-[CDS Core Documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/core-data-and-services-cds-language-reference-documentation)  
+* [Combine CAP with SAP HANA Cloud to Create Full-Stack Applications](https://developers.sap.com/mission.hana-cloud-cap.html)  
+[SAP Developers - SAP HANA Basics for Developers](https://www.youtube.com/playlist?list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_)  
+* [CDS Core Documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/core-data-and-services-cds-language-reference-documentation)  
 
-[Extend the Object Page by Adding More Functionality](https://developers.sap.com/tutorials/fiori-tools-cap-modify-object-page.html)  
-[Create a CF App Using SAP Cloud SDK](https://developers.sap.com/mission.cloudsdk-cf-app.html)  
-[Build an Application in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)  
+* [Extend the Object Page by Adding More Functionality](https://developers.sap.com/tutorials/fiori-tools-cap-modify-object-page.html)  
+* [Create a CF App Using SAP Cloud SDK](https://developers.sap.com/mission.cloudsdk-cf-app.html)  
+* [Build an Application in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)  
 
-[Mission CAP](https://developers.sap.com/mission.cp-starter-extensions-cap.html)  
-[Mission CAP service deploy](https://developers.sap.com/tutorials/cap-service-deploy.html)  
-[Mission CAP Java - Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)  
-[Github - SAP-samples - CAP Java](https://github.com/SAP-samples/cloud-cap-samples-java)  
-[Deveop Your First SAPUI5 Web App on Cloud Foundry](https://developers.sap.com/mission.sapui5-cf-first.html)  
-[+++Develop an App for SAP Build Work Zone, standard edition with Your Own Dev Tools](https://developers.sap.com/mission.sapui5-cf-launchpad.html)
-[Create an SAP Cloud Application Programming Model Project for SAP HANA Cloud](https://developers.sap.com/tutorials/hana-cloud-cap-create-project.html)
+* [Mission CAP](https://developers.sap.com/mission.cp-starter-extensions-cap.html)  
+* [Mission CAP service deploy](https://developers.sap.com/tutorials/cap-service-deploy.html)  
+* [Mission CAP Java - Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)  
+* [Github - SAP-samples - CAP Java](https://github.com/SAP-samples/cloud-cap-samples-java)  
+* [Deveop Your First SAPUI5 Web App on Cloud Foundry](https://developers.sap.com/mission.sapui5-cf-first.html)  
+* [+++Develop an App for SAP Build Work Zone, standard edition with Your Own Dev Tools](https://developers.sap.com/mission.sapui5-cf-launchpad.html)
+* [Create an SAP Cloud Application Programming Model Project for SAP HANA Cloud](https://developers.sap.com/tutorials/hana-cloud-cap-create-project.html)
 
 #### UI5
-[Github - SAP UI5 tooling](https://github.com/SAP/ui5-tooling)
-[Github IO - UI5 tooling](https://sap.github.io/ui5-tooling/v3/)
-[UI5 middleware for CF destinations](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-cfdestination)
-[UI5 middleware for live reloading webapp sources on change](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-livereload)
+
+* [Github - SAP UI5 tooling](https://github.com/SAP/ui5-tooling)
+* [Github IO - UI5 tooling](https://sap.github.io/ui5-tooling/v3/)
+* [UI5 middleware for CF destinations](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-cfdestination)
+* [UI5 middleware for live reloading webapp sources on change](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-livereload)
 
 #### 10 min IT tutorials
 
-* [Cloud Application Programming Model - CAPM](https://www.youtube.com/playlist?list=PLKSPsENL3CxyZk37Jrv1Ve40_n8_gPier)  
-* [SAPUI5 - From beginner to expert !!](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb)  
-* [SAP CAP Model - Intermediate and Advanced](https://www.youtube.com/playlist?list=PLKSPsENL3Cxyd_cF-1oBXtcmFBljr-MZ3)  
+* [Cloud Application Programming Model - CAPM](https://www.youtube.com/playlist?list=PLKSPsENL3CxyZk37Jrv1Ve40_n8_gPier)
+* [SAPUI5 - From beginner to expert !!](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb)
+* [SAP CAP Model - Intermediate and Advanced](https://www.youtube.com/playlist?list=PLKSPsENL3Cxyd_cF-1oBXtcmFBljr-MZ3)
 
 #### Multi tenant
 
