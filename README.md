@@ -39,6 +39,12 @@ C:\Users\<user>\AppData\Local\nvim\init.lua
 
 next start, plugins will be installed
 
+### Clink
+
+[Clink](https://chrisant996.github.io/clink/)
+[Clink custom prompt](https://chrisant996.github.io/clink/clink.html#gettingstarted_customprompt)
+[Clink flex prompt - Nerd Fonts](https://github.com/chrisant996/clink-flex-prompt)
+
 ### Git
 
 Git installation, usage [GeeksForGeeks](https://www.geeksforgeeks.org/working-on-git-bash/)  
