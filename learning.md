@@ -274,7 +274,9 @@ https://github.com/SAP-samples/cf-mta-examples/tree/main/active-optional-resourc
 #### Bogus/Fake/Mock Data generator
 
 * [JSON generator](https://json-generator.com/#)  
-* [Mockaroo](https://www.mockaroo.com/)  
+* [Mockaroo](https://www.mockaroo.com/)
+* [Faker](https://fakerjs.dev/)
+* [Faker VSCode extension](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker)  
 
 #### Resource
 
