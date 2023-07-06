@@ -292,3 +292,10 @@ Free photos: [Unsplash](https://unsplash.com/)
 #### Windows CMD
 
 dir - [sort](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir)  
+
+#### How-to
+
+How to start HANA Cloud instance
+```
+cf update-service hanacloud -c '{​​​​​"data":{"serviceStopped":false}}'
+```
