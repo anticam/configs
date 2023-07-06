@@ -223,6 +223,7 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 * [Building hana-opensap-cloud-2020](https://www.youtube.com/playlist?list=PL6RpkC85SLQAHZ_V3cZsTok0T6BvI4HT1)  
 * [SAP HANA Cloud](https://www.youtube.com/playlist?list=PLkzo92owKnVzONfsNdQNmpPQvUT54UUAL)
 * [SAP Cloud Platform, SAP HANA service](https://www.youtube.com/playlist?list=PLkzo92owKnVyh290bEmKED11Gcdkyoi7w)
+* [HANA SQL](https://www.youtube.com/playlist?list=PLkzo92owKnVwHsbKSfJqefrMwNEJWoMzV)
 
 #### SAP Developers
 
