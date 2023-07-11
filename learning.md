@@ -224,6 +224,7 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 * [SAP HANA Cloud](https://www.youtube.com/playlist?list=PLkzo92owKnVzONfsNdQNmpPQvUT54UUAL)
 * [SAP Cloud Platform, SAP HANA service](https://www.youtube.com/playlist?list=PLkzo92owKnVyh290bEmKED11Gcdkyoi7w)
 * [HANA SQL](https://www.youtube.com/playlist?list=PLkzo92owKnVwHsbKSfJqefrMwNEJWoMzV)
+* [Building Extensions for SAP SuccessFactors using APIs and ...](https://www.youtube.com/playlist?list=PLkzo92owKnVwHhr85SdCFWlywcaBYk2sC)
 
 #### SAP Developers
 
@@ -282,6 +283,7 @@ https://github.com/SAP-samples/cf-mta-examples/tree/main/active-optional-resourc
 #### Resource
 
 Free photos: [Unsplash](https://unsplash.com/)  
+[Bored API](https://www.boredapi.com/)  
 
 #### Blogs
 
