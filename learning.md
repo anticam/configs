@@ -143,7 +143,8 @@ https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2
 
 * [Webhook.site](https://webhook.site)  
 * [Reqbin](https://reqbin.com/)  
-* [Ngrok](https://ngrok.com/) - ingress  
+* [Ngrok](https://ngrok.com/) - ingress
+* [HTTP get 404 response](https://httpstat.us/404)
 
 #### IP / Port test
 
