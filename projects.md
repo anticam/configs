@@ -32,7 +32,7 @@ Hunger Roam [Wifi](https://github.com/ecodina/hunter-wifi)
 [Traefik](https://kallan.dev/posts/2020/10/how-to-use-traefik-v2-with-home-assistant/)
 
 
-### ABB Terr AC
+### ABB Terra AC
 Local OCPP integration
 https://new.abb.com/ev-charging/terra-ac-wallbox/digital-tools
 https://abb.installer.chargedot.com/#/login
