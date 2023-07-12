@@ -37,7 +37,8 @@ Local OCPP integration
 https://new.abb.com/ev-charging/terra-ac-wallbox/digital-tools
 https://abb.installer.chargedot.com/#/login
 
-New firmware - 2023.06
-New Apps - 2023.06
-[TerraConfig](https://guides.e-mobility.abb.com/TerraConfig2MobileApp_EN/#/)
-[CargerSync](https://guides.e-mobility.abb.com/ChangerSync2MobileApp_EN/#/)
+New firmware - 2023.06  
+New Apps - 2023.06  
+* [TerraConfig](https://guides.e-mobility.abb.com/TerraConfig2MobileApp_EN/#/)  
+* [CargerSync](https://guides.e-mobility.abb.com/ChangerSync2MobileApp_EN/#/)  
+  
