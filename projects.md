@@ -3,7 +3,7 @@
 ## Smart home improvements
 
 - [ ] Hunter Extension
-- [ ] ABB Terra AC
+- [ ] ABB Terra AC - 50%
 
 ### Hunter extension with ESP32
 
@@ -36,3 +36,8 @@ Hunger Roam [Wifi](https://github.com/ecodina/hunter-wifi)
 Local OCPP integration
 https://new.abb.com/ev-charging/terra-ac-wallbox/digital-tools
 https://abb.installer.chargedot.com/#/login
+
+New firmware - 2023.06
+New Apps - 2023.06
+[TerraConfig](https://guides.e-mobility.abb.com/TerraConfig2MobileApp_EN/#/)
+[CargerSync](https://guides.e-mobility.abb.com/ChangerSync2MobileApp_EN/#/)
