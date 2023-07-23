@@ -4,6 +4,7 @@
 
 - [ ] Hunter Extension
 - [ ] ABB Terra AC - 50%
+- [ ] FlightAware ADB-S Ground Station
 
 ### Hunter extension with ESP32
 
@@ -41,4 +42,10 @@ New firmware - 2023.06
 New Apps - 2023.06  
 * [TerraConfig](https://guides.e-mobility.abb.com/TerraConfig2MobileApp_EN/#/)  
 * [CargerSync](https://guides.e-mobility.abb.com/ChangerSync2MobileApp_EN/#/)  
-  
+
+### FlightAware ADB-S Ground Station
+[FlightAware](https://flightaware.com/adsb/piaware/build/)
+[Reddit - original](https://www.reddit.com/r/homelab/comments/qzpi9v/latest_iteration_of_my_adsb_feeder_box_based_on/)
+[Reddit - after 2 years](https://www.reddit.com/r/homelab/comments/157058z/a_2_year_follow_up_on_my_rpi4_powered_adsb_station/)
+
+
