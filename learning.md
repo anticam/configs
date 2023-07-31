@@ -298,6 +298,12 @@ dir - [sort](https://learn.microsoft.com/en-us/windows-server/administration/win
 
 #### How-to
 
+#### Unit testing
+[Testing Node.js 12 with Mocha 8](https://app.pluralsight.com/library/courses/nodejs-testing-mocha/table-of-contents)  
+[JavaScript Unit Testing with Jest](https://app.pluralsight.com/library/courses/javascript-unit-testing-jest/table-of-contents)  
+[
+Testing JavaScript for Node.js with Mocha - 2017](https://app.pluralsight.com/library/courses/mocha-javascript-testing-nodejs/table-of-contents)
+
 How to start HANA Cloud instance
 ```
 cf update-service hanacloud -c '{​​​​​"data":{"serviceStopped":false}}'
