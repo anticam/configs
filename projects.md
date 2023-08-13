@@ -83,12 +83,11 @@ New Apps - 2023.06
 [Audiobookshelf](https://www.audiobookshelf.org/)
 [Airosonic-advanced](https://github.com/linuxserver/docker-airsonic-advanced)  
 
-#### Books
-[Kavita](https://wiki.kavitareader.com/en)  
-
 #### Streaming
 [Tubearchivist](https://github.com/tubearchivist/tubearchivist) 
 
 #### Books
 [Kavita](https://www.kavitareader.com/#download)
 [LazyLibrarian](https://lazylibrarian.gitlab.io/)  
+[Kavita](https://wiki.kavitareader.com/en)  
+[PokectBook reader Android](https://play.google.com/store/apps/details?id=com.obreey.reader&hl=hu&gl=US)  
