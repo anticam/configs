@@ -56,6 +56,7 @@ New Apps - 2023.06
 [Noted](https://noted.lol/)  
 [Firefly III](https://www.firefly-iii.org/)
 [Flame](https://github.com/pawelmalak/flame)  
+[Linkding](https://github.com/sissbruecker/linkding/)
 
 #### Document management
 [Papermerge](https://docs.papermerge.io/index.html)  
@@ -84,8 +85,6 @@ New Apps - 2023.06
 
 #### Books
 [Kavita](https://wiki.kavitareader.com/en)  
-
-
 
 #### Streaming
 [Tubearchivist](https://github.com/tubearchivist/tubearchivist) 
