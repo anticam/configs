@@ -57,6 +57,7 @@ New Apps - 2023.06
 [Firefly III](https://www.firefly-iii.org/)
 [Flame](https://github.com/pawelmalak/flame)  
 [Linkding](https://github.com/sissbruecker/linkding/)
+[Docker list](https://github.com/linuxserver/reverse-proxy-confs)  
 
 #### Document management
 [Papermerge](https://docs.papermerge.io/index.html)  
