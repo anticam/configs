@@ -79,3 +79,9 @@ New Apps - 2023.06
 
 #### Audio
 [Audiobookshelf](https://www.audiobookshelf.org/)
+
+#### Streaming
+[Tubearchivist](https://github.com/tubearchivist/tubearchivist) 
+
+#### Books
+[Kavita](https://www.kavitareader.com/#download)
