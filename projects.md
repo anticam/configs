@@ -63,6 +63,8 @@ New Apps - 2023.06
 [HomelabOS](https://homelabos.com/docs/)  
 [Firefly III](https://www.firefly-iii.org/)
 [Flame](https://github.com/pawelmalak/flame)  
+[Papermerge](https://docs.papermerge.io/index.html)  
+[Paperless.ngx](https://github.com/paperless-ngx/paperless-ngx)  
 
 ### Authentication
 [Authelia](https://www.authelia.com/)  
