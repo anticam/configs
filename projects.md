@@ -79,6 +79,8 @@ New Apps - 2023.06
 
 #### Audio
 [Audiobookshelf](https://www.audiobookshelf.org/)
+[Airosonic-advanced](https://github.com/linuxserver/docker-airsonic-advanced)
+
 
 #### Streaming
 [Tubearchivist](https://github.com/tubearchivist/tubearchivist) 
