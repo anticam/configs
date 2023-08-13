@@ -60,6 +60,7 @@ New Apps - 2023.06
 #### Document management
 [Papermerge](https://docs.papermerge.io/index.html)  
 [Paperless.ngx](https://github.com/paperless-ngx/paperless-ngx)  
+[Memos](https://github.com/usememos/memos?source=noted.lol)  
 
 #### Authentication
 [Authelia](https://www.authelia.com/)  
@@ -73,3 +74,6 @@ New Apps - 2023.06
 [LibrePhotos](https://github.com/LibrePhotos/librephotos)  
 [PiGallery 2](http://bpatrik.github.io/pigallery2/)  
 [PhotoPrism](https://www.photoprism.app/features)  
+
+#### Audio
+[Audiobookshelf](https://www.audiobookshelf.org/)
