@@ -61,7 +61,8 @@ New Apps - 2023.06
 [Papermerge](https://docs.papermerge.io/index.html)  
 [Paperless.ngx](https://github.com/paperless-ngx/paperless-ngx)  
 [Memos](https://github.com/usememos/memos?source=noted.lol)  
-[Obsidian remote](https://github.com/sytone/obsidian-remote)
+[Obsidian remote](https://github.com/sytone/obsidian-remote)  
+[Joplin](https://joplinapp.org/desktop/)  
 
 #### Authentication
 [Authelia](https://www.authelia.com/)  
