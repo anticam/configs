@@ -6,6 +6,7 @@
 - [ ] ABB Terra AC - 50%
 - [ ] FlightAware ADB-S Ground Station
 - [ ] Photo backup
+- [ ] Authentication
 
 ### Hunter extension with ESP32
 
@@ -59,3 +60,10 @@ New Apps - 2023.06
 
 ### Self hosted
 [gofoss.net](https://gofoss.net/cloud-storage/)  
+[HomelabOS](https://homelabos.com/docs/)  
+[Firefly III](https://www.firefly-iii.org/)
+
+### Authentication
+[Authelia](https://www.authelia.com/)  
+[Authentik](https://goauthentik.io/)  
+[Keycloak](https://www.keycloak.org/)  
