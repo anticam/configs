@@ -5,6 +5,7 @@
 - [ ] Hunter Extension
 - [ ] ABB Terra AC - 50%
 - [ ] FlightAware ADB-S Ground Station
+- [ ] Photo backup
 
 ### Hunter extension with ESP32
 
@@ -47,5 +48,15 @@ New Apps - 2023.06
 [FlightAware](https://flightaware.com/adsb/piaware/build/)
 [Reddit - original](https://www.reddit.com/r/homelab/comments/qzpi9v/latest_iteration_of_my_adsb_feeder_box_based_on/)
 [Reddit - after 2 years](https://www.reddit.com/r/homelab/comments/157058z/a_2_year_follow_up_on_my_rpi4_powered_adsb_station/)
+
+### Photo backup
+[Piwigo](https://piwigo.org/)  
+[Immich](https://immich.app/)  
+[Lychee](https://lychee.electerious.com/)  
+[LibrePhotos](https://github.com/LibrePhotos/librephotos)  
+[PiGallery 2](http://bpatrik.github.io/pigallery2/)  
+[PhotoPrism](https://www.photoprism.app/features)  
+
+
 
 
