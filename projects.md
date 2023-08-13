@@ -68,6 +68,7 @@ New Apps - 2023.06
 [Authelia](https://www.authelia.com/)  
 [Authentik](https://goauthentik.io/)  
 [Keycloak](https://www.keycloak.org/)  
+[SWAG](https://github.com/linuxserver/docker-swag)  
 
 #### Photo backup
 [Piwigo](https://piwigo.org/)  
@@ -79,7 +80,11 @@ New Apps - 2023.06
 
 #### Audio
 [Audiobookshelf](https://www.audiobookshelf.org/)
-[Airosonic-advanced](https://github.com/linuxserver/docker-airsonic-advanced)
+[Airosonic-advanced](https://github.com/linuxserver/docker-airsonic-advanced)  
+
+#### Books
+[Kavita](https://wiki.kavitareader.com/en)  
+
 
 
 #### Streaming
