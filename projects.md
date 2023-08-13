@@ -91,3 +91,4 @@ New Apps - 2023.06
 
 #### Books
 [Kavita](https://www.kavitareader.com/#download)
+[LazyLibrarian](https://lazylibrarian.gitlab.io/)  
