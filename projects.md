@@ -5,8 +5,7 @@
 - [ ] Hunter Extension
 - [ ] ABB Terra AC - 50%
 - [ ] FlightAware ADB-S Ground Station
-- [ ] Photo backup
-- [ ] Authentication
+- [ ] Self Hosting
 
 ### Hunter extension with ESP32
 
@@ -50,23 +49,27 @@ New Apps - 2023.06
 [Reddit - original](https://www.reddit.com/r/homelab/comments/qzpi9v/latest_iteration_of_my_adsb_feeder_box_based_on/)
 [Reddit - after 2 years](https://www.reddit.com/r/homelab/comments/157058z/a_2_year_follow_up_on_my_rpi4_powered_adsb_station/)
 
-### Photo backup
+
+### Self Hosting
+[gofoss.net](https://gofoss.net/cloud-storage/)  
+[HomelabOS](https://homelabos.com/docs/)  
+[Noted](https://noted.lol/)  
+[Firefly III](https://www.firefly-iii.org/)
+[Flame](https://github.com/pawelmalak/flame)  
+
+#### Document management
+[Papermerge](https://docs.papermerge.io/index.html)  
+[Paperless.ngx](https://github.com/paperless-ngx/paperless-ngx)  
+
+#### Authentication
+[Authelia](https://www.authelia.com/)  
+[Authentik](https://goauthentik.io/)  
+[Keycloak](https://www.keycloak.org/)  
+
+#### Photo backup
 [Piwigo](https://piwigo.org/)  
 [Immich](https://immich.app/)  
 [Lychee](https://lychee.electerious.com/)  
 [LibrePhotos](https://github.com/LibrePhotos/librephotos)  
 [PiGallery 2](http://bpatrik.github.io/pigallery2/)  
 [PhotoPrism](https://www.photoprism.app/features)  
-
-### Self hosted
-[gofoss.net](https://gofoss.net/cloud-storage/)  
-[HomelabOS](https://homelabos.com/docs/)  
-[Firefly III](https://www.firefly-iii.org/)
-[Flame](https://github.com/pawelmalak/flame)  
-[Papermerge](https://docs.papermerge.io/index.html)  
-[Paperless.ngx](https://github.com/paperless-ngx/paperless-ngx)  
-
-### Authentication
-[Authelia](https://www.authelia.com/)  
-[Authentik](https://goauthentik.io/)  
-[Keycloak](https://www.keycloak.org/)  
