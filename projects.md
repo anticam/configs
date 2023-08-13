@@ -57,6 +57,5 @@ New Apps - 2023.06
 [PiGallery 2](http://bpatrik.github.io/pigallery2/)  
 [PhotoPrism](https://www.photoprism.app/features)  
 
-
-
-
+### Self hosted
+[gofoss.net](https://gofoss.net/cloud-storage/)  
