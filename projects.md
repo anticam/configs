@@ -62,6 +62,7 @@ New Apps - 2023.06
 [gofoss.net](https://gofoss.net/cloud-storage/)  
 [HomelabOS](https://homelabos.com/docs/)  
 [Firefly III](https://www.firefly-iii.org/)
+[Flame](https://github.com/pawelmalak/flame)  
 
 ### Authentication
 [Authelia](https://www.authelia.com/)  
