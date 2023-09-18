@@ -51,6 +51,7 @@ New Apps - 2023.06
 
 
 ### Self Hosting
+[Traefik sample with dns challenge](https://github.com/Haxxnet/Compose-Examples/tree/main/examples/traefik)  
 [gofoss.net](https://gofoss.net/cloud-storage/)  
 [HomelabOS](https://homelabos.com/docs/)  
 [Noted](https://noted.lol/)  
