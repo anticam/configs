@@ -202,7 +202,7 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 * [UI5 middleware for CF destinations](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-cfdestination)
 * [UI5 middleware for live reloading webapp sources on change](https://github.com/ui5-community/ui5-ecosystem-showcase/tree/main/packages/ui5-middleware-livereload)
 * [Learning SAPUI5 for Beginners - 2020 ***](https://blogs.sap.com/2020/12/15/learning-sapui5-for-beginners/)
-* 
+* [UI5CON Germany 2023 +++](https://openui5.org/ui5con/germany2023/index.html#agenda)
 
 #### 10 min IT tutorials
 
