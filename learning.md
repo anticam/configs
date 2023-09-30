@@ -310,3 +310,6 @@ How to start HANA Cloud instance
 ```
 cf update-service hanacloud -c '{​​​​​"data":{"serviceStopped":false}}'
 ```
+
+#### TLS
+[Cipher suites](https://www.thesslstore.com/blog/cipher-suites-algorithms-security-settings/)
