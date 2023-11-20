@@ -324,3 +324,7 @@ cf update-service hanacloud -c '{​​​​​"data":{"serviceStopped":false}}
 #### OAuth2/OpenID
 [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0)  
 
+
+#### Git pages
+THem for Jekyll https://just-the-docs.github.io/just-the-docs/
+Jekyll - https://jekyllrb.com/
