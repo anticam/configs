@@ -51,7 +51,7 @@ New Apps - 2023.06
 
 
 ### Self Hosting
-[Traefik sample with dns challenge](https://github.com/Haxxnet/Compose-Examples/tree/main/examples/traefik)  
+[Traefik sample with dns challenge](https://github.com/Haxxnet/Compose-Examples/tree/main/examples/traefik) - done
 [gofoss.net](https://gofoss.net/cloud-storage/)  
 [HomelabOS](https://homelabos.com/docs/)  
 [Noted](https://noted.lol/)  
@@ -59,6 +59,9 @@ New Apps - 2023.06
 [Flame](https://github.com/pawelmalak/flame)  
 [Linkding](https://github.com/sissbruecker/linkding/)
 [Docker list](https://github.com/linuxserver/reverse-proxy-confs)  
+[Drone](https://www.drone.io/) [Gitea- drone - docker](https://joshilles.com/server/jekyll/gitea-drone-docker/)    
+[Dashy](https://dashy.to/docs/quick-start/)  
+[Jekyll](https://jekyllrb.com/philosophy/)  
 
 #### Document management
 [Papermerge](https://docs.papermerge.io/index.html)  
