@@ -70,6 +70,9 @@ New Apps - 2023.06
 [Memos](https://github.com/usememos/memos?source=noted.lol)  
 [Obsidian remote](https://github.com/sytone/obsidian-remote)  
 [Joplin](https://joplinapp.org/desktop/)  
+[BookStack](https://www.bookstackapp.com/)  
+[Trilium](https://github.com/zadam/trilium)  
+Trilium - [Jim's Garage](https://www.youtube.com/@Jims-Garage) [Trilium](https://www.youtube.com/watch?v=H9l3JnPMtrg)  
 
 #### Authentication
 [Authelia](https://www.authelia.com/)  
