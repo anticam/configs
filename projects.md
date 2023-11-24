@@ -98,6 +98,9 @@ New Apps - 2023.06
 [Kavita](https://wiki.kavitareader.com/en)  
 [PokectBook reader Android](https://play.google.com/store/apps/details?id=com.obreey.reader&hl=hu&gl=US)  
 
+#### Networking
+[Netbird](https://netbird.io/pricing)  
+
 ### OPNsense
 [OPNsense](https://opnsense.org/)  
 [STH Ryzen](https://www.servethehome.com/amd-ryzen-4x-2-5gbe-intel-i226-firewall-router-for-pfsense-opnsense-proxmox-and-windows/)
