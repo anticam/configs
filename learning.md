@@ -328,3 +328,6 @@ cf update-service hanacloud -c '{​​​​​"data":{"serviceStopped":false}}
 #### Git pages
 THem for Jekyll https://just-the-docs.github.io/just-the-docs/
 Jekyll - https://jekyllrb.com/
+
+### Infra
+(IR Codes)[https://support.biamp.com/Biamp_Control/General_information/Types_of_IR_Codes]  
