@@ -47,6 +47,16 @@ next start, plugins will be installed
 
 ### Git
 
+Git for Windows - [download](https://gitforwindows.org/)  
+update Git from CLI
+```shell
+git update-git-for-windows
+```
+
+[Git cheat sheet - pdf](https://training.github.com/downloads/github-git-cheat-sheet.pdf)    
+[Git doc](https://git-scm.com/doc)  
+[Learning Git branching](https://learngitbranching.js.org/)  
+
 Git installation, usage [GeeksForGeeks](https://www.geeksforgeeks.org/working-on-git-bash/)  
 Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)  
 | Task | Command | Description|
