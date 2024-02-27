@@ -53,6 +53,11 @@ update Git from CLI
 git update-git-for-windows
 ```
 
+clone a specific branch
+```shell
+git clone --branch <branch_name> <repository_url>
+```
+
 [Git cheat sheet - pdf](https://training.github.com/downloads/github-git-cheat-sheet.pdf)    
 [Git doc](https://git-scm.com/doc)  
 [Learning Git branching](https://learngitbranching.js.org/)  
