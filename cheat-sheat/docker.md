@@ -1,4 +1,6 @@
-Everyday tasks
+# Git
+
+#### Everyday tasks
 
 fetch latest image
 ```shell
@@ -52,5 +54,12 @@ remove unsused images
 ```shell
 docker image prune -f
 ```
+
+show container CPU [usage](https://docs.docker.com/reference/cli/docker/container/stats/)  
+```shell
+docker stats
+docker cointainer stats
+```
+
 
 https://docs.docker.com/compose/faq/#whats-the-difference-between-up-run-and-start
