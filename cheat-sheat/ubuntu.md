@@ -31,6 +31,30 @@ show status
 sudo systemctl status ssh
 ```
 
+### SSH keys
+[ssh keys](https://ubuntu.com/server/docs/openssh-server)  
+generate keys 
+```
+ssh-keygen -t rsa
+```
+or
+```
+ssh-keygen -t rsa -b 4096
+```
+
+public key is saved in ~/.ssh/id_rsa.pub
+private key is saved in ~/.ssh/id_rsa
+copy id_rsa.pub file to the remote host and append it to ~/.ssh/authorized_keys
+```
+ssh-copy-id username@remotehost
+```
+check permissions authorized_keys file
+```
+chmod 600 .ssh/authorized_keys
+```
+
+
+
 ### Docker compose
 
 [docker.docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)  
