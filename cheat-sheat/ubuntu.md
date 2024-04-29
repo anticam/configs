@@ -66,7 +66,7 @@ verify installation
 sudo docker run hello-world
 ```
 
-post install step  
+#### Post install step  
 enable non-root user  
 
 create docker group
@@ -87,7 +87,11 @@ verify that you can run docker without sudo
 docker run hello-world
 ```
 
-
+#### Docker network
+create new network
+```
+docker network create  <network>
+```
 
 ### Mount
 
