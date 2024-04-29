@@ -1,4 +1,6 @@
 ### SSH server
+
+[cyberciti](https://www.cyberciti.biz/faq/how-to-install-ssh-on-ubuntu-linux-using-apt-get/)  
 install ssh client, server
 ```
 sudo apt install openssh-client
@@ -30,6 +32,9 @@ sudo systemctl status ssh
 ```
 
 ### Docker compose
+
+[docker.docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)  
+
 uninstall packages
 ```
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
