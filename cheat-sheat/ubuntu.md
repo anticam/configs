@@ -65,6 +65,30 @@ verify installation
 ```
 sudo docker run hello-world
 ```
+
+post install step  
+enable non-root user  
+
+create docker group
+```
+sudo groupadd docker
+```
+
+add user to the docker group
+```
+sudo usermod -aG docker $USER
+```
+activate changes
+```
+newgrp docker
+```
+verify that you can run docker without sudo
+```
+docker run hello-world
+```
+
+
+
 ### Mount
 
 install nfs-common
