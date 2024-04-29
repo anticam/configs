@@ -65,3 +65,24 @@ verify installation
 ```
 sudo docker run hello-world
 ```
+### Mount
+create new mount point
+```
+sudo mkdir /mnt/wdc
+```
+
+mount the drive named /dev/sdb1 at /mnt/wdc
+```
+sudo mount /dev/sdb1 /mnt/wdc
+# verify using df command or mount command
+df -H
+mount
+```
+
+edit fstab for ext4
+```
+/dev/sdb1    /mnt/wdc   ext4    defaults     0        2
+```
+
+
+
