@@ -66,6 +66,13 @@ verify installation
 sudo docker run hello-world
 ```
 ### Mount
+
+install nfs-common
+```
+sudo apt install nfs-common
+sudo apt install cifs-utils
+```
+
 create new mount point
 ```
 sudo mkdir /mnt/wdc
