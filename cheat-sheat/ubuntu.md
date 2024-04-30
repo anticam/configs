@@ -118,6 +118,7 @@ docker network create  <network>
 ```
 
 ### Mount
+[cyberciti](https://www.cyberciti.biz/faq/mount-drive-from-command-line-ubuntu-linux/)  
 
 install nfs-common
 ```
@@ -147,6 +148,9 @@ edit fstab for ext4
 ```
 /dev/sdb1    /mnt/wdc   ext4    defaults     0        2
 ```
-
+mount based on /etc/fstab file content
+```
+sudo mount -av
+```
 
 
