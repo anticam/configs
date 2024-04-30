@@ -124,6 +124,11 @@ install nfs-common
 sudo apt install nfs-common
 sudo apt install cifs-utils
 ```
+list path to drives
+```
+lsblk -lf
+```
+
 
 create new mount point
 ```
