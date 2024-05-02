@@ -1,5 +1,8 @@
 # Configurations
 
+### Choco
+[Choco commands](cheat-sheet/choco.md)   
+
 ## Windows Terminal
 
 ### Color scheme
