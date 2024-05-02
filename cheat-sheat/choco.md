@@ -1,22 +1,9 @@
 ### Choco
 
-install package
-```
-choco install git
-```
-
-upgrade package  
-```
-choco upgrade git
-```
-
-list outdated package
-```
-choco outdated
-```
-
-upgrade package when dependency check fails
-```
-choco upgrade git --ignore-dependencies
-```
+| command  | comment  | docu  |
+|---|---|---|
+| `choco install git` |  install a package |   |
+| `choco outdated` | list outdated packages  |   |
+| `choco upgrade git` | upgrade a package  |   |
+| `choco upgrade git --ignore-dependencies` | upgrade a package when dependency check fails  |
 
