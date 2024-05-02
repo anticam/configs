@@ -1,7 +1,13 @@
 # Configurations
 
-### Choco
-[Choco commands](cheat-sheet/choco.md)   
+### Cheet-sheets
+[Choco commands](cheat-sheet/choco.md)
+[Git commands](cheat-sheet/git.md)
+[Tools](cheat-sheet/tools.md)
+[Network](cheat-sheet/tools.md)
+[Docker](cheat-sheet/docker.md)
+[NPM](cheat-sheet/npm.md)
+[Ubuntu](cheat-sheet/ubuntu.md)
 
 ## Windows Terminal
 
@@ -9,49 +15,8 @@
 
 Setting [Cobalt2](https://github.com/Reidond/cobalt2-windows-terminal) theme for Windows Terminal
 
-
-
-### Neovim
-
-Install neovim
-
-```bash
-choco install neovim
-```
-
-check config path
-
-```bash
-:echo stdpath('config)
-C:\Users\<user>\AppData\Local\nvim
-```
-
-put [init.lua](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua) to config path
-
-```bash
-C:\Users\<user>\AppData\Local\nvim\init.lua
-```
-
-next start, plugins will be installed
-
-### Clink
-
-[Clink](https://chrisant996.github.io/clink/)
-[Clink custom prompt](https://chrisant996.github.io/clink/clink.html#gettingstarted_customprompt)
-[Clink flex prompt - Nerd Fonts](https://github.com/chrisant996/clink-flex-prompt)
-
 ### Git
 
-Git for Windows - [download](https://gitforwindows.org/)  
-update Git from CLI
-```shell
-git update-git-for-windows
-```
-
-clone a specific branch
-```shell
-git clone --branch <branch_name> <repository_url>
-```
 
 [Git cheat sheet - pdf](https://training.github.com/downloads/github-git-cheat-sheet.pdf)    
 [Git doc](https://git-scm.com/doc)  

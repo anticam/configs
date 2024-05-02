@@ -1,14 +1,9 @@
 # Git
 
-### How to init Git repository
-initialize a local git repository for a project
-```shell
-git init
-```
 
-add files to git repository
+clone a specific branch
 ```shell
-git add .
+git clone --branch <branch_name> <repository_url>
 ```
 
 ### How to update existing Git repository
