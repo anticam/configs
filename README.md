@@ -344,7 +344,7 @@ choco install cloudfoundry-cli
 Add the community repository in CF CLI
 
 ```powershell
-cf add-plugin-repo CF-Community <https://plugins.cloudfoundry.org>
+cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
 ```
 
 Plugins
