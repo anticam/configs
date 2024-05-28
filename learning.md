@@ -232,7 +232,10 @@ metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata
 #### SAP Developers
 
 * [SAP BTP Application Development and Integration](https://www.youtube.com/playlist?list=PL6RpkC85SLQAgUp1CE8YFr6ByfHw8y3eu)
-* [2024 - SAP Business Application Studio - playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQCj7Q8438pHCKH30qd2bHp2)  
+* [2024 - SAP Business Application Studio - playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQCj7Q8438pHCKH30qd2bHp2)
+* [SAP HANA playlist](https://www.youtube.com/playlist?list=PL6RpkC85SLQAzez_o1zzQUMQu319ysDN0)
+* [SAP Tech Bytes](https://www.youtube.com/playlist?list=PL6RpkC85SLQC3HBShmlMaPu_nL--4f20z)
+* https://github.com/jung-thomas
 
 #### Github SAP-samples
 
