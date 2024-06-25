@@ -36,6 +36,7 @@ git push -u origin main
 | Branch master | `git checkout master` | Switch to master branch |
 | Delete branch | `git branch -d branch-name` | Delete branch |
 | Push branch | `git push origin branch` | Branch is available in remote repository |
+| Push all the branches | `git push --all origin` | Push all commits of all branches to origin |
 | Pull | `git pull`| Update local repository from remote server. (fetch + merge) |
 | Merge | `git merge branch` | Merge branch into active branch, includes all the Git commits in the history of target branch. |
 | Diff | `git diff source target` | Compare changes between source and target branches |
