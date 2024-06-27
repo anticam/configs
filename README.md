@@ -393,6 +393,7 @@ Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud](https://dev
 [PlayCode](<https://playcode.io/>)
 [RunJS](https://runjs.co/)
 [Plunker](https://plnkr.co/)
+[Code Beauty](https://codebeautify.org/)
 
 ### Curl
 
