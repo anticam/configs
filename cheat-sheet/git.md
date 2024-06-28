@@ -14,6 +14,9 @@ git clone --branch <branch_name> <repository_url>
 git remote add origin <https://github.com/anticam/configs.git>
 git branch -M main
 git push -u origin main
+
+// push all branches
+git push --all origin
 ```
 
 ### Git
