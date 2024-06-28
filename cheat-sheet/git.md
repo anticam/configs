@@ -21,19 +21,20 @@ git push -u origin main
 
 | Task | Command | Description|
 | --- | --- | --- |
-| Initialize | `git init` | Initialize a new repository |
-| Checkout | `git clone https://github.com/anticam/configs.git` | Clone a repository, a new folder configs created |
+| Init a repo | `git init` | Initialize a new repository |
+| Clone a repository | `git clone https://github.com/anticam/configs.git` | Clone a repository, a new folder configs created |
 | Add a file | `git add main.cpp` | Add a single file (main.cpp) to the repository |
 | Add all the files | `git add *`| Add all the files to the repository |
-| Commit | `git commit -m "message"` | Commit to the HEAD. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) |
+| Commit - add | `git commit -m "message"` | Commit to the HEAD. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) |
+| Commit - list | `git log --pretty=oneline` | List commites in one line. [Viewding the Commit History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) |
 | Push | `git push origin master` | Copy changes to remote repository |
 | Connect | `git remote add origin <server>`| Connect to a remote repository |
-| Branch | `git branch`| Show local branches |
-| Branch | `git branch -r`| Show remote  branches |
-| Branch | `git branch -a`| Show local and remote branches |
-| Branch | `git checkout -b branch-name` | Create a new branch |
-| Branch | `git  checkout branchname`| Switch to branch "branchname" |
-| Branch master | `git checkout master` | Switch to master branch |
+| Branch - show local | `git branch`| Show local branches |
+| Branch - show remote | `git branch -r`| Show remote  branches |
+| Branch - show all | `git branch -a`| Show local and remote branches |
+| Branch - create | `git checkout -b branch-name` | Create a new branch |
+| Branch - switch | `git  checkout branchname`| Switch to branch "branchname" |
+| Branch - master | `git checkout master` | Switch to master branch |
 | Delete branch | `git branch -d branch-name` | Delete branch |
 | Push branch | `git push origin branch` | Branch is available in remote repository |
 | Push all the branches | `git push --all origin` | Push all commits of all branches to origin |
