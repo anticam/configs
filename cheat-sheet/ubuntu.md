@@ -119,6 +119,8 @@ docker network create  <network>
 
 ### Mount
 [cyberciti](https://www.cyberciti.biz/faq/mount-drive-from-command-line-ubuntu-linux/)  
+[DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
+
 
 install nfs-common
 ```
@@ -129,11 +131,11 @@ list path to drives
 ```
 lsblk -lf
 ```
-
+#### Mount a drive
 
 create new mount point
 ```
-sudo mkdir /mnt/wdc
+sudo mkdir -p /mnt/wdc
 ```
 
 mount the drive named /dev/sdb1 at /mnt/wdc
@@ -151,6 +153,43 @@ edit fstab for ext4
 mount based on /etc/fstab file content
 ```
 sudo mount -av
+```
+
+#### Mount an NFS
+create new mount point
+```
+sudo mkdir -p /mnt/wdc/music
+```
+
+mount the the network share
+```shell
+sudo mount host_ip:/media/music
+```
+
+check status
+```
+df -h
+du -sh /mnt/wdc/music
+```
+
+mount the remote directory at boot
+```
+sudo nano /etc/fstab
+```
+
+/etc/fstab
+```
+host_ip:/media/music               /mnt/wdc/music      nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0
+
+```
+
+unmounting an NFS remote share
+```
+sudo umount /mnt/wdc/music
+```
+check status
+```
+df -h
 ```
 
 
