@@ -36,6 +36,7 @@
 - [ ] Fail2Ban
 - [ ] DokuWiki
 - [ ] Syncthing
+- [ ] Dashy
 - [ ] Heimdall - Application Dashboard
 - [ ] Wiki.js
 
@@ -842,3 +843,5 @@ docker-compose [image](https://hub.docker.com/_/mongo-express)
 [Docker](https://hub.docker.com/r/linuxserver/wikijs)
 [Wiki.js](https://js.wiki/)
 
+### Dashy
+[Dashy docker](https://hub.docker.com/r/lissy93/dashy)

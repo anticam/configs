@@ -1,45 +1,26 @@
 # Configurations
 
+### Cheet-sheets
+[Choco commands](cheat-sheet/choco.md)
+[Git commands](cheat-sheet/git.md)
+[Tools](cheat-sheet/tools.md)
+[Network](cheat-sheet/tools.md)
+[Docker](cheat-sheet/docker.md)
+[NPM](cheat-sheet/npm.md)
+[Ubuntu](cheat-sheet/ubuntu.md)
+
 ## Windows Terminal
 
 ### Color scheme
 
 Setting [Cobalt2](https://github.com/Reidond/cobalt2-windows-terminal) theme for Windows Terminal
 
-### How to update existing Git repository
-
-…or push an existing repository from the command line
-
-```bash
-git remote add origin <https://github.com/anticam/configs.git>
-git branch -M main
-git push -u origin main
-```
-
-### Neovim
-
-Install neovim
-
-```bash
-choco install neovim
-```
-
-check config path
-
-```bash
-:echo stdpath('config)
-C:\Users\<user>\AppData\Local\nvim
-```
-
-put [init.lua](https://github.com/nvim-lua/kickstart.nvim/blob/master/init.lua) to config path
-
-```bash
-C:\Users\<user>\AppData\Local\nvim\init.lua
-```
-
-next start, plugins will be installed
-
 ### Git
+
+
+[Git cheat sheet - pdf](https://training.github.com/downloads/github-git-cheat-sheet.pdf)    
+[Git doc](https://git-scm.com/doc)  
+[Learning Git branching](https://learngitbranching.js.org/)  
 
 Git installation, usage [GeeksForGeeks](https://www.geeksforgeeks.org/working-on-git-bash/)  
 Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/git-guide/)  
@@ -66,6 +47,8 @@ Git commands [rogerdudler.github.io/git-guide/](https://rogerdudler.github.io/gi
 | Log | `git log --author=user` | Logs |
 | Log | `git log --author=user` ||
 | Log | `git log --name-status` ||
+| Log | `git log --patch` ||
+| Log | `git log --pretty=oneline` ||
 | Log | `git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all'` ||
 | Replace | `git checkout -- filename`| Replace a local file |
 | Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
@@ -294,7 +277,7 @@ Tool list
 | --- | --- | --- |
 | [Advanced IP Scanner](https://www.advanced-ip-scanner.com/)| `choco install advanced-ip-scanner` | |
 | [Cascadia Font Nerd](https://www.nerdfonts.com/font-downloads) | `choco install cascadia-code-nerd-font` | --- |
-| [CMake](https://cmake.org/cmake/help/v2.8.1/cmake.html) | `choco install cmake`  | --- |
+| [~~CMake~~](https://cmake.org/cmake/help/v2.8.1/cmake.html) | `choco install cmake`  | see make instead |
 | [DBeaver](https://dbeaver.io/) | `choco install dbeaver` | --- |
 | [Ditto Clipboard](https://ditto-cp.sourceforge.io/) | `choco install ditto` | --- |
 | [Everything](https://www.voidtools.com/) | `choco install everything`| --- |
@@ -316,22 +299,20 @@ Tool list
 | [Notepad++](https://notepad-plus-plus.org/) | `choco install notepadplusplus` | --- |
 | [Notepad++ plugin manager](https://github.com/chtof/chocolatey-packages/tree/master/automatic/notepadplusplus-npppluginmanager) | `choco install npppluginmanager` | --- |
 | [Obsidian](https://obsidian.md/) | `choco install obsidian` | Note organizer |
-| [Oh-My-Posh](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
+| [~~Oh-My-Posh~~](https://ohmyposh.dev/) | `choco install oh-my-posh` | --- |
 | [Pack](https://github.com/buildpacks/pack) | `choco install pack` | buildpack CLI |
-| [Postman for Windows](https://www.postman.com/) | `choco install postman` ||
+| [~~Postman for Windows~~](https://www.postman.com/) | `choco install postman` | use insomnia |
 | [Python 3.x](https://www.python.org/downloads/) | `choco install python3`| ---|
-| [SAPMachine JDK 11](https://sap.github.io/SapMachine/) | `choco install sapmachine11` | --- |
-| [SAPMachine JDK 13](https://sap.github.io/SapMachine/) | `choco install sapmachine13` | --- |
 | [SAPMachine JDK 17](https://sap.github.io/SapMachine/) | `choco install sapmachine17` | --- |
 | [SAPMachine JDK 19](https://sap.github.io/SapMachine/) | `choco install sapmachine` | --- |
 | [Screenpresso](https://www.screenpresso.com/) | `choco install screenpresso` | Capture tool |
-| [Sizer](http://www.brianapps.net/sizer4/) | `choco install sizer` | Window resizer |
+| [~~Sizer~~](http://www.brianapps.net/sizer4/) | `choco install sizer` | Window resizer, not any more in choco |
 | [Tabby](https://github.com/Eugeny/tabby) | `choco install tabby` | terminal software |
 | [TightVNC](https://www.tightvnc.com/)| `choco install tightvnc` | VNC client |
 | [Treesize free](https://www.jam-software.com/treesize_free) | `choco install treesizefree` | Folder allocation |
 | [VSCode](https://code.visualstudio.com/) | `choco install vscode` | --- |
 | [Visual Studio 2022 Community](https://visualstudio.microsoft.com/) | `choco install visualstudio2022community`||
-| [Windows Terminal](https://github.com/microsoft/terminal) | `choco install microsoft-windows-terminal` | Recommended to install from [Microsoft Store](https://aka.ms/terminal) |
+| [~~Windows Terminal~~](https://github.com/microsoft/terminal) | `choco install microsoft-windows-terminal` | Looks like it is available without installation |
 | [WinSCP](https://winscp.net/eng/download.php) | `choco install winscp` | --- |
 | [Wireshark](https://www.wireshark.org/) | `choco install wireshark` | Network sniffer |
 | [XCA](https://www.hohnstaedt.de/xca/) | `choco install xca` | Certificate and key manager |
@@ -361,7 +342,7 @@ choco install cloudfoundry-cli
 Add the community repository in CF CLI
 
 ```powershell
-cf add-plugin-repo CF-Community <https://plugins.cloudfoundry.org>
+cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
 ```
 
 Plugins
@@ -412,6 +393,7 @@ Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud](https://dev
 [PlayCode](<https://playcode.io/>)
 [RunJS](https://runjs.co/)
 [Plunker](https://plnkr.co/)
+[Code Beauty](https://codebeautify.org/)
 
 ### Curl
 
@@ -456,49 +438,6 @@ diceware
 FidelityCringingCollideJiffyAvidVertical
 ```
 
-### NPM
-
-Versioning
-major.minor.patch
-express 4.17.3
-
-Manual package update
-
-```bash
-npm outdated
-npm update
-```
-
-Automatic minor/patch update
-
-```bash
-express ^4.17.3
-caret updates minor
-
-express ~4.17.3
-tiled updates patch
-```
-
-npm - how to list outdated global packages
-```
-npm outdated -g
-```
-
-
-npm - how to update all global packages
-```
-npm update -g
-```
-
-npm - how to update a specific global package
-```
-npm update -g <package name>
-```
-
-How to update all global packages to the latest version:
-```
-npx npm-check --global --update-all
-```
 
 
 
