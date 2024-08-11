@@ -20,6 +20,7 @@ FEWD Professional certificate
    * [Learn to use CodePen form a co-founder of CodePen](https://youtu.be/vb9uYBtqmeM)  
 3. [JSFiddle](https://jsfiddle.net/)  
 4. [Dabblet](https://dabblet.com/)  
+5. [Codesandbox.io](https://codesandbox.io/)  
 
 #### Validators
 
@@ -52,6 +53,8 @@ SQL - Joey Blue
 
 ML/AI - Sentdex
 
+[Flavio books](https://flaviocopes.com/books/)
+
 #### Coding Practice
 
 * [Hacker Rank](https://www.hackerrank.com/)
@@ -78,6 +81,12 @@ ML/AI - Sentdex
 * [Clever Programmer](https://www.youtube.com/@CleverProgrammer)
 * [Telusko](https://www.youtube.com/@Telusko)
 * [mycodeschool](https://www.youtube.com/user/mycodeschool)
+### Frameworks
+[Sevelte - CYBERNETICALLY ENHANCED WEB APPS](https://svelte.dev/)  
+
+### gPRC
+https://betterprogramming.pub/grpc-vs-rest-comparing-api-styles-in-practice-28d2a7c9a349  
+[gPRC vs REST](https://github.com/anthonydmays/grpc-vs-rest)  
 
 #### MQ Practice
 
@@ -106,8 +115,138 @@ ML/AI - Sentdex
 * Snipplr
 * Free Frontend
 
+#### Useful websites
+[Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code  
+[Regulex](https://jex.im/regulex/#!flags=&re=(((%3F%3D.*%5Cd)((%3F%3D.*%5Ba-z%5D)%7C(%3F%3D.*%5BA-Z%5D)))%7C(%3F%3D.*%5Ba-z%5D)(%3F%3D.*%5BA-Z%5D))%5E%5Ba-zA-Z%5Cd%5D%7B6%2C12%7D%24) - JavaScript Regular Expression visualizer  
+[Unsplash](https://unsplash.com/) - Random image  
+[Tinypng](https://tinypng.com/) - Smart WebP, PNG and JPEG compression  
+[Codepen](https://codepen.io/) - The best place to build, test, and discover front-end code  
+[Ionic](https://ionic.io/) - Open source icons  
+[Color hunt](https://colorhunt.co/palettes/pastel) - Super practical palette  
+[Can I use](https://caniuse.com/) - Browser compatibility  
+[DevDocs](https://devdocs.io/)  
+[CDNJS](https://cdnjs.com/) - Find open sourc libraries  
+[Removebg](https://www.remove.bg/) - Remove Image Background  
+[Readme](https://readme.so/editor) - The easiest way to create a README file  
+[GTmetrix](https://gtmetrix.com/) - How fast does your website load?  
+[Photopea](https://www.photopea.com/) - Edit pictures online  
+[manypixels](https://www.manypixels.co/gallery) - Royalty-free illustrations  
+
+#### Useful websites
+[Carbon](https://carbon.now.sh/) - Create and share beautiful images of your source code  
+[Regulex](https://jex.im/regulex/#!flags=&re=(((%3F%3D.*%5Cd)((%3F%3D.*%5Ba-z%5D)%7C(%3F%3D.*%5BA-Z%5D)))%7C(%3F%3D.*%5Ba-z%5D)(%3F%3D.*%5BA-Z%5D))%5E%5Ba-zA-Z%5Cd%5D%7B6%2C12%7D%24) - JavaScript Regular Expression visualizer  
+[Unsplash](https://unsplash.com/) - Random image  
+[Tinypng](https://tinypng.com/) - Smart WebP, PNG and JPEG compression  
+[Codepen](https://codepen.io/) - The best place to build, test, and discover front-end code  
+[Ionic](https://ionic.io/) - Open source icons  
+[Color hunt](https://colorhunt.co/palettes/pastel) - Super practical palette  
+[Can I use](https://caniuse.com/) - Browser compatibility  
+[DevDocs](https://devdocs.io/)  
+[CDNJS](https://cdnjs.com/) - Find open sourc libraries  
+[Removebg](https://www.remove.bg/) - Remove Image Background  
+[Readme](https://readme.so/editor) - The easiest way to create a README file  
+[GTmetrix](https://gtmetrix.com/) - How fast does your website load?  
+[Photopea](https://www.photopea.com/) - Edit pictures online  
+[manypixels](https://www.manypixels.co/gallery) - Royalty-free illustrations  
+
 #### API testing
 
 * [Webhook.site](https://webhook.site)  
 * [Reqbin](https://reqbin.com/)  
 * [Ngrok](https://ngrok.com/) - ingress  
+
+
+#### IP / Port test
+[Whatsmydns.net](https://www.whatsmydns.net/) 
+[Host / port checker](https://www.host-tracker.com/)  
+
+
+### OData
+OData vocabularies: https://github.com/SAP/odata-vocabularies  
+Northwind OData service: https://services.odata.org/  
+OData version 2: https://services.odata.org/v2/northwind/northwind.svc/  
+OData version 4: https://services.odata.org/v4/northwind/northwind.svc/  
+
+Categories in XML format: https://services.odata.org/v2/northwind/northwind.svc/Categories  
+Categories in JSON format: https://services.odata.org/v2/northwind/northwind.svc/Categories?$format=json  
+metadata: https://services.odata.org/v2/northwind/northwind.svc/$metadata  
+
+
+#### Missions
+
+[Combine CAP with SAP HANA Cloud to Create Full-Stack Applications](https://developers.sap.com/mission.hana-cloud-cap.html)  
+SAP Developers - [SAP HANA Basics for Developers](https://www.youtube.com/playlist?list=PL6RpkC85SLQAPHYG1x6IEu_exE5pa0UK_)  
+[CDS Core Documentation](https://help.sap.com/docs/btp/sap-business-technology-platform/core-data-and-services-cds-language-reference-documentation)  
+
+[Extend the Object Page by Adding More Functionality](https://developers.sap.com/tutorials/fiori-tools-cap-modify-object-page.html)  
+[Create a CF App Using SAP Cloud SDK](https://developers.sap.com/mission.cloudsdk-cf-app.html)  
+[Build an Application in the Kyma Runtime](https://developers.sap.com/mission.cp-kyma-build-app.html)  
+
+[Mission CAP](https://developers.sap.com/mission.cp-starter-extensions-cap.html)  
+[Mission CAP service deploy](https://developers.sap.com/tutorials/cap-service-deploy.html)  
+[Mission CAP Java - Build a Business Application Using CAP for Java](https://developers.sap.com/mission.cap-java-app.html)  
+[Github - SAP-samples - CAP Java])(https://github.com/SAP-samples/cloud-cap-samples-java)  
+
+#### 10 min IT tutorials
+[Cloud Application Programming Model - CAPM](https://www.youtube.com/playlist?list=PLKSPsENL3CxyZk37Jrv1Ve40_n8_gPier)  
+[SAPUI5 - From beginner to expert !!](https://www.youtube.com/playlist?list=PLKSPsENL3Cxwsrzj55poGoS9Bfv6wGLgb)  
+[SAP CAP Model - Intermediate and Advanced](https://www.youtube.com/playlist?list=PLKSPsENL3Cxyd_cF-1oBXtcmFBljr-MZ3)  
+
+#### Multi tenant
+[2020 - Getting Started with Multitenant Business Applications on SAP BTP | Hands-on Video Tutorials](https://blogs.sap.com/2020/09/25/getting-started-with-multitenant-business-applications-on-sap-cloud-platform-hands-on-video-tutorials/)  
+[2021 - Multitenant Business Applications with CAP | Hands-on Video Tutorials](https://blogs.sap.com/2021/06/03/getting-started-with-multitenant-business-applications-on-sap-btp-continued-hands-on-video-tutorials/)  
+[2022 - Multi-tenant Development with SAP BTP, Kyma Runtime](https://www.youtube.com/watch?v=hnD7Lr_2464)  
+
+
+#### HANA Academy
+[SAP Business Technology Platform - Multitenant Business Applications](https://www.youtube.com/playlist?list=PLkzo92owKnVx3Sh0nemX8GoSNzJGfsWJM)  
+[SAP Business Technology Platform Partner Developer Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVzkp61Nyw1qXLKKC-Aeo1Hm)  
+[SAP Business Technology Platform Onboarding](https://www.youtube.com/playlist?list=PLkzo92owKnVw3l4fqcLoQalyFi9K4-UdY)  
+
+#### Github SAP-samples
+[On Standalone Application Router using HTML5 Application Repository](https://github.com/SAP-samples/multi-cloud-html5-apps-samples/tree/main/standalone-approuter-html5-runtime)  
+
+#### OpenSAP
+[EVolved Web Apps with SAPUI5 2019](https://open.sap.com/courses/ui52)
+[SAP -archive Cloud CAP Node.js Codejam](https://github.com/SAP-archive/cloud-cap-nodejs-codejam)  
+[BTP Multitenant CAP](https://microlearning.opensap.com/media/BTP+Multitenant+CAP+-+First+Application+-+Part+1/1_6cl0hken)  
+
+[Developing and Extending SAP Fiori Elements Apps 2021](https://open.sap.com/courses/fiori-ea1)  
+[Github - Fiori elements](https://github.com/SAP-samples/fiori-elements-opensap)  
+
+#### LinkedIn
+[React.js: Building n Interface](https://www.linkedin.com/learning/react-js-building-an-interface-8551484/why-react-is-so-important?autoplay=true&save=true&u=57692769)  
+#### Tools
+[CLI Tool Examples, CDS](https://github.com/SAP-samples/hana-developer-cli-tool-example#cds)  
+
+#### Fiori/SPUI5/OpenUI5
+[SAP Fiori Elements](https://experience.sap.com/fiori-design-web/smart-templates/)  
+
+#### Annontations
+[A deep dive into OData and CDS annotations](https://qmacro.org/blog/posts/2023/03/10/a-deep-dive-into-odata-and-cds-annotations/)  
+[[Part – 1] Enrich CAP based Services with Behaviors using Annotations](https://anginfotech.com/part-1-enrich-cap-based-services-with-behaviors-using-annotations/)  
+
+#### ABAP
+[Learning ABAP Programming](https://training.sap.com/content/ABAP-programming-training)  
+[Learn the ABCs of ABAP Programming on SAP BTP](https://learning.sap.com/learning-journey/learn-the-abcs-of-abap-programming-on-sap-btp)  
+
+#### MTA
+https://github.com/SAP-samples/cf-mta-examples/tree/main/active-optional-resources  
+
+#### Help page
+[Migration Tables (.hdbmigrationtable)](https://help.sap.com/docs/HANA_CLOUD_DATABASE/c2cc2e43458d4abda6788049c58143dc/52d1f5acfa754a7887e21226641eb261.html)
+
+#### Bogus/Fake/Mock Data generator
+[JSON generator](https://json-generator.com/#)  
+[Mockaroo](https://www.mockaroo.com/)  
+
+#### Resource
+Free photos: [Unsplash](https://unsplash.com/)  
+
+#### Blogs
+[Introducing Resilience in the SAP Cloud SDK Version 3.0](https://blogs.sap.com/2023/02/28/introducing-resilience-in-the-sap-cloud-sdk-version-3.0/)  
+[SAP Cloud SDK Overview - 2017](https://blogs.sap.com/2017/05/10/first-steps-with-sap-s4hana-cloud-sdk/)  
+[Getting started with SAP iRPA 2.0 – Updated 2022](https://blogs.sap.com/2022/09/01/getting-started-with-sap-irpa-2.0-updated-2022/)  
+
+#### Windows CMD
+dir - [sort](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir)  
