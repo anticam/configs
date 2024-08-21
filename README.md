@@ -348,8 +348,9 @@ cf add-plugin-repo CF-Community https://plugins.cloudfoundry.org
 Plugins
 | Plugin | Command | Description |
 | --- | --- | --- |
-|[service manager](https://github.com/SAP/cf-cli-smsi-plugin)|  `cf install-plugin service-management` | service manager installation|
-| [multiapps](https://github.com/cloudfoundry/multiapps-cli-plugin) | `cf install-plugin multiapps` | multiapps installation |
+| [service manager](https://github.com/SAP/cf-cli-smsi-plugin) |  `cf install-plugin service-management` | service manager |
+| [multiapps](https://github.com/cloudfoundry/multiapps-cli-plugin) | `cf install-plugin multiapps` | multiapps |
+| [hmlt5 repo](https://github.com/SAP/cf-html5-apps-repo-cli-plugin) | `cf install-plugin -r CF-Community "html5-plugin"` | html5 repo |
 
 Tasks
 | Task | Command | Description |
