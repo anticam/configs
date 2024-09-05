@@ -386,6 +386,8 @@ Community - [Cloud SDK](https://community.sap.com/topics/cloud-sdk)
 
 Tutorial - [Create Database Artifactes Using CDS for SAP HANA Cloud](https://developers.sap.com/tutorials/hana-cloud-cap-create-database-cds.html)
 
+[Git - UI5 ShowCase](https://github.com/ui5-community/ui5-ecosystem-showcase)
+
 ### Online Tools
 
 [Codepen](https://codepen.io/pen/)
