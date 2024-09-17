@@ -3,10 +3,32 @@
 ## Smart home improvements
 
 - [ ] Hunter Extension
-- [ ] ABB Terra AC - 50%
+- [ ] ABB Terra AC - 90%
 - [ ] FlightAware ADB-S Ground Station
 - [ ] Self Hosting
 - [ ] OPNsense
+- [ ] Cloudflare tunnel / WireGuard
+- [ ] StirlingPDF
+- [ ] Uptime Iuma
+- [ ] ErsatzTV
+- [ ] KrakenSDF [KrakenRF](https://krakenrf.com)
+- [ ] [selfh.st - icons](https://selfh.st/icons)
+- [ ] [Bus Pirate](https://buspirate.com)
+- [ ] [selfh.st - apos](https://selfh.st/apps/?)
+- [x] [Bookstack](https://bookstack.com)
+- [ ] [Awesome Selfhosted](https://awesome-selfhosted.net)
+- [ ] ConvertX file converter
+- [ ] HRConvert2
+- [ ] The Fuck - console
+- [ ] Organize
+- [ ] [Restic - backup](https://restic.net)
+- [ ] [Oh My ZSH](hptts:/ohmyz.sh)
+- [ ] [Kavita](https://kavitareader.com)
+- [ ] Kapowarr
+- [ ] Komga
+- [ ] chipsandcheese.com
+- [ ] casey / just github
+- [ ] falstad.com/circuit
 
 ### Hunter extension with ESP32
 
