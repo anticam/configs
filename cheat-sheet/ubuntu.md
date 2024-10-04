@@ -163,7 +163,7 @@ sudo mkdir -p /mnt/wdc/music
 
 mount the the network share
 ```shell
-sudo mount host_ip:/media/music
+sudo mount host_ip:/media/music /mnt/wdc/music
 ```
 
 check status
