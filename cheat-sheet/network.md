@@ -33,3 +33,7 @@ look for IP address using Cloudflare DNS
 ```shell
 nslookup telekom.hu 1.1.1.1
 ```
+
+### Fast.com
+Speedtest from browser [fast.com](https://fast.com)  
+Speedtest from CLI - [Test Your Internet Speed from the Linux Terminal with fast](https://technotim.live/posts/fast-internet-test-cli/)  
