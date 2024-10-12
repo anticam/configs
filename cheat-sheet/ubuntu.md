@@ -33,6 +33,7 @@ sudo systemctl status ssh
 
 ### SSH keys
 [ssh keys](https://ubuntu.com/server/docs/openssh-server)  
+[ssh key exchange](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-20-04)  
 generate keys 
 ```
 ssh-keygen -t rsa
