@@ -193,4 +193,7 @@ check status
 df -h
 ```
 
+### Bluetooth
+https://manpages.ubuntu.com/manpages/trusty/man1/bt-adapter.1.html  
+https://ubuntu.com/core/docs/bluez/reference/commands  
 
