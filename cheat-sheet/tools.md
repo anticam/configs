@@ -45,3 +45,8 @@ C:\Users\<user>\AppData\Local\nvim\init.lua
 ```
 
 next start, plugins will be installed
+
+### How to generate UUID
+https://www.uuidgenerator.net/dev-corner/bash  
+https://www.uuidgenerator.net/  
+npx uuid  
