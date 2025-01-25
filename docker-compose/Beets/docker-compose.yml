@@ -1,0 +1,21 @@
+#
+# beets.io
+# https://docs.linuxserver.io/images/docker-beets/#application-setup
+#  
+
+services:
+  beets:
+    image: lscr.io/linuxserver/beets:latest
+    container_name: beets
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ./config:/config
+      - /mnt/terra/music:/music
+      - /mnt/terra/media/incoming:/downloads
+    ports:
+      - 8337:8337
+    restart: unless-stopped
+

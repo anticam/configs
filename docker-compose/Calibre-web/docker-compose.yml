@@ -1,0 +1,21 @@
+services:
+
+  calibre-web:
+    image: lscr.io/linuxserver/calibre-web:latest
+    container_name: calibre-web
+    env_file: .env
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=$TZ
+      - DOCKER_MODS=linuxserver/mods:universal-calibre
+    labels:
+      - diun.enable=true
+      - com.centurylinklabs.watchtower.enable=true
+      #- com.centurylinklabs.watchtower.monitor-only=true
+    volumes:
+      - ${BOOKSPATH}/calibreweb:/config
+      - ${BOOKSPATH}/calibre/Calibre Library:/books
+    ports:
+      - "8083:8083"
+    restart: unless-stopped

@@ -1,0 +1,29 @@
+# https://www.youtube.com/watch?v=fxo5-iiwZXk
+# Burns-HA - Node-Red in Docker with Home Assistant!!
+
+services:
+  node-red:
+    image: nodered/node-red:latest
+    container_name: node-red
+    env_file: .env
+    environment:
+      - TZ=${TZ}
+    #user: 1000:1000
+    ports:
+      - 1880:1880
+    networks:
+      proxy:
+    #  - node-red-net
+    volumes:
+      - $DOCKERDIR/node-red/data:/data
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+    restart: unless-stopped
+
+
+##### NETWORKS
+networks:
+  proxy:
+    external: true

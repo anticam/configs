@@ -1,0 +1,62 @@
+#
+# https://github.com/JamesTurland/JimsGarage/blob/main/Homepage/Homepage/docker-compose.yaml
+#
+# icon reference
+# Techno Tim
+# https://www.youtube.com/watch?v=mC3tjysJ01E
+# Meet Homepage - Your HomeLab Services Dashboard
+#  
+# mdi-account-cowboy-hat-#FF0000
+#   si-mcdondalds-#FFD700
+#
+# after .env change run to reload .env
+# docker compose up -d --force-recreate
+#
+# source:
+# https://technotim.live/posts/homepage-dashboard/
+#
+
+
+services:
+
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    env_file:
+      - .env
+    container_name: homepage
+    environment:
+      PUID: ${PUID}
+      PGID: ${PGID}
+    ports:
+      - 3000:3000
+    volumes:
+      - ${DOCKERDIR}/homepage/config:/app/config # Make sure your local config directory exists
+      - /var/run/docker.sock:/var/run/docker.sock:ro # optional, for docker integrations
+      - /mnt/wdc:/wdc #this is my mounted media share
+    networks:
+      - proxy
+    labels:
+      #- "traefik.enable=true"
+      #- "traefik.http.routers.homepage.entrypoints=http"
+      #- "traefik.http.routers.homepage.rule=Host(`homepage.${DOMAIN}`)"
+      #- "traefik.http.routers.homepage.middlewares=default-whitelist@file"
+      #- "traefik.http.middlewares.homepage-https-redirect.redirectscheme.scheme=https"
+      #- "traefik.http.routers.homepage.middlewares=homepage-https-redirect"
+      #- "traefik.http.routers.homepage-secure.entrypoints=https"
+      #- "traefik.http.routers.homepage-secure.rule=Host(`homepage.${DOMAIN}`)"
+      #- "traefik.http.routers.homepage-secure.tls=true"
+      #- "traefik.http.routers.homepage-secure.service=homepage"
+      #- "traefik.http.services.homepage.loadbalancer.server.port=3000"
+      # - "traefik.http.routers.homepage-secure.middlewares=default-whitelist@file" # uncomment if you want to use a Traefik whitelist to restrict access
+      # - "traefik.http.routers.homepage-secure.middlewares=authelia@docker" # uncomment if you want to use authelia
+      # - "traefik.docker.network=proxy"
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+networks:
+  proxy:
+    name: proxy
+    external: true

@@ -1,0 +1,28 @@
+services:
+
+  influxdb:
+    image: influxdb:latest
+    container_name: influxdb
+    ports:
+      - 8086:8086
+    volumes:
+      - ${DOCKERDIR}/influxdb/data:/var/lib/influxdb2
+      - ${DOCKERDIR}/influxdb/config:/etc/influxdb2
+    env_file: .env
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ={$TZ}
+      #- INFLUXDB_DB=db0
+      #- INFLUXDB_ADMIN_USER=$INFLUX_ADMIN_USER
+      #- INFLUXDB_ADMIN_PASSWORD=$INFLUX_ADMIN_PASSWORD
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=${INFLUX_INIT_USER}
+      - DOCKER_INFLUXDB_INIT_PASSWORD=${INFLUX_INIT_USER_PASSWORD}
+      - DOCKER_INFLUXDB_INIT_ORG=${INFLUX_INIT_ORG}
+      - DOCKER_INFLUXDB_INIT_BUCKET=${INFLUX_INIT_BUCKET}
+    labels:
+      - diun.enable=true
+        #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+    restart: unless-stopped

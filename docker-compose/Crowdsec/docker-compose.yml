@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  crowdsec:
+    image: crowdsecurity/crowdsec:latest
+    container_name: crowdsec
+    labels:
+      - "diun.enable=true"
+    environment:
+      GID: "($GID-1000)"
+# depends_on: #uncomment if running traefik in the same compose file
+#     - 'treaefik'
+    volumes:
+      - ./config/acquis.yaml:/etc/crowdsec/acquis.yaml
+      - crowdsec-db:/var/lib/crowdsec/data
+      - crowdsec-config:/etc/crowdsec/
+      - traefik_traefik-logs:/var/log/traefik/:ro
+    networks:
+      - proxy
+    restart: unless-stoppped
+networks:
+  proxy:
+    external: true
+volumes:
+  crowdsec-db:
+  crowdsec-config:
+  traefik_traefik-logs: # this will be the name of the volume from traefik logs
+    external: true
+

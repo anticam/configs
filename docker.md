@@ -12,19 +12,19 @@
 - [x] Grafana
 - [x] Home Assistant
 - [x] Zigbee2MQTT
-- [ ] Node-Red
-- [ ] Traefik
-- [ ] Gitea
+- [x] Node-Red
+- [x] Traefik
+- [x] Gitea
 - [x] Piwigo
-- [ ] Calibre
-- [ ] Calibre-web
+- [x] Calibre
+- [x] Calibre-web
 - [ ] Cloudflared
-- [ ] Diun
+- [x] Diun
 - [ ] Dozzle
 - [ ] Duplicati
 - [x] Postgres
 - [ ] PG Admin
-- [ ] Ampache
+- [x] Ampache
 - [ ] Airsonic
 - [x] Adminer
 - [ ] Vaultwarden
@@ -38,7 +38,29 @@
 - [ ] Syncthing
 - [ ] Dashy
 - [ ] Heimdall - Application Dashboard
-- [ ] Wiki.js
+- [x] Wiki.js
+
+### Docker commands
+
+##### How to check docker image version?
+
+run command `docker images`
+```shell
+
+docker images
+REPOSITORY       TAG      IMAGE ID       CREATED         SIZE
+influxdb         <none>   f45c3de4f65f   5 months ago    403MB
+postgres         <none>   453541004df2   5 months ago    425MB
+adminer          latest   2f7580903a1d   6 months ago    250MB
+```
+
+run command `docker inspect [Image ID]`
+```shell
+
+docker inspect 2f7580903a1d |grep --ignore-case version
+  "DockerVersion": "23.0.11",
+    "ADMINER_VERSION=4.8.1",  
+```
 
 ### Deluge
 
@@ -51,7 +73,7 @@ deluge [docker container](https://hub.docker.com/r/linuxserver/deluge)
 docker
 <https://hub.docker.com/r/linuxserver/code-server>
 
-docker-compose
+docker-compose.yml
 
 ```docker
   code-server:
@@ -100,7 +122,8 @@ Extensions
 
 ### Mosquitto
 
-BeardedTinker [Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
+BeardedTinker  
+[Eclipse MQTT 2.x in Docker + user credentials on Synology](https://www.youtube.com/watch?v=ABb-63y0Em4)  
 [Mosquitto (MQTT) in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=eJjkgkS_Wqw&list=PLWlpiQXaMerS9IkaN9Off6RxoYCiP5edb&index=35)  
 Docker image [eclipse-.misquitto](https://hub.docker.com/_/eclipse-mosquitto)  
 
@@ -130,7 +153,7 @@ allow_anonymous true
 listener 1883
 ```
 
-docker-compose file
+docker-compose.yml file
 
 ```docker
   mosquitto:
@@ -198,7 +221,8 @@ mkdir docker/portainer
 mkdir docker/portainer/data
 ```
 
-docker-compose [docker hub](https://hub.docker.com/r/portainer/portainer-ce)
+docker-compose.yml  
+[docker hub](https://hub.docker.com/r/portainer/portainer-ce)
 
 ```docker
   portainer:

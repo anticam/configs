@@ -1,0 +1,20 @@
+services:
+
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      #- WEBSOCKET_ENABLED: "true"  # Enable WebSocket notifications.
+    volumes:
+      -  ${DOCKERDIR}/vaultwarden/data:/data
+    ports:
+      - 4080:80
+      #- 3012:3012
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+    restart: always

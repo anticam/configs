@@ -1,0 +1,21 @@
+services:  
+  calibre:
+    #image: ghcr.io/linuxserver/calibre:latest
+    image: lscr.io/linuxserver/calibre:latest
+    container_name: calibre
+    env_file: .env
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+    #user: 1000:1000
+    labels:
+      - diun.enable=true
+      - com.centurylinklabs.watchtower.enable=true
+      #- com.centurylinklabs.watchtower.monitor-only=true
+    volumes:
+      - ${BOOKSPATH}/calibre:/config
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    restart: unless-stopped

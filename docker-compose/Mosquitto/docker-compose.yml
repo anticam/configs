@@ -1,0 +1,43 @@
+# https://www.youtube.com/watch?v=2S_kZo_ElxY
+# Jim's Garage - Mosquitto MQTT Broker - Explanation and Setup
+# https://github.com/JamesTurland/JimsGarage/blob/main/Mosquitto/docker-compose.yaml
+# 
+# https://medium.com/@tomer.klein/docker-compose-and-mosquitto-mqtt-simplifying-broker-deployment-7aaf469c07ee
+# 
+#
+# ssh to docker:
+# sudo docker exec -it mosquitto sh
+# add user:
+# mosquitto_passwd -c /mosquitto/config/pwfile user1
+#
+# delete user:
+# mosquitto_passwd -D /mostquitto/confi/pwfile user1
+
+
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    volumes:
+      - $DOCKERDIR/mosquitto/config:/mosquitto/config
+      - $DOCKERDIR/mosquitto/data:/mosquitto/data
+      - $DOCKERDIR/mosquitto/log:/mosquitto/log
+      - $DOCKERDIR/mosquitto/config/mosquitto.conf:/mosquitto/config/mosquitto.conf
+      #- $DOCKERDIR/mosquitto/config/pwfile:/mosquitto/config/pwfile
+      #- /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 2883:1883
+      - 9001:9001
+    networks:
+      proxy:
+    labels:
+      - diun.enable=true
+      #- com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.monitor-only=true
+    restart: always
+    security_opt:
+      - no-new-privileges:true
+
+networks:
+  proxy:
+    external: true

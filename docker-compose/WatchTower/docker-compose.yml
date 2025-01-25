@@ -1,0 +1,90 @@
+# version: "3.8"
+
+#
+# https://containrrr.dev/watchtower/
+#  https://crontab.cronhub.io/
+#
+# https://pkg.go.dev/github.com/robfig/cron@v1.2.0#hdr-CRON_Expression_Format
+#
+# A cron expression represents a set of times, using 6 space-separated fields.
+# 
+# Field name   | Mandatory? | Allowed values  | Allowed special characters
+# ----------   | ---------- | --------------  | --------------------------
+# Seconds      | Yes        | 0-59            | * / , -
+# Minutes      | Yes        | 0-59            | * / , -
+# Hours        | Yes        | 0-23            | * / , -
+# Day of month | Yes        | 1-31            | * / , - ?
+# Month        | Yes        | 1-12 or JAN-DEC | * / , -
+# Day of week  | Yes        | 0-6 or SUN-SAT  | * / , - ?
+# 
+#  0 0 5 * * * - at 5AM
+# 
+# for containers set 
+#  labels:
+#    - com.centurylinklabs.watchtower.enable=true
+#
+#  lables:
+#    - com.centurylinklabs.watchtower.monitor-only=true
+# 
+
+services:
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - proxy
+    ports:
+      - 8098:8080
+    env_file:
+      - .env
+    environment:
+      TZ: ${TIMEZONE}
+      WATCHTOWER_LABEL_ENABLE: 'true'
+      WATCHTOWER_NOTIFICATION_REPORT: 'true'
+      #WATCHTOWER_NOTIFICATION_TEMPLATE: "{{.Message}}{{println}}{{end}}"
+      WATCHTOWER_LIFECYCLE_HOOKS: 'true'
+      WATCHTOWER_NOTIFICATIONS: 'shoutrrr gotify'
+      WATCHTOWER_NOTIFICATION_URL: ${WATCHTOWER_TELEGRAM_URL}
+      WATCHTOWER_NOTIFICATION_GOTIFY_URL: ${WATCHTOWER_GOTIFY_URL}
+      WATCHTOWER_NOTIFICATION_GOTIFY_TOKEN: ${WATCHTOWER_GOTIFY_TOKEN}
+      WATCHTOWER_NOTIFICATION_GOTIFY_TLS_SKIP_VERIFY: 'true'
+      WATCHTOWER_CLEANUP: true
+      WATCHTOWER_SCHEDULE: '0 0 5 * * *'
+      WATCHTOWER_ROLLING_RESTART: 'true'
+      WATCHTOWER_DEBUG: 'true'
+      WATCHTOWER_TRACE: 'true'
+      WATCHTOWER_LOG_LEVEL: 'debug'
+      WATCHTOWER_HTTP_API_METRICS: 'true'
+      WATCHTOWER_HTTP_API_TOKEN: ${WATCHTOWER_METRICS_API_KEY}
+      WATCHTOWER_NOTIFICATION_TEMPLATE: |
+        {{- if .Report -}}
+          {{- with .Report -}}
+        Host-docky {{len .Scanned}} Scanned, {{len .Updated}} Updated, {{len .Failed}} Failed
+              {{- range .Updated}}
+        - {{.Name}} ({{.ImageName}}): {{.CurrentImageID.ShortID}} updated to {{.LatestImageID.ShortID}}
+              {{- end -}}
+              {{- range .Fresh}}
+        - {{.Name}} ({{.ImageName}}): {{.State}}
+            {{- end -}}
+            {{- range .Skipped}}
+        - {{.Name}} ({{.ImageName}}): {{.State}}: {{.Error}}
+            {{- end -}}
+            {{- range .Failed}}
+        - {{.Name}} ({{.ImageName}}): {{.State}}: {{.Error}}
+            {{- end -}}
+          {{- end -}}
+        {{- else -}}
+          {{range .Entries -}}{{.Message}}{{"\n"}}{{- end -}}
+        {{- end -}}      
+
+    labels:
+      - diun.enable=true
+      - com.centurylinklabs.watchtower.enable=true
+    restart: unless-stopped
+
+networks:
+  proxy:
+    name: proxy
+    external: true

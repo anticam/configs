@@ -1,0 +1,35 @@
+services:
+  diun:
+    image: crazymax/diun:latest
+    container_name: diun
+    command: serve
+    volumes:
+      - ${DOCKERDIR}/diun/data:/data
+      - /var/run/docker.sock:/var/run/docker.sock
+    env_file: .env
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - LOG_LEVEL=info
+      - LOG_JSON=false
+      - DIUN_WATCH_WORKERS=4
+      - "DIUN_WATCH_SCHEDULE=0 */6 * * *"
+      - DIUN_PROVIDERS_DOCKER=true
+      - DIUN_NOTIF_MAIL_HOST=${SMTP_HOST}
+      - DIUN_NOTIF_MAIL_PORT=${SMTP_PORT}
+      - DIUN_NOTIF_MAIL_SSL=false
+      - DIUN_NOTIF_MAIL_USERNAME=${SMTP_USER}
+      - DIUN_NOTIF_MAIL_PASSWORD=${SMTP_PASSWORD}
+      - DIUN_NOTIF_MAIL_FROM=${SMTP_FROM}
+      - DIUN_NOTIF_MAIL_TO=${SMTP_TO}
+      - DIUN_WATCH_COMPAREDIGEST=true
+      - DIUN_NOTIF_GOTIFY_ENDPOINT=${GOTIFY_API}
+      - DIUN_NOTIF_GOTIFY_TOKEN=${GOTIFY_TOKEN}
+      - DIUN_NOTIF_GOTIFY_PRIORITY=1
+      - DIUN_NOTIF_GOTIFY_TIMEOUT=10s
+    labels:
+      - diun.enable=true
+      - com.centurylinklabs.watchtower.enable=true
+      # com.centurylinklabs.watchtower.monitor-only=true
+    restart: always

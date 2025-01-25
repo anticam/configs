@@ -1,0 +1,38 @@
+
+services:
+  memos:
+    image: neosmemo/memos:latest
+    container_name: memos
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ${DOCKERDIR}/memos/data:/var/opt/memos
+    ports:
+      - 5230:5230
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - proxy      
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}      
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.memos.entrypoints=http"
+      - "traefik.http.routers.memos.rule=Host(`memos.${DOMAIN}`)"
+      - "traefik.http.middlewares.memos-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.memos.middlewares=memos-https-redirect"
+      - "traefik.http.routers.memos-secure.entrypoints=https"
+      - "traefik.http.routers.memos-secure.rule=Host(`memos.${DOMAIN}`)"
+      - "traefik.http.routers.memos-secure.tls=true"
+      - "traefik.http.routers.memos-secure.service=memos"
+      - "traefik.http.services.memos.loadbalancer.server.port=5230"
+      - "traefik.docker.network=proxy"
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+
+
+networks:
+  proxy:
+    external: true

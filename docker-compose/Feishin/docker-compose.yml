@@ -1,0 +1,12 @@
+
+services:
+  feishin:
+    image: ghcr.io/jeffvli/feishin:latest
+    container_name: feishin
+    ports:
+      - 9180:9180
+    labels:
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+    restart: unless-stopped
+

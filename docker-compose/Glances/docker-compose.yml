@@ -1,0 +1,41 @@
+services:
+
+  glances:
+    image: nicolargo/glances:latest
+    container_name: glances
+    restart: always
+    pid: "host"
+    privileged: true
+    #network_mode: "host"
+    networks:
+      - proxy
+    ports:
+      - 61208:61208
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./glances.conf:/glances/conf/glances.conf"
+      - "/mnt/wdc:/wdc:ro"
+    environment:
+      - "GLANCES_OPT=-w"
+      - "TZ=${TZ}"
+    labels:
+      #- "traefik.enable=true"
+      #- "traefik.http.routers.glances.entrypoints=http"
+      #- "traefik.http.routers.glances.rule=Host(`glances.${DOMAIN}`)"
+      #- "traefik.http.middlewares.glances-https-redirect.redirectscheme.scheme=https"
+      #- "traefik.http.routers.glances.middlewares=glances-https-redirect"
+      #- "traefik.http.routers.glances-secure.entrypoints=https"
+      #- "traefik.http.routers.glances-secure.rule=Host(`glances.${DOMAIN}`)"
+      #- "traefik.http.routers.glances-secure.tls=true"
+      #- "traefik.http.routers.glances-secure.service=glances"
+      #- "traefik.http.services.glances.loadbalancer.server.port=61208"
+      #- "traefik.docker.network=proxy"
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+
+networks:
+  proxy:
+    name: proxy
+    external: true
+
+

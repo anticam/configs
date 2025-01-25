@@ -1,0 +1,21 @@
+services:
+
+  lazylibrarian:
+    image: lscr.io/linuxserver/lazylibrarian:latest
+    container_name: lazylibrarian
+    env_file: .env
+    environment:
+      - PUID=${PUID}
+      - PGID=${PGID}
+      - TZ=${TZ}
+      - DOCKER_MODS=linuxserver/calibre-web:calibre|linuxserver/mods:lazylibrarian-ffmpeg #optional
+    labels:
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+    volumes:
+      - ${DOCKERDIR}/lazylibrarian/data:/config
+      - ${DOCKERDIR}/lazylibrarian/downloads:/downloads
+      - ${MEDIADIR}/books:/books #optional
+    ports:
+      - 5299:5299
+    restart: unless-stopped

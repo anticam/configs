@@ -1,0 +1,36 @@
+# version: '3.3'
+services:
+  gotify:
+    image: gotify/server
+    container_name: gotify
+    env_file: .env
+    volumes:
+      - ${DOCKERDIR}/gotify:/app/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      proxy:
+    environment:
+      - TZ=${TZ}
+    ports:
+      - 8096:80
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.gotify.entrypoints=http"
+      - "traefik.http.routers.gotify.rule=Host(`gotify.${DOMAIN}`)"
+      - "traefik.http.middlewares.gotify-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.gotify.middlewares=gotify-https-redirect"
+      - "traefik.http.routers.gotify-secure.entrypoints=https"
+      - "traefik.http.routers.gotify-secure.rule=Host(`gotify.${DOMAIN}`)"
+      - "traefik.http.routers.gotify-secure.tls=true"
+      - "traefik.http.routers.gotify-secure.service=gotify"
+      - "traefik.http.services.gotify.loadbalancer.server.port=80"
+      - "traefik.docker.network=proxy"
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+
+
+networks:
+  proxy:
+    external: true

@@ -1,0 +1,67 @@
+# version: '3'
+
+services:
+  vikunja:
+    image: vikunja/vikunja
+    container_name: vikunja
+    env_file:
+      - .env
+    environment:
+      VIKUNJA_SERVICE_PUBLICURL: https://vikunja.${DOMAIN}
+      VIKUNJA_DATABASE_HOST: ${VIKUNJA_DATABASE_HOST}
+      VIKUNJA_DATABASE_PASSWORD: $DB_PASSWORD
+      VIKUNJA_DATABASE_TYPE: mysql
+      VIKUNJA_DATABASE_USER: $DB_USER
+      VIKUNJA_DATABASE_DATABASE: $DB_DATABASE
+      VIKUNJA_SERVICE_JWTSECRET: $V_SERVICE_JWTSECRET
+    volumes: 
+      - ./files:/app/vikunja/files
+    networks:
+      - proxy
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.vikunja.entrypoints=http"
+      - "traefik.http.routers.vikunja.rule=Host(`vikunja.${DOMAIN}`)"
+      - "traefik.http.middlewares.vikunja-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.vikunja.middlewares=vikunja-https-redirect"
+      - "traefik.http.routers.vikunja-secure.entrypoints=https"
+      - "traefik.http.routers.vikunja-secure.rule=Host(`vikunja.${DOMAIN}`)"
+      - "traefik.http.routers.vikunja-secure.tls=true"
+      - "traefik.http.routers.vikunja-secure.service=vikunja"
+      #- "traefik.http.routers.vikunja.tls.certResolver=cloudflare"
+      - "traefik.http.services.vikunja.loadbalancer.server.port=3456"
+      - "traefik.docker.network=proxy"
+      - "diun.enable=true"
+      - "com.centurylinklabs.watchtower.enable=true"
+
+
+  db:
+    image: mariadb:10
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    env_file:
+      - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD 
+      MYSQL_USER: $DB_USER
+      MYSQL_PASSWORD: $DB_PASSWORD
+      MYSQL_DATABASE: $DB_DATABASE
+    ports:
+      - $DB_PORT:3306
+    networks:
+      - proxy
+    volumes:
+      - ./db:/var/lib/mysql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost --port=3306 -u $DB_USER --password=$DB_PASSWORD"]
+      #test: ["CMD-SHELL", "mysqladmin ping -h localhost --port=3306 -u vikunja --password=aed7Faikkei8Xah4"]
+      interval: 2s
+      start_period: 30s
+
+networks:
+  proxy:
+    external: true
