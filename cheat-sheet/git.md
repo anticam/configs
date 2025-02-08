@@ -1,12 +1,58 @@
 # Git
 
+[Net Ninja - Git &GitHub Tutorial for Beginners](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
 
-clone a specific branch
+
+
+#### Git
+
+##### Workflows
+
+###### Download a repository content
+
+Download configs folder:
+`git clone https://github.com/anticam/configs.git`
+
+or download to a specific, configuration folder
+`git clone https://github.com/anticam/configs.git configuration`
+
+or download a specific branch:
+`git clone --branch <branch_name> <repository_url>`
+
+###### Create a local repository and upload content
+
+1. Create a repository on GitHub
+
+2. Clone the repository:
+`git clone https://github.com/anticam/configs.git`
+
+###### When remote repository is not created:
+
+1. Initialize local Git repo:
+`git init`
+
+2. Add files:
+`git add .`
+
+3. Create a repository on GitHub
+4. Upload content:
+
+```shell
+git remote add origin <https://github.com/anticam/configs.git>
+git branch -M main
+git push -u origin main
+
+// push all branches
+git push --all origin
+```
+
+
+##### How to clone a specific branch
 ```shell
 git clone --branch <branch_name> <repository_url>
 ```
 
-### How to update existing Git repository
+##### How to connect local repository to existing Git repo:
 
 …or push an existing repository from the command line
 
@@ -19,45 +65,134 @@ git push -u origin main
 git push --all origin
 ```
 
-### Git
+
+##### Local repository initialization
+
+`git init`
+
+##### Adding files to repository
+
+Add a single file to the repository:
+`git add main.cpp`
+
+Add all the files to the repository:
+`git add *`
+`git add .`
 
 
-| Task | Command | Description|
-| --- | --- | --- |
-| Init a repo | `git init` | Initialize a new repository |
-| Clone a repository | `git clone https://github.com/anticam/configs.git` | Clone a repository, a new folder configs created |
-| Add a file | `git add main.cpp` | Add a single file (main.cpp) to the repository |
-| Add all the files | `git add *`| Add all the files to the repository |
-| Commit - add | `git commit -m "message"` | Commit to the HEAD. [Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) |
-| Commit - list | `git log --pretty=oneline` | List commites in one line. [Viewding the Commit History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) |
-| Push | `git push origin master` | Copy changes to remote repository |
-| Connect | `git remote add origin <server>`| Connect to a remote repository |
-| Branch - show local | `git branch`| Show local branches |
-| Branch - show remote | `git branch -r`| Show remote  branches |
-| Branch - show all | `git branch -a`| Show local and remote branches |
-| Branch - create | `git checkout -b branch-name` | Create a new branch |
-| Branch - switch | `git  checkout branchname`| Switch to branch "branchname" |
-| Branch - master | `git checkout master` | Switch to master branch |
-| Delete branch | `git branch -d branch-name` | Delete branch |
-| Push branch | `git push origin branch` | Branch is available in remote repository |
-| Push all the branches | `git push --all origin` | Push all commits of all branches to origin |
-| Pull | `git pull`| Update local repository from remote server. (fetch + merge) |
-| Merge | `git merge branch` | Merge branch into active branch, includes all the Git commits in the history of target branch. |
-| Diff | `git diff source target` | Compare changes between source and target branches |
-| Log | `git log --author=user` | Logs |
-| Log | `git log --author=user` ||
-| Log | `git log --name-status` ||
-| Log | `git log --patch` ||
-| Log | `git log --pretty=oneline` ||
-| Log | `git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all'` ||
-| Replace | `git checkout -- filename`| Replace a local file |
-| Drop | `git fetch origin` <br>  `git reset --hard origin/master` | Drop all the local changes |
-| Show| `git show <commit> --stat`| Show what happened in a specific commit |
-| Show | `git show <commit> -- <path to file>`| Show changes in a specific file |
-| Squash | | [merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c). Flattens all the Git commits to one commit in the target branch. |
-| Trace | GIT_TRACE<br>`GIT_TRACE=1 git commit -m "message"` | for general traces|
-| Trace | GIT_TRACE_PERFORMANCE | for logging the performance data |
-| Trace | GIT_CURL_VERBOSE | for logging all curl messages, `curl -v` |
+##### Commits
+
+Commit to the HEAD:
+`git commit -m "message"`
+[Conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) |
+
+
+Show what happened in a specific commit:
+`git show <commit> --stat`
+
+Show chages in a specific file:
+`git show <commit> -- <path to file>`
+
+List commits in one line:
+`git log --pretty=oneline`
+
+[Viewing the Commit History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History) |
+
+
+##### Repository access
+
+Clone a repository:
+`git clone https://github.com/anticam/configs.git`
+A new folder configs created |
+
+Pull, update local repository from remote server ( fetch + merge ):
+`git pull`
+
+Push, copy changes to remote repository:
+`git push origin master`
+
+Connect to a remote repository:
+`git remote add origin <server>`
+
+
+##### Conflict handling
+
+Merge branch into active branch:
+`git merge branch`
+
+It includes all the Git commits in the history of target branch.
+
+Compare changes between source and target branch:
+
+`git diff source target`
+
+Replace a local file:
+`git checkout -- filename`
+
+Drop all the local changes:
+`git fetch origin`
+`git reset --hard origin/master`
+
+Squash: 
+[merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c). Flattens all the Git commits to one commit in the target branch. |
+
+
+
+##### Branches
+
+List local branches:
+`git branch`
+
+List remote branches:
+`git branch -r`
+
+List local and remote branches:
+`git branch -a`
+
+Create a new branch:
+`git checkout -b branch-name`
+
+Switch to branch "branchname":
+`git  checkout branchname`
+
+Switch to master branch:
+`git checkout master`
+
+Delete a branch:
+`git branch -d branch-name`
+
+Push branch to remote repository:
+`git push origin branch`
+
+Push all the branches to origin:
+`git push --all origin`
+
+
+##### Tracing
+
+General traces set GIT_TRACE environment variable:
+`GIT_TRACE=1 git commit -m "message"`
+
+Logging performance data:
+`GIT_TRACE_PERFORMANCE`
+
+Verbosity:
+`GIT_CURL_VERBOSE`
+for logging all curl messages, `curl -v`
+
+
+###### Logging
+
+Show logs per different filters:
+`git log --author=user`
+`git log --author=user`
+`git log --name-status`
+`git log --patch`
+`git log --pretty=oneline`
+`git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all'`
+
+
+
 
 [Getting Started with Git and GitHub Part 1: Intro to Git and GitHub](https://dev.to/danielstai/getting-started-with-git-and-github-part-1-intro-to-git-and-github-k7a)  
 [Git stash](<https://www.atlassian.com/git/tutorials/saving-changes/git-stash>)  
