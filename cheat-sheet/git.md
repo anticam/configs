@@ -4,9 +4,41 @@
 
 
 
-#### Git
+## Git
 
-##### Workflows
+### Workflows
+
+#### Existing projects
+
+##### Stages
+
+**Modified** - Changes in code, modified, not committed
+**Staging** - Add any changes files to staging that you want to commit
+**Committed** - Any files in the staging area are added to the commit when me make one.
+
+create file in project:
+`touch <file>`
+
+add one file to staging area:
+`git add <file>`
+
+or add every single modified file to the staging area:
+`git add .`
+`git status`
+
+remove file from staging area:
+`git rm --cached <file>`
+`git status`
+
+
+###### Global settings
+
+Set user name:
+`git config --global user.name <name>`
+
+Set email address:
+`git config --global user.email <mail@domain>`
+
 
 ###### Download a repository content
 
