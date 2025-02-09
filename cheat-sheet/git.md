@@ -38,17 +38,26 @@ show logs
 ##### Undoing things
 
 - Checkout commit - very safe (read only, no changes in code)
-  
+
 ```shell
 git log --oneline
 a76412c UI5 showcase  
-3b480f2 html5 repo  
+d1686a6 html5 repo  
 9399ccc mount,umount  
 ```
 
-  `git checkout a3b480f2`
+`git checkout a3b480f2`
+
+back to main (master)
+`git checkout main`
+
 - Revert commit - safe (undo, it looks like it never existed)
+`git revert d1686a6`
+reverts commit d1686a6 and creates a new commit, old commit is still available in history
+
 - Reset commit - unsafe (it could ruin the repository, permanently take you back in time to the specified commit)
+`git reset d1686a6`
+`git reset d1686a6 --hard`
 
 ##### Global settings
 
