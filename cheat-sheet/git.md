@@ -30,8 +30,27 @@ remove file from staging area:
 `git rm --cached <file>`
 `git status`
 
+show logs
+`git log`
+`git log --oneline`
 
-###### Global settings
+
+##### Undoing things
+
+- Checkout commit - very safe (read only, no changes in code)
+  
+```shell
+git log --oneline
+a76412c UI5 showcase  
+3b480f2 html5 repo  
+9399ccc mount,umount  
+```
+
+  `git checkout a3b480f2`
+- Revert commit - safe (undo, it looks like it never existed)
+- Reset commit - unsafe (it could ruin the repository, permanently take you back in time to the specified commit)
+
+##### Global settings
 
 Set user name:
 `git config --global user.name <name>`
