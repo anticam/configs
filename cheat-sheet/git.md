@@ -86,7 +86,7 @@ or download a specific branch:
 2. Clone the repository:
 `git clone https://github.com/anticam/configs.git`
 
-###### When remote repository is not created:
+###### When remote repository is not created
 
 1. Initialize local Git repo:
 `git init`
@@ -175,15 +175,19 @@ Connect to a remote repository:
 `git remote add origin <server>`
 
 
-##### Conflict handling
+##### Merging
+
+Switch to target branch (main):
+`git checkout main`
 
 Merge branch into active branch:
-`git merge branch`
+`git merge <branch-name>`
 
 It includes all the Git commits in the history of target branch.
 
-Compare changes between source and target branch:
+##### Conflict handling
 
+Compare changes between source and target branch:
 `git diff source target`
 
 Replace a local file:
@@ -191,7 +195,7 @@ Replace a local file:
 
 Drop all the local changes:
 `git fetch origin`
-`git reset --hard origin/master`
+`git reset --hard origin/main`
 
 Squash: 
 [merge vs squash](https://betterprogramming.pub/why-i-prefer-regular-merge-commits-over-squash-commits-cadd22cff02c). Flattens all the Git commits to one commit in the target branch. |
@@ -210,16 +214,19 @@ List local and remote branches:
 `git branch -a`
 
 Create a new branch:
-`git checkout -b branch-name`
+`git checkout -b <branch-name>`
 
-Switch to branch "branchname":
-`git  checkout branchname`
+Switch to branch::
+`git  checkout <branch-name>`
 
-Switch to master branch:
-`git checkout master`
+Switch to master/main branch:
+`git checkout main`
 
-Delete a branch:
-`git branch -d branch-name`
+Delete a branch, when merge completed:
+`git branch -d <branch-name>`
+
+Delete a branch without merge:
+`git branch -D <branch-name>`
 
 Push branch to remote repository:
 `git push origin branch`
