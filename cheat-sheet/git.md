@@ -8,7 +8,24 @@
 
 ### Workflows
 
-#### Existing projects
+##### Creating a repository
+
+###### Method 1
+
+- Create a remote repository on Github.com
+- Clone the repository
+
+###### Method 2
+
+- Create a local repository
+- Create the remote repository
+- Add alias to remote repository
+`git remote add <alias> <repo URL.git>`
+- Push the local repository content to the remote one
+`git push <alias> <branch>`
+
+List repository URLs for reading and writing:
+`git remote -v`
 
 ##### Stages
 
@@ -95,7 +112,7 @@ or download a specific branch:
 `git add .`
 
 3. Create a repository on GitHub
-4. Upload content:
+4. Add alias (origin), upload content:
 
 ```shell
 git remote add origin <https://github.com/anticam/configs.git>
@@ -166,10 +183,10 @@ Clone a repository:
 A new folder configs created |
 
 Pull, update local repository from remote server ( fetch + merge ):
-`git pull`
+`git pull origin main`
 
 Push, copy changes to remote repository:
-`git push origin master`
+`git push origin main`
 
 Connect to a remote repository:
 `git remote add origin <server>`
@@ -184,6 +201,12 @@ Merge branch into active branch:
 `git merge <branch-name>`
 
 It includes all the Git commits in the history of target branch.
+
+in case of conflict:
+
+- fix the file
+- `git add <filename>`
+- `git commit`
 
 ##### Conflict handling
 
@@ -217,7 +240,7 @@ Create a new branch:
 `git checkout -b <branch-name>`
 
 Switch to branch::
-`git  checkout <branch-name>`
+`git checkout <branch-name>`
 
 Switch to master/main branch:
 `git checkout main`
